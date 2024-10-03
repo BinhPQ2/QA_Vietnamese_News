@@ -53,8 +53,6 @@ streamlit run src/app.py
 
 Ứng dụng sẽ mở ra trong trình duyệt của bạn, và bạn có thể bắt đầu sử dụng chatbot để hỏi đáp thông tin từ bất kỳ trang web nào.
 
-## Hỗ trợ
-Nếu bạn gặp bất kỳ vấn đề gì hoặc có câu hỏi, vui lòng mở một issue trên trang GitHub của dự án hoặc liên hệ với chúng tôi qua email [23C15027@student.hcmus.edu.vn].
 
 ## Giấy phép
 Dự án này được cấp phép theo giấy phép MIT. Vui lòng tham khảo file `LICENSE` để biết thêm chi tiết.
