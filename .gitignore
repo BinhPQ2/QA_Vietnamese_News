@@ -1,3 +1,5 @@
+data_crawl/combined-newsqa-data-v1.json
+
 .chroma/*
 .env
 .github/*
