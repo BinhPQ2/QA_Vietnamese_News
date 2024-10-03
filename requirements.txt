@@ -1,0 +1,10 @@
+streamlit
+transformers
+<<<<<<< Updated upstream
+pinecone-client[grpc]
+huggingface_hub
+accelerate
+requests
+=======
+pinecone-client[grpc]
+>>>>>>> Stashed changes
