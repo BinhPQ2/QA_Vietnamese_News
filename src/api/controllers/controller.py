@@ -72,8 +72,9 @@ def mapping_data(list_id, list_url):
 #     print(result_context)
     return result_context
 
-def chatbot(question,context):
-    current_date = date.today()
+
+
+def chatbot_rephrase(question):
     messages = [
         {"role": "user", "content": f"You are an expert in understanding user queries and rephrasing them. The original question is: {question}. Rephrase it clearly and concisely in 2 sentences for a QA chatbot to answer. Only return the rephrased question, no extra content or answers."},
     ]
@@ -83,14 +84,17 @@ def chatbot(question,context):
     outputs_1 = model_LLM.generate(**input_ids_1, max_new_tokens=256)
     decoded_output_1 = tokenizer_LLM.decode(outputs_1[0], skip_special_tokens=False)
     answer_query_1 = decoded_output_1.rsplit("<end_of_turn>", 2)[1].strip().strip('*') # Because the output include the answer between 2 "<end_of_turn>"
+    return answer_query_1
 
+def chatbot_answering(question, context):
+    current_date = date.today()
     messages = [
-        {"role": "user", "content": f"The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 200 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {answer_query_1}. YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER"},
+        {"role": "user", "content": f"The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 300 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {question}. YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER"},
     ]
 
     input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to("cuda")
 
-    outputs_2 = model_LLM.generate(**input_ids_2, max_new_tokens=1024)
+    outputs_2 = model_LLM.generate(**input_ids_2, max_new_tokens=2048)
     decoded_output_2 = tokenizer_LLM.decode(outputs_2[0], skip_special_tokens=False)
     answer_query_2 = decoded_output_2.rsplit("<end_of_turn>", 2)[1].strip().strip('*') # Because the output include the answer between 2 "<end_of_turn>"
     
@@ -105,7 +109,7 @@ def chatbot(question,context):
 
 def translate_eng2vi(input_text):
     input_text = [f"en: {input_text}"]
-    output_encodes = model_translate.generate(tokenizer_translate(input_text, return_tensors="pt", padding=True).input_ids.to(device), max_length=1024)
+    output_encodes = model_translate.generate(tokenizer_translate(input_text, return_tensors="pt", padding=True).input_ids.to(device), max_length=2048)
     output = tokenizer_translate.batch_decode(output_encodes, skip_special_tokens=True)    
     return output[0].split(":", 1)[1]
 
@@ -118,21 +122,18 @@ def embedding_text(input_text):
 
 def translate_vi2eng(input_text):
     input_text = [f"vi: {input_text}"]
-    output_encodes = model_translate.generate(tokenizer_translate(input_text, return_tensors="pt", padding=True).input_ids.to(device), max_length=1024)
+    output_encodes = model_translate.generate(tokenizer_translate(input_text, return_tensors="pt", padding=True).input_ids.to(device), max_length=2048)
     output = tokenizer_translate.batch_decode(output_encodes, skip_special_tokens=True)    
     return output[0].split(":", 1)[1]
 
 
 def pipeline(question):
     question_translate = translate_vi2eng(question)
-    question_embedding = embedding_text(question_translate)
-    list_id, list_url = retrieval_context(question_embedding,3)
-    print("list_id", list_id)
-    print("list_url", list_url)
+    rephrased_question = chatbot_rephrase(question_translate)
+    question_embedding = embedding_text(rephrased_question)
+    list_id, list_url = retrieval_context(question_embedding, 3)
     context = mapping_data(list_id,list_url)
-    print("context", context)
-    result, url = chatbot(question_translate,context)
-    print("result", result)
+    result, url = chatbot_answering(rephrased_question,context)
     answer = translate_eng2vi(result)
-    print("answer", answer)
+
     return answer, url
