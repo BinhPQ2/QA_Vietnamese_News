@@ -4,3 +4,4 @@ pinecone-client[grpc]
 huggingface_hub
 accelerate
 requests
+fastapi

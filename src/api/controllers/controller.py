@@ -10,7 +10,6 @@ from huggingface_hub import login
 
 login("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")
 
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Running on {device}")
 
@@ -27,12 +26,11 @@ tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
 pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
-index_name = "vn-news"
+index_name = "vn-news-v3"
 index = pc.Index(index_name)
 
 def retrieval_context(vector_embedding,topk):
     query_results = index.query(
-    #namespace="example-namespace",
     vector=vector_embedding,
     include_metadata=True, 
     top_k=topk,
@@ -50,17 +48,17 @@ def mapping_data(list_id, list_url):
     file_path = 'src/api/model/total_output_clean.pkl'
     with open(file_path, 'rb') as file:
         total_output_clean = pickle.load(file)
-
+    
     total_text_with_link = []
     for index,url in zip(list_id,list_url): 
-        print("index", index)
-        print("url", url)
         total_text_with_link.append(f"{total_output_clean[index]}, link:{url}")
-
-    # Turn list to string
+    
     sentence_list = total_text_with_link
+
     formatted_string = '; '.join([f'"{sentence}"' for sentence in sentence_list])
+
     result_context = f"[{formatted_string}]"
+
     return result_context
 
 
