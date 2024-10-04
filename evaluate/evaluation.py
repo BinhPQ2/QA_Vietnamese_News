@@ -1,5 +1,5 @@
 import json
-from src.api.controllers.controller import *
+from controller import *
 
 def evaluate_pipeline(question):
     rephrased_question = chatbot_rephrase(question)
