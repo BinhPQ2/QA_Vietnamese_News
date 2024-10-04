@@ -1,10 +1,10 @@
 import json
 import sys
-import os
-root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.append(root_dir)
-from src.api.controllers.controller import *
-# from controller import *
+# import os
+# root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+# sys.path.append(root_dir)
+# from src.api.controllers.controller import *
+from controller import *
 
 def evaluate_pipeline(question):
     rephrased_question = chatbot_rephrase(question)
@@ -74,7 +74,7 @@ evaluation_results, total_score, evaluated_count = evaluate_model(data_file, lim
 
 # Print the results
 for result in evaluation_results:
-    print(f"Question: {result['question']}")
+    print(f"Question: {result['question'][:20]}")
     print(f"Expected Answers: {result['expected_answers']}")
     print(f"Model Response: {result['model_response']}")
     print(f"Score: {result['score']}")

@@ -26,8 +26,6 @@ model_llm_name = "google/gemma-2-2b-it"
 tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
-# pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
-# index_name = "vn-news"
 pc = Pinecone(api_key="b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd")
 index_name = "vn-news-eva"
 index = pc.Index(index_name)
@@ -53,25 +51,17 @@ def mapping_data(list_id, list_url):
     with open(file_path, 'rb') as file:
         total_output_clean = pickle.load(file)
     
-    print("LOAD PKL PASS")
     total_text_with_link = []
     for index,url in zip(list_id,list_url): 
-        print("index", index)
-        print("url", url)
         total_text_with_link.append(f"{total_output_clean[index]}, link:{url}")
     
 #     with open('/kaggle/input/llm-chatbot/total_chunks.pkl', 'rb') as file:
 #         total_chunks = pickle.load(file)
     # Turn list to string
     sentence_list = total_text_with_link
-    print("sentence_list", sentence_list)
     # Convert the list to a string in the desired format
     formatted_string = '; '.join([f'"{sentence}"' for sentence in sentence_list])
-    print("formatted_string", formatted_string)
-    # Add brackets around the final string
     result_context = f"[{formatted_string}]"
-    print("result_context", result_context)
-#     print(result_context)
     return result_context
 
 
