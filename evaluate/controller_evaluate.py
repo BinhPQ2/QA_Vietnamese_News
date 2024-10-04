@@ -10,6 +10,7 @@ from huggingface_hub import login
 
 login("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")
 
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Running on {device}")
 
@@ -25,12 +26,13 @@ model_llm_name = "google/gemma-2-2b-it"
 tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
-pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
-index_name = "vn-news-v3"
+pc = Pinecone(api_key="b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd")
+index_name = "vn-news-eva"
 index = pc.Index(index_name)
 
 def retrieval_context(vector_embedding,topk):
     query_results = index.query(
+    #namespace="example-namespace",
     vector=vector_embedding,
     include_metadata=True, 
     top_k=topk,
@@ -45,7 +47,7 @@ def retrieval_context(vector_embedding,topk):
 
 
 def mapping_data(list_id, list_url):
-    file_path = 'src/api/model/total_output_clean.pkl'
+    file_path = 'evaluate/data/total_chunks_eval.pkl'
     with open(file_path, 'rb') as file:
         total_output_clean = pickle.load(file)
     
@@ -53,12 +55,13 @@ def mapping_data(list_id, list_url):
     for index,url in zip(list_id,list_url): 
         total_text_with_link.append(f"{total_output_clean[index]}, link:{url}")
     
+#     with open('/kaggle/input/llm-chatbot/total_chunks.pkl', 'rb') as file:
+#         total_chunks = pickle.load(file)
+    # Turn list to string
     sentence_list = total_text_with_link
-
+    # Convert the list to a string in the desired format
     formatted_string = '; '.join([f'"{sentence}"' for sentence in sentence_list])
-
     result_context = f"[{formatted_string}]"
-
     return result_context
 
 
@@ -68,7 +71,7 @@ def chatbot_rephrase(question):
         {"role": "user", "content": f"You are an expert in understanding user queries and rephrasing them. The original question is: {question}. Rephrase it clearly and concisely in 2 sentences for a QA chatbot to answer. Only return the rephrased question, no extra content or answers."},
     ]
 
-    input_ids_1 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to(device)
+    input_ids_1 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to("cuda")
 
     outputs_1 = model_LLM.generate(**input_ids_1, max_new_tokens=256)
     decoded_output_1 = tokenizer_LLM.decode(outputs_1[0], skip_special_tokens=False)
@@ -78,10 +81,10 @@ def chatbot_rephrase(question):
 def chatbot_answering(question, context):
     current_date = date.today()
     messages = [
-        {"role": "user", "content": f"The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 200 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {question}. IF THE ARTICLE HAS THE LINK, YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER"},
+        {"role": "user", "content": f"The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 300 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {question}. IF THERE IS A LINK YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER"},
     ]
 
-    input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to(device)
+    input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to("cuda")
 
     outputs_2 = model_LLM.generate(**input_ids_2, max_new_tokens=2048)
     decoded_output_2 = tokenizer_LLM.decode(outputs_2[0], skip_special_tokens=False)
@@ -122,6 +125,7 @@ def pipeline(question):
     question_embedding = embedding_text(rephrased_question)
     list_id, list_url = retrieval_context(question_embedding, 3)
     context = mapping_data(list_id,list_url)
+    print(f"context: {context}")
     result, url = chatbot_answering(rephrased_question,context)
     answer = translate_eng2vi(result)
 
