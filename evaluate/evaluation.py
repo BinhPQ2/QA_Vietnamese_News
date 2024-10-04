@@ -4,7 +4,7 @@ import sys
 # root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # sys.path.append(root_dir)
 # from src.api.controllers.controller import *
-from evaluate.controller_evaluate import *
+from controller_evaluate import *
 
 def evaluate_pipeline(question):
     rephrased_question = chatbot_rephrase(question)
@@ -54,7 +54,9 @@ def evaluate_model(data_file, limit=200):
             
             # Evaluate the model's response and accumulate the score
             score = evaluate_answer_accuracy(model_response, expected_answers)
-            total_score += score
+            if score > 0:
+                total_score += score
+                print(f"total_score: {total_score}")
 
             # Store the results for evaluation
             result_entry = {
@@ -66,9 +68,10 @@ def evaluate_model(data_file, limit=200):
             results.append(result_entry)
 
             evaluated_count += 1  # Increment the evaluated count
+            print(f"Evaluating round: {evaluated_count}")
 
-            # Save results every 10 evaluated questions
-            if evaluated_count % 10 == 0:
+            # Save results every 10 score
+            if total_score % 5 == 0:
                 score_file = f"evaluate/data/score_{evaluated_count}.json"
                 save_results_to_json(results, score_file)
 
