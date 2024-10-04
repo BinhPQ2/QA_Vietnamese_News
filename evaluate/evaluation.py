@@ -75,7 +75,7 @@ def save_results_to_json(filtered_results, output_file):
         json.dump(filtered_results, f, ensure_ascii=False, indent=4)
 
 data_file = "evaluate/data/evaluation_data.txt"
-limit = 10  # Set the limit for evaluation
+limit = 200  # Set the limit for evaluation
 
 # Call the evaluate_model function
 evaluation_results, total_score, evaluated_count = evaluate_model(data_file, limit)
