@@ -47,7 +47,7 @@ def retrieval_context(vector_embedding,topk):
 
 
 def mapping_data(list_id, list_url):
-    file_path = 'src/api/model/total_output_clean.pkl'
+    file_path = 'evaluate/data/total_chunks_eval.pkl'
     with open(file_path, 'rb') as file:
         total_output_clean = pickle.load(file)
     
@@ -81,7 +81,7 @@ def chatbot_rephrase(question):
 def chatbot_answering(question, context):
     current_date = date.today()
     messages = [
-        {"role": "user", "content": f"The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 300 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {question}. YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER"},
+        {"role": "user", "content": f"The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 300 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {question}. IF THERE IS A LINK YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER"},
     ]
 
     input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to("cuda")
@@ -125,6 +125,7 @@ def pipeline(question):
     question_embedding = embedding_text(rephrased_question)
     list_id, list_url = retrieval_context(question_embedding, 3)
     context = mapping_data(list_id,list_url)
+    print(context)
     result, url = chatbot_answering(rephrased_question,context)
     answer = translate_eng2vi(result)
 

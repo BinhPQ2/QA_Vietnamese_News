@@ -74,7 +74,7 @@ evaluation_results, total_score, evaluated_count = evaluate_model(data_file, lim
 
 # Print the results
 for result in evaluation_results:
-    print(f"Question: {result['question'][:20]}")
+    print(f"Question: {result['question']}")
     print(f"Expected Answers: {result['expected_answers']}")
     print(f"Model Response: {result['model_response']}")
     print(f"Score: {result['score']}")
