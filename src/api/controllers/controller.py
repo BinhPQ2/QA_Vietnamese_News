@@ -88,13 +88,14 @@ def chatbot_answering(question, context):
     answer_query_2 = decoded_output_2.rsplit("<end_of_turn>", 2)[1].strip().strip('*') # Because the output include the answer between 2 "<end_of_turn>"
     
     # Regular expression pattern to extract URLs
-    url_pattern = r'https?://[^\s]+'
+    url_pattern = r'https?://[^\s]*?\.html'
 
     # Find the URL in the text
     answer_without_url = re.sub(url_pattern, '', answer_query_2)
     urls = re.findall(url_pattern, answer_query_2)
+    urls_return_one = list(set(urls))
 
-    return answer_without_url, urls
+    return answer_without_url, urls_return_one
 
 def translate_eng2vi(input_text):
     input_text = [f"en: {input_text}"]

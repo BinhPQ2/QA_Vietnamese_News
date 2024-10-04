@@ -4,7 +4,7 @@ import sys
 # root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # sys.path.append(root_dir)
 # from src.api.controllers.controller import *
-from evaluate.controller_evaluate import *
+from controller_evaluate import *
 
 def evaluate_pipeline(question):
     rephrased_question = chatbot_rephrase(question)
@@ -16,16 +16,19 @@ def evaluate_pipeline(question):
 
 def evaluate_answer_accuracy(model_response, expected_answers):
     """Evaluate the model's response against expected answers."""
-    # Convert both model_response and expected_answers to lowercase for case insensitive comparison
     model_response = model_response.lower()
     expected_answers = [answer.lower().strip() for answer in expected_answers]
 
-    # Check if the model's response contains any of the expected answers
     for answer in expected_answers:
         if answer in model_response:
             return 1  # Score of 1 if any expected answer is found
 
     return 0  # Score of 0 if no expected answer is found
+
+def save_results_to_json(results, output_file):
+    """Save results to a JSON file."""
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=4)
 
 def evaluate_model(data_file, limit=200):
     with open(data_file, "r") as file:
@@ -51,7 +54,9 @@ def evaluate_model(data_file, limit=200):
             
             # Evaluate the model's response and accumulate the score
             score = evaluate_answer_accuracy(model_response, expected_answers)
-            total_score += score
+            if score > 0:
+                total_score += score
+                print(f"total_score: {total_score}")
 
             # Store the results for evaluation
             result_entry = {
@@ -63,25 +68,25 @@ def evaluate_model(data_file, limit=200):
             results.append(result_entry)
 
             evaluated_count += 1  # Increment the evaluated count
+            print(f"Evaluating round: {evaluated_count}")
+
+            # Save results every 10 score
+            if total_score % 5 == 0:
+                score_file = f"evaluate/data/score_{evaluated_count}.json"
+                save_results_to_json(results, score_file)
 
     # Filter results to keep only those with a score of +1
     filtered_results = [result for result in results if result['score'] == 1]
 
     return filtered_results, total_score, evaluated_count
 
-def save_results_to_json(filtered_results, output_file):
-    """Save filtered results to a JSON file."""
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(filtered_results, f, ensure_ascii=False, indent=4)
-
 data_file = "evaluate/data/evaluation_data.txt"
-limit = 200  # Set the limit for evaluation
 
 # Call the evaluate_model function
-evaluation_results, total_score, evaluated_count = evaluate_model(data_file, limit)
+evaluation_results, total_score, evaluated_count = evaluate_model(data_file = data_file, limit = 200)
 
-# Save the filtered results with a score of +1 to a JSON file
-output_file = "/kaggle/working/filtered_results.json"
+# Save the filtered results with a score of +1 to a final JSON file
+output_file = "evaluate/data/filtered_results.json"
 save_results_to_json(evaluation_results, output_file)
 
 # Print the total score and number of evaluated questions
