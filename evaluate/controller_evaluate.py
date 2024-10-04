@@ -125,7 +125,7 @@ def pipeline(question):
     question_embedding = embedding_text(rephrased_question)
     list_id, list_url = retrieval_context(question_embedding, 3)
     context = mapping_data(list_id,list_url)
-    print(context)
+    print(f"context: {context}")
     result, url = chatbot_answering(rephrased_question,context)
     answer = translate_eng2vi(result)
 

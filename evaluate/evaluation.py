@@ -4,7 +4,7 @@ import sys
 # root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # sys.path.append(root_dir)
 # from src.api.controllers.controller import *
-from controller import *
+from evaluate.controller_evaluate import *
 
 def evaluate_pipeline(question):
     rephrased_question = chatbot_rephrase(question)
@@ -18,7 +18,7 @@ def evaluate_answer_accuracy(model_response, expected_answers):
     """Evaluate the model's response against expected answers."""
     # Convert both model_response and expected_answers to lowercase for case insensitive comparison
     model_response = model_response.lower()
-    expected_answers = [answer.lower() for answer in expected_answers]
+    expected_answers = [answer.lower().strip() for answer in expected_answers]
 
     # Check if the model's response contains any of the expected answers
     for answer in expected_answers:
