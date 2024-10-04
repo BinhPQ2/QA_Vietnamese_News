@@ -8,6 +8,7 @@ Welcome to the **Chatbot Q&A** project! This project provides a flexible solutio
 - **Integration of Large Language Models**: Utilize advanced language models to understand and answer user questions based on extracted information, ensuring accurate and natural responses.
 - **User-Friendly Interface**: The user interface is developed using Streamlit, providing an intuitive and easy-to-use experience suitable for users of all technical levels.
 - **Python Language**: The project is entirely developed in Python, making it easy to customize and extend.
+- **Docker**: Docker file is included.
 
 ## System Requirements
 - Python 3.7 or higher
@@ -19,8 +20,8 @@ Welcome to the **Chatbot Q&A** project! This project provides a flexible solutio
 Clone this repository to your local machine:
 
 ```bash
-git clone [repository-link]
-cd [repository-directory]
+git clone https://github.com/BinhPQ2/QA_Vietnamese_News.git
+cd QA_Vietnamese_News
 ```
 ### 2. Install Required Libraries
 
@@ -29,5 +30,5 @@ pip install -r requirements.txt
 ```
 
 ### 3. How to Use
-Use the `base_pipeline.ipynb` file to test out the chatbot.
+Use the `base.ipynb` file to test out the chatbot.
 
