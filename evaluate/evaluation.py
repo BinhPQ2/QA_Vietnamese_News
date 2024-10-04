@@ -4,7 +4,7 @@ import sys
 # root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # sys.path.append(root_dir)
 # from src.api.controllers.controller import *
-from evaluate.controller_evaluate import *
+from controller_evaluate import *
 
 def evaluate_pipeline(question):
     rephrased_question = chatbot_rephrase(question)
