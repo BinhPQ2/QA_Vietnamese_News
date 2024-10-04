@@ -10,7 +10,6 @@ from huggingface_hub import login
 
 login("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")
 
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Running on {device}")
 
@@ -27,12 +26,11 @@ tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
 pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
-index_name = "vn-news"
+index_name = "vn-news-v3"
 index = pc.Index(index_name)
 
 def retrieval_context(vector_embedding,topk):
     query_results = index.query(
-    #namespace="example-namespace",
     vector=vector_embedding,
     include_metadata=True, 
     top_k=topk,
@@ -51,25 +49,16 @@ def mapping_data(list_id, list_url):
     with open(file_path, 'rb') as file:
         total_output_clean = pickle.load(file)
     
-    print("LOAD PKL PASS")
     total_text_with_link = []
     for index,url in zip(list_id,list_url): 
-        print("index", index)
-        print("url", url)
         total_text_with_link.append(f"{total_output_clean[index]}, link:{url}")
     
-#     with open('/kaggle/input/llm-chatbot/total_chunks.pkl', 'rb') as file:
-#         total_chunks = pickle.load(file)
-    # Turn list to string
     sentence_list = total_text_with_link
-    print("sentence_list", sentence_list)
-    # Convert the list to a string in the desired format
+
     formatted_string = '; '.join([f'"{sentence}"' for sentence in sentence_list])
-    print("formatted_string", formatted_string)
-    # Add brackets around the final string
+
     result_context = f"[{formatted_string}]"
-    print("result_context", result_context)
-#     print(result_context)
+
     return result_context
 
 def chatbot(question,context):
@@ -126,13 +115,8 @@ def translate_vi2eng(input_text):
 def pipeline(question):
     question_translate = translate_vi2eng(question)
     question_embedding = embedding_text(question_translate)
-    list_id, list_url = retrieval_context(question_embedding,3)
-    print("list_id", list_id)
-    print("list_url", list_url)
+    list_id, list_url = retrieval_context(question_embedding, 1)
     context = mapping_data(list_id,list_url)
-    print("context", context)
     result, url = chatbot(question_translate,context)
-    print("result", result)
     answer = translate_eng2vi(result)
-    print("answer", answer)
     return answer, url
