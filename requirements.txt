@@ -1,4 +1,6 @@
+streamlit
 transformers
-torch
-numpy
-pickle
+pinecone-client[grpc]
+huggingface_hub
+accelerate
+requests
