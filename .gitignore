@@ -1,3 +1,5 @@
+evaluate/data/combined-newsqa-data-v1.json
+
 .chroma/*
 .env
 .github/*
