@@ -1,5 +1,10 @@
 import json
-from controller import *
+import sys
+import os
+root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(root_dir)
+from src.api.controllers.controller import *
+# from controller import *
 
 def evaluate_pipeline(question):
     rephrased_question = chatbot_rephrase(question)
@@ -62,7 +67,7 @@ def evaluate_model(data_file, limit=200):
     return results, total_score, evaluated_count
 
 data_file = "evaluate/data/evaluation_data.txt"
-limit = 200  # Set the limit for evaluation
+limit = 10  # Set the limit for evaluation
 
 # Call the evaluate_model function
 evaluation_results, total_score, evaluated_count = evaluate_model(data_file, limit)
