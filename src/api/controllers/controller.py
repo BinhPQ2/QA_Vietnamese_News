@@ -26,8 +26,12 @@ model_llm_name = "google/gemma-2-2b-it"
 tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
-pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
-index_name = "vn-news"
+# pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
+# index_name = "vn-news"
+
+pc = Pinecone(api_key="b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd")
+index_name = "vn-news-eva"
+
 index = pc.Index(index_name)
 
 def retrieval_context(vector_embedding,topk):
