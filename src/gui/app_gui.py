@@ -59,7 +59,7 @@ if prompt := st.chat_input("Nhập nội dung bất kỳ..."):
             full_res = ""
             holder = st.empty()
 
-            for word in prompt.split():
+            for word in answer.split():
                 full_res += word + " "
                 time.sleep(0.05)
                 holder.markdown(full_res + "▌")
