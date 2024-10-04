@@ -1,4 +1,4 @@
-data_crawl/combined-newsqa-data-v1.json
+evaluate/data/combined-newsqa-data-v1.json
 
 .chroma/*
 .env
