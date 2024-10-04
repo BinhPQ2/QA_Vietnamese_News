@@ -79,7 +79,6 @@ if prompt := st.chat_input("Nhập nội dung bất kỳ..."):
         
         holder.markdown(full_res)
 
-
     except HTTPException as e:
         st.error(f"Error: {e.detail}")
     except Exception as e:

@@ -64,7 +64,15 @@ def evaluate_model(data_file, limit=200):
 
             evaluated_count += 1  # Increment the evaluated count
 
-    return results, total_score, evaluated_count
+    # Filter results to keep only those with a score of +1
+    filtered_results = [result for result in results if result['score'] == 1]
+
+    return filtered_results, total_score, evaluated_count
+
+def save_results_to_json(filtered_results, output_file):
+    """Save filtered results to a JSON file."""
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(filtered_results, f, ensure_ascii=False, indent=4)
 
 data_file = "evaluate/data/evaluation_data.txt"
 limit = 10  # Set the limit for evaluation
@@ -72,14 +80,11 @@ limit = 10  # Set the limit for evaluation
 # Call the evaluate_model function
 evaluation_results, total_score, evaluated_count = evaluate_model(data_file, limit)
 
-# Print the results
-for result in evaluation_results:
-    print(f"Question: {result['question']}")
-    print(f"Expected Answers: {result['expected_answers']}")
-    print(f"Model Response: {result['model_response']}")
-    print(f"Score: {result['score']}")
-    print("="*50)
+# Save the filtered results with a score of +1 to a JSON file
+output_file = "/kaggle/working/filtered_results.json"
+save_results_to_json(evaluation_results, output_file)
 
 # Print the total score and number of evaluated questions
 print(f"Total Score: {total_score}")
 print(f"Evaluated Questions: {evaluated_count}")
+print(f"Filtered Questions with Score +1 saved to: {output_file}")
