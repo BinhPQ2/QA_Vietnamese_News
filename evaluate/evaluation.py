@@ -40,7 +40,7 @@ def save_results_to_json(results, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
-def evaluate_model(data_file, save_dir, limit=200):
+def evaluate_model_qanews(data_file, save_dir, limit=200):
     with open(data_file, "r") as file:
         dataset = [json.loads(line) for line in file]
         
@@ -98,15 +98,143 @@ def evaluate_model(data_file, save_dir, limit=200):
 
     return good_answer, bad_answer, total_score, evaluated_count
 
+def evaluate_model_qanews(data_file, save_dir, limit=200):
+    # Initialize an empty dataset
+    dataset = []
+    
+    with open(data_file, "r", encoding='utf-8') as file:
+        # Read each line in the input file
+        for line in file:
+            entry = json.loads(line.strip())  # Parse JSON from the line
+            questions = entry.get('questions', [])
+            answers = entry.get('answers', [])
+            
+            # Pair questions with answers using zip
+            for question, expected_answer in zip(questions, answers):
+                dataset.append({
+                    "question": question,
+                    "answers": [expected_answer]  # Wrap expected_answer in a list for consistency
+                })
+        
+    results = []
+    total_score = 0  # To keep track of the total score
+    evaluated_count = 0  # To count how many questions have been evaluated
+
+    # Iterate through each entry in the dataset
+    for entry in dataset:
+        question = entry["question"]
+        expected_answers = entry["answers"]
+
+        model_response = evaluate_pipeline(question)  
+        
+        # Evaluate the model's response and accumulate the score
+        score = evaluate_answer_accuracy(model_response, expected_answers)
+        if score > 0:
+            total_score += score
+            print(f"total_score: {total_score}")
+
+        # Store the results for evaluation
+        result_entry = {
+            "question": question,
+            "expected_answers": expected_answers,
+            "model_response": model_response,
+            "score": score
+        }
+        results.append(result_entry)
+
+        evaluated_count += 1  # Increment the evaluated count
+        if evaluated_count % 10 == 0:
+            print(f"Evaluating round: {evaluated_count}")
+
+        # Save results every 10 score
+        if total_score % 5 == 0:
+            score_file = f"{save_dir}/score_{total_score}.json"
+            save_results_to_json(results, score_file)
+
+    # Filter results to keep only those with a score of +1
+    good_answer = []
+    bad_answer = []
+
+    for result in results:
+        if result['score'] == 1:
+            good_answer.append(result)
+        elif result['score'] == 0:
+            bad_answer.append(result)
+
+    return good_answer, bad_answer, total_score, evaluated_count
+
+def evaluate_model_crawl(data_file, save_dir, limit=200):
+    with open(data_file, "r") as file:
+        dataset = [json.loads(line) for line in file]
+        
+    results = []
+    total_score = 0  # To keep track of the total score
+    evaluated_count = 0  # To count how many questions have been evaluated
+
+    # Iterate through each entry in the dataset
+    for entry in dataset:
+        questions = entry['questions']  # Accessing the list of questions
+        answers = entry['answers']  # Accessing the list of answers
+
+        # Iterate through the questions and answers
+        for question, expected_answer in zip(questions, answers):
+            if limit is not None and evaluated_count >= limit:
+                break  # Stop if the limit is reached
+            
+            # Convert expected_answer to a list for compatibility
+            expected_answers = [expected_answer]  # Wrapping expected_answer in a list
+
+            model_response = evaluate_pipeline(question)  
+            
+            # Evaluate the model's response and accumulate the score
+            score = evaluate_answer_accuracy(model_response, expected_answers)
+            if score > 0:
+                total_score += score
+                print(f"total_score: {total_score}")
+
+            # Store the results for evaluation
+            result_entry = {
+                "question": question,
+                "expected_answers": expected_answers,
+                "model_response": model_response,
+                "score": score
+            }
+            results.append(result_entry)
+
+            evaluated_count += 1  # Increment the evaluated count
+            if evaluated_count % 10 == 0:
+                print(f"Evaluating round: {evaluated_count}")
+
+            # Save results every 5 scores
+            if total_score % 5 == 0:
+                score_file = f"{save_dir}/score_{total_score}.json"
+                save_results_to_json(results, score_file)
+
+    # Filter results to keep only those with a score of +1
+    good_answer = []
+    bad_answer = []
+
+    for result in results:
+        if result['score'] == 1:
+            good_answer.append(result)
+        elif result['score'] == 0:
+            bad_answer.append(result)
+
+    return good_answer, bad_answer, total_score, evaluated_count
+
 if __name__ == "__main__":
-    data_file = "evaluate/data/evaluation_data.txt"
     save_dir = "/kaggle/working"
-    # Call the evaluate_model function
+
     if eval_data_type == "crawl":
         evaluate_pipeline = evaluate_pipeline_vi
+        evaluate_model = evaluate_model_crawl
+        data_file = "evaluate/data/eval_dict_qa_crawl_vn.txt"
     elif eval_data_type == "qanews":
         evaluate_pipeline = evaluate_pipeline_en
-    good_answer, bad_answer, total_score, evaluated_count = evaluate_model(data_file = data_file, save_dir = save_dir, limit = 200)
+        evaluate_model = evaluate_model_qanews
+        data_file = "evaluate/data/evaluation_data_qanews.txt"
+
+    good_answer, bad_answer, total_score, evaluated_count = evaluate_model(data_file = data_file, save_dir = save_dir, limit = 10)
 
     # Save the filtered results with a score of +1 to a final JSON file
     good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}.json"
