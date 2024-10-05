@@ -238,6 +238,7 @@ if __name__ == "__main__":
     # Save the filtered results with a score of +1 to a final JSON file
     good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}.json"
     bad_answer_output_file = f"{save_dir}/bad_answer_{eval_data_type}.json"
+    
     save_results_to_json(good_answer, good_answer_output_file)
     save_results_to_json(bad_answer, bad_answer_output_file)
 

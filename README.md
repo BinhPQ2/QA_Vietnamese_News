@@ -30,5 +30,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. How to Use
-Use the `base.ipynb` file to test out the chatbot.
+Recommended to use Kaggle import the `demo.ipynb` to run.
+
+In theory you can also run the `main.py` file to test out the chatbot (haven't tested yet)
 
