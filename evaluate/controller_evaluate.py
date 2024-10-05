@@ -37,7 +37,7 @@ elif eval_data_type == "crawl":
     pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
     index_name = "vn-news-v3"
     pinecone_index = pc.Index(index_name)
-    data_chunking_path = 'evaluate/data/evaluate/data/eval_dict_crawl_vn.pkl'
+    data_chunking_path = 'evaluate/data/eval_dict_crawl_vn.pkl'
     print("Using crawl data for evaluation")
 
 def retrieval_context(vector_embedding, topk):
