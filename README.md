@@ -12,25 +12,37 @@ Welcome to the **Chatbot Q&A** project! This project provides a flexible solutio
 
 ## System Requirements
 - Python 3.7 or higher
-- GPU with CUDA support are needed
+- GPU with CUDA support is needed
 
 ## Installation Guide
-
-### 1. Clone the Repository
+### A. With local machine
+#### 1. Clone the Repository
 Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/BinhPQ2/QA_Vietnamese_News.git
 cd QA_Vietnamese_News
 ```
-### 2. Install Required Libraries
+#### 2. Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. How to Use
-Recommended to use Kaggle import the `demo.ipynb` to run.
+#### 3. How to Use
+- If you have GPU, you can run both FE and BE with command:
+``` bash
+python main.py
+```
+- Recommended to use Kaggle import the `demo.ipynb` to run.
 
-In theory you can also run the `main.py` file to test out the chatbot (haven't tested yet)
 
+### B. With Docker
+A simple way to start with only command:
+```bash
+docker compose up --build
+```
+Explore at:
+```bash
+http://localhost:8501
+```
