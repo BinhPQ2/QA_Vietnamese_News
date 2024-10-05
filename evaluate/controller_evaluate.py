@@ -26,12 +26,22 @@ model_llm_name = "google/gemma-2-2b-it"
 tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
-pc = Pinecone(api_key="b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd")
-index_name = "vn-news-eva"
-index = pc.Index(index_name)
+eval_data_type = "crawl"
+if eval_data_type == "qanews":
+    pc = Pinecone(api_key="b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd")
+    index_name = "vn-news-eva"
+    pinecone_index = pc.Index(index_name)
+    data_chunking_path = 'evaluate/data/total_chunks_eval_qanews_en.pkl'
+    print("Using QANews data for evaluation")
+elif eval_data_type == "crawl":
+    pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
+    index_name = "vn-news-v3"
+    pinecone_index = pc.Index(index_name)
+    data_chunking_path = 'evaluate/data/eval_dict_crawl_vn.pkl'
+    print("Using crawl data for evaluation")
 
-def retrieval_context(vector_embedding,topk):
-    query_results = index.query(
+def retrieval_context(vector_embedding, topk):
+    query_results = pinecone_index.query(
     #namespace="example-namespace",
     vector=vector_embedding,
     include_metadata=True, 
@@ -45,21 +55,16 @@ def retrieval_context(vector_embedding,topk):
         list_url.append(item["metadata"]["url"])
     return list_id,list_url
 
-
 def mapping_data(list_id, list_url):
-    file_path = 'evaluate/data/total_chunks_eval.pkl'
-    with open(file_path, 'rb') as file:
+    with open(data_chunking_path, 'rb') as file:
         total_output_clean = pickle.load(file)
     
     total_text_with_link = []
-    for index,url in zip(list_id,list_url): 
+    for index,url in zip(list_id, list_url): 
         total_text_with_link.append(f"{total_output_clean[index]}, link:{url}")
     
-#     with open('/kaggle/input/llm-chatbot/total_chunks.pkl', 'rb') as file:
-#         total_chunks = pickle.load(file)
-    # Turn list to string
     sentence_list = total_text_with_link
-    # Convert the list to a string in the desired format
+
     formatted_string = '; '.join([f'"{sentence}"' for sentence in sentence_list])
     result_context = f"[{formatted_string}]"
     return result_context
@@ -117,16 +122,3 @@ def translate_vi2eng(input_text):
     output_encodes = model_translate.generate(tokenizer_translate(input_text, return_tensors="pt", padding=True).input_ids.to(device), max_length=2048)
     output = tokenizer_translate.batch_decode(output_encodes, skip_special_tokens=True)    
     return output[0].split(":", 1)[1]
-
-
-def pipeline(question):
-    question_translate = translate_vi2eng(question)
-    rephrased_question = chatbot_rephrase(question_translate)
-    question_embedding = embedding_text(rephrased_question)
-    list_id, list_url = retrieval_context(question_embedding, 3)
-    context = mapping_data(list_id,list_url)
-    print(f"context: {context}")
-    result, url = chatbot_answering(rephrased_question,context)
-    answer = translate_eng2vi(result)
-
-    return answer, url
