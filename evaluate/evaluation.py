@@ -124,7 +124,7 @@ def evaluate_model_qanews(data_file, save_dir, limit=200):
             score = evaluate_answer_accuracy(model_response, expected_answers)
             if score > 0:
                 total_score += score
-                print(f"total_score: {total_score}")
+                print(f"total_score: {total_score} / evaluated_count: {evaluated_count}")
 
             # Store the results for evaluation
             result_entry = {
@@ -189,7 +189,7 @@ def evaluate_model_crawl(data_file, save_dir, limit=200):
         score = evaluate_answer_accuracy(model_response, expected_answers)
         if score > 0:
             total_score += score
-            print(f"total_score: {total_score}")
+            print(f"total_score: {total_score} / evaluated_count: {evaluated_count}")
 
         # Store the results for evaluation
         result_entry = {
@@ -205,9 +205,9 @@ def evaluate_model_crawl(data_file, save_dir, limit=200):
             print(f"Evaluating round: {evaluated_count}")
 
         # Save results every 10 score
-        if total_score % 5 == 0:
-            score_file = f"{save_dir}/score_{total_score}.json"
-            save_results_to_json(results, score_file)
+        if evaluated_count % 5 == 0:
+            answer_score_file = f"{save_dir}/score_{total_score}_round_{evaluated_count}.json"
+            save_results_to_json(results, answer_score_file)
 
     # Filter results to keep only those with a score of +1
     good_answer = []
@@ -239,7 +239,7 @@ if __name__ == "__main__":
     good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}.json"
     bad_answer_output_file = f"{save_dir}/bad_answer_{eval_data_type}.json"
     save_results_to_json(good_answer, good_answer_output_file)
-    save_results_to_json(good_answer, bad_answer_output_file)
+    save_results_to_json(bad_answer, bad_answer_output_file)
 
     # Print the total score and number of evaluated questions
     print(f"Total Score: {total_score}")
