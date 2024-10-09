@@ -79,7 +79,7 @@ def chatbot_answering(question, context):
     current_date = date.today()
     messages = [
         {
-            "role": "user", 
+            "role": "system", 
             "content": f"The current date is {current_date} (YYYY-MM-DD format). \
             You are a friendly AI chatbot that looks through the news article and provides an answer for the user. \
             Answer the question in a natural and friendly tone under 200 words. \
