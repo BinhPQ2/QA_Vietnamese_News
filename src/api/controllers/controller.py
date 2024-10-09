@@ -21,8 +21,9 @@ model_name = "VietAI/envit5-translation"
 tokenizer_translate = AutoTokenizer.from_pretrained(model_name)  
 model_translate = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(device)
 
+model_llm_name = "google/gemma-2-2b"
 # model_llm_name = "google/gemma-2-2b-it"
-model_llm_name = "google/gemma-2-9b-it"
+# model_llm_name = "google/gemma-2-9b-it"
 tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
@@ -142,7 +143,7 @@ def pipeline(question):
     print("rephrased_question: ",rephrased_question)
     question_embedding = embedding_text(rephrased_question)
     print("question_embedding: ",question_embedding)
-    list_id, list_url = retrieval_context(question_embedding, 3)
+    list_id, list_url = retrieval_context(question_embedding, 2)
     print("list_id: ",list_id)
     print("list_url: ",list_url)
     context = mapping_data(list_id, list_url)
