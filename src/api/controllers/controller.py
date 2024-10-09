@@ -78,24 +78,26 @@ def chatbot_rephrase(question):
 def chatbot_answering(question, context):
     current_date = date.today()
     messages = [
-        {
-            "role": "system", 
-            "content": f"The current date is {current_date} (YYYY-MM-DD format). \
-            You are a friendly AI chatbot that looks through the news article and provides an answer for the user. \
-            Answer the question in a natural and friendly tone under 200 words. \
-            Use Chain of Thought reasoning with no more than three steps, but do not include it in the response to the user. \
-            Here is the news article: {context}. The user asks: {question}. \
-            YOU HAVE TO RETURN THE ANSWER IN THIS FORMAT: \
-            ANSWER: [answer_here] \
-            LINK: [link_here] \
-            SAMPLE ANSWER: \
-            ANSWER: Vietnam aims to implement 6G technology by 2030, with a goal to ensure 5G mobile coverage for 99% of the population by the same year. The strategy for digital infrastructure, approved by the government on October 9, outlines two main target groups for 2025 and 2030, each containing around ten specific objectives. \
-            A key focus is to build capacity and readiness for testing 6G mobile networks by 2030. \
-            LINK: https://vnexpress.net/viet-nam-dat-muc-tieu-trien-khai-6g-vao-2030-4802203.html \
-            If you cannot find the answer to the question from the article or if the question is not news-related, use this response: \
-            ANSWER: 'Sorry, I cannot provide the information for this question' without a link."
-        }
-    ]
+    {
+        "role": "system", 
+        "content": f"""The current date is YYYY-MM-DD format. \
+        You are a friendly AI chatbot that looks through the news article and provides an answer for the user. \
+        Answer the question in a natural and friendly tone under 200 words using news and link that was provided by user. \
+        Use Chain of Thought reasoning with no more than three steps, but do not include it in the response to the user. \n
+        YOU MUST RETURN THE ANSWER AND LINK IN THIS FORMAT: \
+        ANSWER: [answer_here] \
+        LINK: [link_here] \
+        If you cannot find the answer to the question from the article or if the question is not news-related, use this response (without a LINK): 
+        ANSWER: Sorry, I cannot provide the information for this question"""
+    },
+    {"role": "user", "content": """Here is the news article: Actor Daniel Day-Lewis returns after 7 years of absence Daniel Day-Lewis returns to the big screen with the film "Anemone", directed by his son. The project marks Daniel Day-Lewis' return after Phantom Thread - released in 2017. According to Variety, the script was written by him and his son - Ronan Day-Lewis - and revolves around father-son relationships, brotherly love, and other relationships in the family. url: https://vnexpress.net/tai-tu-daniel-day-lewis-tai-xuat-sau-7-nam-vang-bong-4799294.html. \n
+     The user asks: What was the last movie Daniel Day-Lewis made before he announced his retirement from acting?. """},
+    {"role": "chatbot", "content": """ANSWER: Phantom Thread\n
+     LINK: https://vnexpress.net/tai-tu-daniel-day-lewis-tai-xuat-sau-7-nam-vang-bong-4799294.html
+     """},
+    {"role": "user", "content": f"Here is the news article: {context}. \n\
+     The user asks: {question} "},
+]
 
     input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to(device)
 
