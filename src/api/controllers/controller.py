@@ -78,7 +78,7 @@ def chatbot_rephrase(question):
 def chatbot_answering(question, context):
     current_date = date.today()
     messages = [
-        {"role": "user", "content": f"The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 200 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {question}. IF THE ARTICLE HAS THE LINK, YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER"},
+        {"role": "user", "content": f"""The current date is {current_date} (YYYY-MM-DD format). You are a friendly AI chatbot that looks through the news article and provide answer for user. Answer the question in a natural and friendly tone under 200 words. Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. Here are the new article {context}, the user asks {question}. The defaut answer when you can't find relevant information is "Sorry but I do not have enough information to find this information". IF THE ARTICLE HAS THE LINK, YOU MUST INCLUDE THE LINK TO THE ARTICLE AT THE END OF YOUR ANSWER."""},
     ]
 
     input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to(device)
