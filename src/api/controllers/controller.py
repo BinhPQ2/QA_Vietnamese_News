@@ -78,24 +78,24 @@ def chatbot_rephrase(question):
 def chatbot_answering(question, context):
     current_date = date.today()
     messages = [
-        {
-            "role": "user", 
-            "content": f"The current date is {current_date} (YYYY-MM-DD format). \
-            You are a friendly AI chatbot that looks through the news article and provides an answer for the user. \
-            Answer the question in a natural and friendly tone under 200 words. \
-            Use Chain of Thought reasoning with no more than three steps, but do not include it in the response to the user. \
-            Here is the news article: {context}. The user asks: {question}. \
-            YOU HAVE TO RETURN THE ANSWER IN THIS FORMAT: \
-            ANSWER: [answer_here] \
-            LINK: [link_here] \
-            SAMPLE ANSWER: \
-            ANSWER: Vietnam aims to implement 6G technology by 2030, with a goal to ensure 5G mobile coverage for 99% of the population by the same year. The strategy for digital infrastructure, approved by the government on October 9, outlines two main target groups for 2025 and 2030, each containing around ten specific objectives. \
-            A key focus is to build capacity and readiness for testing 6G mobile networks by 2030. \
-            LINK: https://vnexpress.net/viet-nam-dat-muc-tieu-trien-khai-6g-vao-2030-4802203.html \
-            If you cannot find the answer to the question from the article or if the question is not news-related, use this response: \
-            ANSWER: 'Sorry, I cannot provide the information for this question' without a link."
-        }
-    ]
+            {
+                "role": "user", 
+                "content": f"The current date is {current_date} (YYYY-MM-DD format). \
+                You are a friendly AI chatbot that looks through the news article and provides an answer for the user. \
+                Answer the question in a natural and friendly tone under 200 words. \
+                Use Chain of Thought reasoning with no more than three steps, but do not include it in the response to the user. \
+                Here is the news article: {context}. The user asks: {question}. \
+                YOU HAVE TO RETURN THE ANSWER IN THIS FORMAT: \
+                ANSWER: [answer_here] \
+                LINK: [link_here] \
+                SAMPLE ANSWER: \
+                ANSWER: Vietnam aims to implement 6G technology by 2030, with a goal to ensure 5G mobile coverage for 99% of the population by the same year. The strategy for digital infrastructure, approved by the government on October 9, outlines two main target groups for 2025 and 2030, each containing around ten specific objectives. \
+                A key focus is to build capacity and readiness for testing 6G mobile networks by 2030. \
+                LINK: https://vnexpress.net/viet-nam-dat-muc-tieu-trien-khai-6g-vao-2030-4802203.html \
+                If you cannot find the answer to the question from the article or if the question is not news-related, without a link, use this response: \
+                ANSWER: 'Sorry, I cannot provide the information for this question'"
+            }
+        ]
 
     input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to(device)
 
