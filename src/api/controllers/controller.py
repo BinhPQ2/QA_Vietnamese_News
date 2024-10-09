@@ -99,7 +99,7 @@ def chatbot_answering(question, context):
 
     input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to(device)
 
-    outputs_2 = model_LLM.generate(**input_ids_2, max_new_tokens=2048)
+    outputs_2 = model_LLM.generate(**input_ids_2, max_new_tokens=2048, temperature=0)
     decoded_output_2 = tokenizer_LLM.decode(outputs_2[0], skip_special_tokens=False)
     answer_query_2 = decoded_output_2.rsplit("<end_of_turn>", 2)[1].strip().strip('*') # Because the output include the answer between 2 "<end_of_turn>"
     
