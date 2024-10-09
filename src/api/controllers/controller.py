@@ -21,9 +21,9 @@ model_name = "VietAI/envit5-translation"
 tokenizer_translate = AutoTokenizer.from_pretrained(model_name)  
 model_translate = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(device)
 
-model_llm_name = "google/gemma-2-2b"
+# model_llm_name = "google/gemma-2-2b"
 # model_llm_name = "google/gemma-2-2b-it"
-# model_llm_name = "google/gemma-2-9b-it"
+model_llm_name = "google/gemma-2-9b-it"
 tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
