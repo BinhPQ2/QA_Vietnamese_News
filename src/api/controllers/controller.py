@@ -22,6 +22,7 @@ tokenizer_translate = AutoTokenizer.from_pretrained(model_name)
 model_translate = AutoModelForSeq2SeqLM.from_pretrained(model_name).to(device)
 
 model_llm_name = "google/gemma-2-2b-it"
+# model_llm_name = "google/gemma-2-9b-it"
 tokenizer_LLM = AutoTokenizer.from_pretrained(model_llm_name, token=True)
 model_LLM = AutoModelForCausalLM.from_pretrained(model_llm_name, device_map="auto", torch_dtype=torch.bfloat16, token=True)
 
@@ -83,9 +84,11 @@ def chatbot_answering(question, context):
 
     input_ids_2 = tokenizer_LLM.apply_chat_template(conversation=messages, return_tensors="pt", return_dict=True).to(device)
 
-    outputs_2 = model_LLM.generate(**input_ids_2, max_new_tokens=2048)
+    outputs_2 = model_LLM.generate(**input_ids_2, max_new_tokens=2048, temperature=0)
     decoded_output_2 = tokenizer_LLM.decode(outputs_2[0], skip_special_tokens=False)
     answer_query_2 = decoded_output_2.rsplit("<end_of_turn>", 2)[1].strip().strip('*') # Because the output include the answer between 2 "<end_of_turn>"
+
+    # answer_query_2 = decoded_output_2
     
     # Regular expression pattern to extract URLs
     url_pattern = r'https?://[^\s]*?\.html'
@@ -119,11 +122,19 @@ def translate_vi2eng(input_text):
 
 def pipeline(question):
     question_translate = translate_vi2eng(question)
+    print("question_translate: ",question_translate)
     rephrased_question = chatbot_rephrase(question_translate)
+    print("rephrased_question: ",rephrased_question)
     question_embedding = embedding_text(rephrased_question)
-    list_id, list_url = retrieval_context(question_embedding, 3)
+    print("question_embedding: ",question_embedding)
+    list_id, list_url = retrieval_context(question_embedding, 2)
+    print("list_id: ",list_id)
+    print("list_url: ",list_url)
     context = mapping_data(list_id, list_url)
+    print("context: ",context)
     result, url = chatbot_answering(rephrased_question,context)
+    print("result: ",result)
+    print("url: ",url)
     answer = translate_eng2vi(result)
-
+    print("answer: ",answer)
     return answer, url
