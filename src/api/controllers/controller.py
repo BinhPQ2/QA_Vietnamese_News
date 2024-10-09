@@ -119,11 +119,19 @@ def translate_vi2eng(input_text):
 
 def pipeline(question):
     question_translate = translate_vi2eng(question)
+    print("question_translate: ",question_translate)
     rephrased_question = chatbot_rephrase(question_translate)
+    print("rephrased_question: ",rephrased_question)
     question_embedding = embedding_text(rephrased_question)
+    print("question_embedding: ",question_embedding)
     list_id, list_url = retrieval_context(question_embedding, 3)
+    print("list_id: ",list_id)
+    print("list_url: ",list_url)
     context = mapping_data(list_id, list_url)
+    print("context: ",context)
     result, url = chatbot_answering(rephrased_question,context)
+    print("result: ",result)
+    print("url: ",url)
     answer = translate_eng2vi(result)
-
+    print("answer: ",answer)
     return answer, url
