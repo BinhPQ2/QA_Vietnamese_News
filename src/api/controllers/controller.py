@@ -86,8 +86,8 @@ def chatbot_answering(question, context):
             Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. \
             Here are the new article {context}, the user asks {question}. \
             YOU HAVE TO RETURN THE ANSWER IN THIS FORMAT: \
-            ANSWER: <answer_here> \
-            LINK: <link_here> \
+            ANSWER: [answer_here] \
+            LINK: [link_here] \
             HERE IS AN SAMPLE ANSWER: \
             ANSWER: Vietnam aims to implement 6G technology by 2030, with a goal to ensure 5G mobile coverage for 99% of the population by the same year. The strategy for digital infrastructure, approved by the government on October 9, outlines two main target groups for 2025 and 2030, each containing around ten specific objectives. \
             A key focus is to build capacity and readiness for testing 6G mobile networks by 2030. \
