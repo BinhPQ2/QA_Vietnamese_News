@@ -93,7 +93,7 @@ def chatbot_answering(question, context):
             A key focus is to build capacity and readiness for testing 6G mobile networks by 2030. \
             LINK: https://vnexpress.net/viet-nam-dat-muc-tieu-trien-khai-6g-vao-2030-4802203.html \
             If you cant find the answer to the question from the database or the question given to you is not news related. \
-            Answer: 'Sorry I can not provide the information for this question'"
+            ANSWER: 'Sorry I can not provide the information for this question' and DO NOT return LINK"
         },
     ]
 
