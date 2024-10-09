@@ -83,8 +83,7 @@ def chatbot_answering(question, context):
                 "content": f"""The current date is {current_date} (YYYY-MM-DD format).
                 You are a friendly AI chatbot that looks through the news article and provides an answer for the user.
                 Answer the question in a natural and friendly tone under 200 words.
-                Use Chain of Thought reasoning with no more than three steps, but do not include it in the response to the user. \
-                Here is the news article: {context}. The user asks: {question}.
+                Use Chain of Thought reasoning with no more than three steps, but do not include it in the response to the user. Here is the news article: {context}. The user asks: {question}.
                 YOU HAVE TO RETURN THE ANSWER IN THIS FORMAT: \n
                 ANSWER: [answer_here] \n
                 LINK: [link_here] \n
@@ -103,7 +102,7 @@ def chatbot_answering(question, context):
     decoded_output_2 = tokenizer_LLM.decode(outputs_2[0], skip_special_tokens=False)
     answer_query_2 = decoded_output_2.rsplit("<end_of_turn>", 2)[1].strip().strip('*') # Because the output include the answer between 2 "<end_of_turn>"
 
-    answer_query_2 = decoded_output_2
+    # answer_query_2 = decoded_output_2
     
     # Regular expression pattern to extract URLs
     url_pattern = r'https?://[^\s]*?\.html'
