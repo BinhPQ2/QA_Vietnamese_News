@@ -80,19 +80,19 @@ def chatbot_answering(question, context):
     messages = [
         {
             "role": "user", 
-            "content": f"The current date is {current_date} (YYYY-MM-DD format). 
-            You are a friendly AI chatbot that looks through the news article and provide answer for user. 
-            Answer the question in a natural and friendly tone under 200 words. 
-            Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. 
-            Here are the new article {context}, the user asks {question}. 
-            YOU HAVE TO RETURN THE ANSWER IN THIS FORMAT:
-            ANSWER: <answer_here>
-            LINK: <link_here>
-            HERE IS AN SAMPLE ANSWER:
-            ANSWER: Vietnam aims to implement 6G technology by 2030, with a goal to ensure 5G mobile coverage for 99% of the population by the same year. The strategy for digital infrastructure, approved by the government on October 9, outlines two main target groups for 2025 and 2030, each containing around ten specific objectives.
-            A key focus is to build capacity and readiness for testing 6G mobile networks by 2030. 
-            LINK: https://vnexpress.net/viet-nam-dat-muc-tieu-trien-khai-6g-vao-2030-4802203.html
-            If you cant find the answer to the question from the database or the question given to you is not news related. 
+            "content": f"The current date is {current_date} (YYYY-MM-DD format). \
+            You are a friendly AI chatbot that looks through the news article and provide answer for user. \
+            Answer the question in a natural and friendly tone under 200 words. \
+            Have to use Chain of Thought reasoning with no more than three steps but dont include it in the response to user. \
+            Here are the new article {context}, the user asks {question}. \
+            YOU HAVE TO RETURN THE ANSWER IN THIS FORMAT: \
+            ANSWER: <answer_here> \
+            LINK: <link_here> \
+            HERE IS AN SAMPLE ANSWER: \
+            ANSWER: Vietnam aims to implement 6G technology by 2030, with a goal to ensure 5G mobile coverage for 99% of the population by the same year. The strategy for digital infrastructure, approved by the government on October 9, outlines two main target groups for 2025 and 2030, each containing around ten specific objectives. \
+            A key focus is to build capacity and readiness for testing 6G mobile networks by 2030. \
+            LINK: https://vnexpress.net/viet-nam-dat-muc-tieu-trien-khai-6g-vao-2030-4802203.html \
+            If you cant find the answer to the question from the database or the question given to you is not news related. \
             Answer: 'Sorry I can not provide the information for this question'"
         },
     ]
