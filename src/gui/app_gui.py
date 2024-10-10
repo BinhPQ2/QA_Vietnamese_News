@@ -15,9 +15,9 @@ with st.sidebar:
     with st.expander("Thông tin nhóm", expanded=True):
         st.write("23C11018 - Phạm Quốc Bình")
         st.write("23C11054 - Nguyễn Khắc Toàn")
-        st.write("23C15027 - Trần Tuyết Huê")
         st.write("23C15030 - Nguyễn Vũ Linh")
         st.write("23C15037 - Bùi Trọng Quý")
+        st.write("23C15027 - Trần Tuyết Huê")
 
     st.markdown("---")
     st.title("Feedback")
