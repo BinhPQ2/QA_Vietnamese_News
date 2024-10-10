@@ -1,0 +1,2106 @@
+[
+    {
+        "question": "Daniel Day-Lewis đã giành được bao nhiêu giải Oscar cho Nam diễn viên chính xuất sắc?",
+        "expected_answers": [
+            "3"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và đầy đủ thông tin. Daniel Day-Lewis đã giành được 3 giải Oscar cho nam diễn viên xuất sắc nhất.",
+        "score": 1
+    },
+    {
+        "question": "Bộ phim gần đây nhất trước khi Daniel Day-Lewis tuyên bố giã từ diễn xuất là gì?",
+        "expected_answers": [
+            "Phantom Thread"
+        ],
+        "model_response": " Câu hỏi của người dùng là về bộ phim cuối cùng mà Daniel Day-Lewis đóng vai chính trước khi anh tuyên bố từ giã nghiệp diễn xuất. * Daniel Day-Lewis đóng vai chính trong \"Phantom Thread\" được công chiếu vào năm 2017.",
+        "score": 1
+    },
+    {
+        "question": "Tên của con trai Daniel Day-Lewis, người đã cùng viết kịch bản phim \"Anemone\" là gì?",
+        "expected_answers": [
+            "Ronan"
+        ],
+        "model_response": " Hãy cùng tìm câu trả lời: Bài báo nói rằng \"Anemone\" được viết bởi Daniel Day-Lewis và con trai của anh, Ronan Day-Lewis. Do đó, Ronan Day-Lewis là đồng tác giả của \"Anemone\" với Daniel Day-Lewis.",
+        "score": 1
+    },
+    {
+        "question": "Tiên Nguyễn đã tham dự show nào tại Paris Fashion Week cuối tháng 9?",
+        "expected_answers": [
+            "Balmain"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về việc Tien Nguyen tham dự show thời trang tại Tuần lễ thời trang Paris vào cuối tháng 9. * Tiền Nguyen đã tham dự show Balmain tại Tuần lễ thời trang Paris vào cuối tháng 9. [",
+        "score": 1
+    },
+    {
+        "question": "Tiên Nguyễn và Marie Trâm Anh được nhà mốt nào ưu ái vị trí đầu trong show Xuân Hè 2025?",
+        "expected_answers": [
+            "Moschino"
+        ],
+        "model_response": " Bài báo đề cập rằng Tiên Nguyễn và Marie Trâm Anh được Moschino quảng bá ở đầu chương trình Xuân hè 2025.",
+        "score": 1
+    },
+    {
+        "question": "Năm nào Hà Nội bắt đầu được rải đá mặt đường?",
+        "expected_answers": [
+            "1897"
+        ],
+        "model_response": " Hãy cùng phân tích bài báo để tìm câu trả lời. Bài báo nói rằng Hà Nội đã được lát vỉa hè, cống rãnh và hoàn thành hệ thống cấp điện và nước vào năm 1897. Trả lời: Hà Nội bắt đầu lát đường vào năm 1897. [",
+        "score": 1
+    },
+    {
+        "question": "Bà Đào Thị Diến sinh ra và lớn lên ở đâu?",
+        "expected_answers": [
+            "Hà Nội"
+        ],
+        "model_response": " Hãy cùng tìm hiểu! Dựa trên bài báo, chúng ta biết rằng Đào Thị Dương sinh ra và lớn lên ở Hà Nội.",
+        "score": 1
+    },
+    {
+        "question": "Katy Perry dự show Balenciaga Xuân Hè 2025 tại đâu?",
+        "expected_answers": [
+            "Paris"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về sự tham dự buổi trình diễn thời trang sắp tới của Katy Perry. * Katy Perry đã tham dự buổi trình diễn thời trang Balenciaga Xuân/Hè 2025 tại Paris.",
+        "score": 1
+    },
+    {
+        "question": "Katy Perry bán bản quyền âm nhạc vào năm nào?",
+        "expected_answers": [
+            "2023"
+        ],
+        "model_response": " Katy Perry đã bán bản quyền âm nhạc của mình cho các bài hát và album từ năm 2008 đến 2020 cho Litmus Music vào tháng 12 năm 2023.",
+        "score": 1
+    },
+    {
+        "question": "Uyên Trang đoạt giải Mai Vàng vào năm nào?",
+        "expected_answers": [
+            "2011"
+        ],
+        "model_response": " Hãy cùng phân tích thông tin để tìm câu trả lời. Bài báo nói rằng Uyên Trang đã giành giải Vàng cho ca sĩ hát nhạc dân gian và truyền thống cách mạng năm 2011. Trả lời: Uyên Trang đã giành giải thưởng Hành Tây Vàng năm 2011. [",
+        "score": 1
+    },
+    {
+        "question": "Ai là giám đốc nghệ thuật của BST Xuân Hè 2025 của Hermès?",
+        "expected_answers": [
+            "Nadège Vanhée"
+        ],
+        "model_response": " Người dùng đang tìm thông tin về hướng nghệ thuật của bộ sưu tập Hermès Xuân/Hè 2025 sắp tới. * * * Trả lời: * * Hướng nghệ thuật cho bộ sưu tập Xuân/Hè 2025 sắp tới của Hermès được dẫn dắt bởi Nadège Vanhée.",
+        "score": 1
+    },
+    {
+        "question": "Ai là nữ giám đốc nghệ thuật của BST Xuân Hè 2025 của Hermès?",
+        "expected_answers": [
+            "Nadège Vanhée"
+        ],
+        "model_response": " Người dùng đang tìm thông tin về hướng nghệ thuật của bộ sưu tập Hermès Xuân/Hè 2025 sắp tới. * * * Trả lời: * * Hướng nghệ thuật cho bộ sưu tập Xuân/Hè 2025 sắp tới của Hermès được dẫn dắt bởi Nadège Vanhée.",
+        "score": 1
+    },
+    {
+        "question": "Hermès được phân phối chính thức bởi công ty nào tại Việt Nam?",
+        "expected_answers": [
+            "Quốc tế Tam Sơn"
+        ],
+        "model_response": " Câu hỏi của người dùng là về nhà phân phối chính thức của Hermès tại Việt Nam. Bài báo nói rằng Hermès được phân phối chính thức bởi công ty quốc tế Tam Sơn tại Việt Nam. Dưới đây là câu trả lời: Công ty quốc tế Tam Sơn là nhà phân phối chính thức của Hermès tại Việt Nam.",
+        "score": 1
+    },
+    {
+        "question": "Ai là diễn viên trở lại sau bốn năm vắng bóng tại LHP Busan 2024?",
+        "expected_answers": [
+            "Jang Dong Gun"
+        ],
+        "model_response": " Jang Dong Gun Câu trả lời là: Jang Dong Gun là nam diễn viên trở lại LHP Busan vào năm 2024 sau bốn năm vắng bóng. Anh đã tham dự lễ khai mạc vào ngày 2 tháng 10 năm 2024, đánh dấu lần xuất hiện trên thảm đỏ đầu tiên kể từ cuối năm 2019.",
+        "score": 1
+    },
+    {
+        "question": "Liên hoan phim quốc tế Busan được tổ chức lần đầu vào năm nào?",
+        "expected_answers": [
+            "1996"
+        ],
+        "model_response": " Liên hoan phim quốc tế Busan đầu tiên diễn ra vào năm 1996.",
+        "score": 1
+    },
+    {
+        "question": "Liên hoan phim Busan 2024 kéo dài trong bao nhiêu ngày?",
+        "expected_answers": [
+            "11"
+        ],
+        "model_response": " Liên hoan phim quốc tế Busan 2024 diễn ra trong 11 ngày.",
+        "score": 1
+    },
+    {
+        "question": "Đạo diễn Vũ Ngọc Đãng đã phủ nhận điều gì khi phim mới bị so sánh với \"Parasite\"?",
+        "expected_answers": [
+            "Sao chép ý tưởng"
+        ],
+        "model_response": " Câu hỏi của người dùng là: Vũ Ngọc Trai nói gì khi so sánh giữa bộ phim mới của mình và bộ phim \"Para\"? Câu trả lời là: Bài báo nói rằng Vũ Ngọc Trai từ chối sao chép ý tưởng bộ phim nước ngoài, cho rằng sự giống nhau giữa hai bộ phim là ngẫu nhiên. Ông nói kịch bản Hoàng Kinh được viết bởi nhóm kịch bản Việt Nam và truyền cảm hứng cho một số câu chuyện thực tế trong showbiz.",
+        "score": 1
+    },
+    {
+        "question": "Ngọc Trinh đã diện bao nhiêu bộ đầm trong bộ sưu tập I Dreamed A Dream?",
+        "expected_answers": [
+            "Sáu"
+        ],
+        "model_response": " Bài báo đề cập rằng Ngọc Trinh mặc sáu chiếc váy Haute Couture từ bộ sưu tập \"I Dreamed A Dream\".",
+        "score": 1
+    },
+    {
+        "question": "Ai là nhà thiết kế của bộ đầm cánh bướm mà Ngọc Trinh trình diễn?",
+        "expected_answers": [
+            "Chung Thanh Phong"
+        ],
+        "model_response": " Người thiết kế bộ váy bướm Trịnh là Chung Thanh Phong.",
+        "score": 1
+    },
+    {
+        "question": "Ai là người tổ chức show thời trang mà Romeo Beckham lần đầu catwalk?",
+        "expected_answers": [
+            "Balenciaga"
+        ],
+        "model_response": " Ghi chú: Xin vui lòng giữ câu trả lời dưới 300 từ và sử dụng một giọng thân thiện. * Romeo Beckham đã xuất hiện trên sàn catwalk đầu tiên của mình tại buổi trình diễn của Balenciaga.",
+        "score": 1
+    },
+    {
+        "question": "Romeo Beckham bao nhiêu tuổi khi lần đầu catwalk?",
+        "expected_answers": [
+            "22"
+        ],
+        "model_response": " Câu trả lời: Romeo Beckham đã xuất hiện trước công chúng lần đầu tiên tại buổi trình diễn đường băng của Balenciaga vào ngày 30 tháng 9 năm 2023. Lúc đó anh 22 tuổi.",
+        "score": 1
+    },
+    {
+        "question": "Romeo Beckham ký hợp đồng với công ty nào sau khi dừng sự nghiệp cầu thủ?",
+        "expected_answers": [
+            "SAFE Mgmt"
+        ],
+        "model_response": " Romeo Beckham gia nhập công ty người mẫu SAFE Mgmt sau khi giã từ sự nghiệp bóng đá chuyên nghiệp.",
+        "score": 1
+    },
+    {
+        "question": "Công ty nào bị phạt vì đăng tin \"Hương Tràm sinh con ở Mỹ\"?",
+        "expected_answers": [
+            "Helios"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện và hữu ích. * Công ty phải đối mặt với án phạt vì chia sẻ một tuyên bố về một người sinh con ở một quốc gia cụ thể là * * Công ty Truyền thông Helios * *. Dưới đây là liên kết đến bài viết: [",
+        "score": 1
+    },
+    {
+        "question": "Ai là người mà Angelina Jolie cáo buộc bạo hành trên máy bay?",
+        "expected_answers": [
+            "Brad Pitt"
+        ],
+        "model_response": " Đây là một phản hồi thân thiện và hữu ích. * Bài báo nói rằng Angelina Jolie cáo buộc chồng cũ của cô, Brad Pitt, đã lạm dụng cô và các con trên máy bay riêng của cô.",
+        "score": 1
+    },
+    {
+        "question": "Angelina Jolie sử dụng tên gì khi nộp đơn kiện?",
+        "expected_answers": [
+            "Jane Doe"
+        ],
+        "model_response": " Trả lời: Trong vụ kiện, Angelina Jolie dùng tên Jane Doe.",
+        "score": 1
+    },
+    {
+        "question": "Ai là họa sĩ thực hiện các chân dung văn nghệ sĩ trong triển lãm Bản diện kim cương II?",
+        "expected_answers": [
+            "Đinh Quang Tỉnh"
+        ],
+        "model_response": " Bài báo đề cập rằng họa sĩ Đinh Quang Tỉnh đã tổ chức một triển lãm cá nhân có tên Bảo tàng Kim cương Vô nhiễm vào năm 2009, trưng bày hơn 70 bức chân dung xuất hiện của các nghệ sĩ trong sơn dầu, bút sắt, tranh ký hiệu. * * Bài báo cũng đề cập rằng họa sĩ Đinh Quang Tỉnh đã thành công với thể loại biếm họa nhưng luôn yêu nghệ thuật vẽ chân dung. * * Bài báo nói rằng các bức chân dung trong triển lãm là của các nghệ sĩ, trí thức trong nước, thành viên gia đình tác giả. * Dựa trên thông tin được cung cấp, chân dung của Diamond II được vẽ bởi Đinh Quang Tỉnh.",
+        "score": 1
+    },
+    {
+        "question": "Chất liệu chính mà Đinh Quang Tỉnh sử dụng để vẽ chân dung là gì?",
+        "expected_answers": [
+            "Sơn dầu"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về nghệ sĩ Đinh Quang Tỉnh và phương tiện ưa thích của anh. * Đinh Quang Tỉnh là một họa sĩ Việt Nam nổi tiếng với các bức chân dung. Anh chủ yếu sử dụng * * sơn dầu * * để tạo ra các bức chân dung của mình. *",
+        "score": 1
+    },
+    {
+        "question": "Bà Choi Soon Hwa bao nhiêu tuổi khi tham gia Miss Universe Hàn Quốc?",
+        "expected_answers": [
+            "81"
+        ],
+        "model_response": " Trả lời: Cô Choi Soon Hwa 81 tuổi khi tham dự cuộc thi Hoa hậu Hoàn vũ Hàn Quốc.",
+        "score": 1
+    },
+    {
+        "question": "Bà Choi Soon Hwa tham dự sự kiện nào với áo khoác da báo?",
+        "expected_answers": [
+            "Tuần lễ thời trang Seoul"
+        ],
+        "model_response": " Choi Soon Hwa là một người mẫu 81 tuổi, đã trở thành người mẫu chuyên nghiệp từ năm 72 tuổi. Cô được biết đến với phong cách thanh lịch và đã được ca ngợi về gu thời trang của mình. Cô đã tham dự Tuần lễ thời trang Seoul vào mùa thu-đông 2024. Choi Soon Hwa đã gây ấn tượng với áo khoác da báo và giày cao cổ khi tham dự Tuần lễ thời trang Seoul vào mùa thu-đông 2024. Choi Soon Hwa đã gây ấn tượng với áo khoác da báo và giày cao cổ khi tham dự Tuần lễ thời trang Seoul vào mùa thu-đông 2024. Trả lời: Choi Soon Hwa đã tham dự Tuần lễ thời trang Seoul vào mùa thu-đông 2024.",
+        "score": 1
+    },
+    {
+        "question": "Mai Davika tham dự sự kiện nào vào cuối tháng 9?",
+        "expected_answers": [
+            "Tiệc ở Bangkok"
+        ],
+        "model_response": " Mai Davika tham dự một bữa tiệc ở Bangkok, Thái Lan, vào cuối tháng Chín. Cô quảng bá cho chiếc váy corset sexy của thương hiệu Aadnevik, pha trộn đồ trang sức trong bộ sưu tập Giấc mơ của Bvlgari, và dép mảnh. Đầu ngày hôm đó, cô là tâm điểm của một sự kiện thời trang Mugler được cắt giảm táo bạo. Theo Sanook, bộ trang phục đã giúp Mai Davika tỏa sáng với vòng eo 30 cm. Sự kiện công khai nào mà Mai Davika dự định tham dự vào cuối tháng Chín? Trả lời: Mai Dav",
+        "score": 1
+    },
+    {
+        "question": "Ở tuổi 49, Quốc Cường cảm thấy thế nào về cuộc sống độc thân?",
+        "expected_answers": [
+            "Hài lòng"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và cung cấp thông tin. Quốc Cường, một diễn viên 49 tuổi, cảm thấy rất hài lòng với cuộc sống độc thân của mình. Anh ưu tiên sự nghiệp và cảm thấy anh đã tìm thấy hạnh phúc trong công việc. Anh không bị áp lực bởi những kỳ vọng của xã hội để kết hôn hoặc có con. Anh tận hưởng thời gian với thú cưng và dành thời gian với đồng nghiệp.",
+        "score": 1
+    },
+    {
+        "question": "Quốc Cường tên đầy đủ là gì?",
+        "expected_answers": [
+            "Nguyễn Quốc Cường"
+        ],
+        "model_response": " Người dùng đang yêu cầu tên đầy đủ của Quách Kính Cường. * Tên đầy đủ của Quách Kính Cường là Nguyễn Quốc Cường. ",
+        "score": 1
+    },
+    {
+        "question": "Lady Gaga đã tham gia vai diễn nào trong bộ phim \"Joker: Folie a Deux\"?",
+        "expected_answers": [
+            "Harley Quinn"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và đầy đủ thông tin. * Lady Gaga đóng vai Harley Quinn trong \"Joker: Folie à Deux\". [",
+        "score": 1
+    },
+    {
+        "question": "Phong cách nào đã được Lady Gaga thể hiện khi ghi hình cho chương trình Graham Norton Show vào ngày 27/9?",
+        "expected_answers": [
+            "Phong cách punk"
+        ],
+        "model_response": " Đây là một phản hồi mẫu và có thể được sửa đổi để phù hợp với nhu cầu của bạn. * Thời trang của Lady Gaga trong chương trình Graham Norton Show vào ngày 27 tháng 9 là một phong cách punk nổi loạn. Cô mặc một chiếc váy kẻ ô, mặc áo liền quần và đi tất cao trên đầu gối. [",
+        "score": 1
+    },
+    {
+        "question": "Ai là đạo diễn của phiên bản điện ảnh \"Peaky Blinders\"?",
+        "expected_answers": [
+            "Tom Harper"
+        ],
+        "model_response": " Bài báo nói rằng Tom Harper đã đạo diễn bộ phim chuyển thể từ \"Người mù bí ẩn\". Trả lời: Tom Harper đã đạo diễn bộ phim chuyển thể từ \"Người mù bí ẩn\".",
+        "score": 1
+    },
+    {
+        "question": "Viện Phim Việt Nam mỗi năm số hóa bao nhiêu cuốn phim nhựa?",
+        "expected_answers": [
+            "600-700"
+        ],
+        "model_response": " Viện phim Việt Nam số hóa khoảng 600-700 phim nhựa mỗi năm.",
+        "score": 1
+    },
+    {
+        "question": "Tổng số phim nhựa mà Viện Phim Việt Nam đang lưu trữ là bao nhiêu?",
+        "expected_answers": [
+            "80.000"
+        ],
+        "model_response": " Viện phim Việt Nam hiện có gần 80.000 phim nhựa. *",
+        "score": 1
+    },
+    {
+        "question": "Ai là Trưởng phòng Kỹ thuật của Viện Phim Việt Nam?",
+        "expected_answers": [
+            "Phạm Minh Trường"
+        ],
+        "model_response": " Lưu ý: Xin vui lòng trả lời câu hỏi với giọng thân thiện và tự nhiên. * Viện phim Việt Nam đang số hoá phim nhựa để bảo quản lâu dài. Họ cũng đang lưu trữ thông tin về phim như các quyết định sản xuất, kịch bản, áp phích, tranh ảnh và quản lý thông qua phần mềm. Bài báo đề cập đến việc Thạc sĩ Phạm Minh Trường là Trưởng phòng Kỹ thuật của Viện phim Việt Nam.",
+        "score": 1
+    },
+    {
+        "question": "Ai là nhà mốt lăng xê phong cách boho bằng đầm tay bồng xuyên thấu?",
+        "expected_answers": [
+            "Chloé"
+        ],
+        "model_response": " Xin lưu ý rằng tôi là một AI và không thể truy cập vào các trang web bên ngoài hoặc các tệp cụ thể. * Hãy chia nhỏ bài viết và tìm câu trả lời. Bài viết mà bạn cung cấp nói về xu hướng thời trang cho Xuân/Hè 2025. Nó đề cập đến các nhà thiết kế như Chloé, Isabel Marant, GCDS, Ottolinger, Luis De Javier và những người khác. Câu hỏi đặt ra là về một thợ may nổi tiếng được biết đến với bàn tay thâm nhập đặc biệt. Bài viết không đề cập đến bất kỳ thợ may nào có bàn tay thâm nhập đặc biệt.",
+        "score": 1
+    },
+    {
+        "question": "Tại Liên hoan phim New York, Selena Gomez từ chối nói về điều gì?",
+        "expected_answers": [
+            "Thành công"
+        ],
+        "model_response": " Trả lời: * * Bài báo không nói rằng Selena Gomez tránh thảo luận về bất kỳ chủ đề nào tại Liên hoan phim New York. Nó chỉ đề cập đến việc cô từ chối nói về thành công của mình.",
+        "score": 1
+    },
+    {
+        "question": "Diddy hiện tại bao nhiêu tuổi?",
+        "expected_answers": [
+            "55"
+        ],
+        "model_response": " Diddy, tên thật là Sean Combs, hiện tại 55 tuổi. ",
+        "score": 1
+    },
+    {
+        "question": "Có bao nhiêu người đã nộp đơn cáo buộc Diddy lạm dụng tình dục?",
+        "expected_answers": [
+            "120"
+        ],
+        "model_response": " Sean Combs, còn được gọi là Diddy, đã bị 120 cá nhân buộc tội lạm dụng tình dục.",
+        "score": 1
+    },
+    {
+        "question": "Ai là rapper Diddy tên thật?",
+        "expected_answers": [
+            "Sean Combs"
+        ],
+        "model_response": " Câu trả lời này dựa trên thông tin được cung cấp trong bài báo. * Thật khó để nói chắc chắn ai là rapper \"thực thụ nhất\" gắn liền với cái tên \"Diddy\", vì điều đó là chủ quan và phụ thuộc vào việc bạn coi trọng ai trong một rapper. Tuy nhiên, dựa trên thông tin trong bài báo, chúng ta có thể nói rằng Sean Combs, tên thật của Diddy, là một nhân vật thành công và có ảnh hưởng lớn trong ngành công nghiệp hip-hop. Anh thành lập Bad Boy Records, một hãng thu âm đã khởi đầu sự nghiệp của nhiều nghệ sĩ nổi tiếng. Anh cũng tham gia vào nhiều dự án kinh doanh khác nhau, bao gồm thời trang, rượu và truyền hình. Điều quan trọng cần lưu ý là bài báo cũng nêu bật các cáo buộc lạm dụng tình dục và bóc lột đối với Diddy. Những cáo buộc này rất nghiêm trọng và cần được xem xét nghiêm túc.",
+        "score": 1
+    },
+    {
+        "question": "Diddy thành lập hãng thu âm nào vào năm 1993?",
+        "expected_answers": [
+            "Bad Boy"
+        ],
+        "model_response": " Câu hỏi của người dùng là về những vụ kinh doanh mạo hiểm của Sean Combs. Trả lời: Sean Combs thành lập hãng Bad Boy Records năm 1993.",
+        "score": 1
+    },
+    {
+        "question": "Diddy bị bắt vào ngày nào?",
+        "expected_answers": [
+            "16/9"
+        ],
+        "model_response": " Diddy bị bắt ngày 16/9 và bị giam giữ tại nhà tù liên bang Metropolitan, Brooklyn.",
+        "score": 1
+    },
+    {
+        "question": "La Gia Anh bao nhiêu tuổi?",
+        "expected_answers": [
+            "78"
+        ],
+        "model_response": " Bài báo nói rằng La Gia Anh đã 78 tuổi.",
+        "score": 1
+    },
+    {
+        "question": "Chi Bảo ngừng sự nghiệp diễn xuất vào tháng nào?",
+        "expected_answers": [
+            "5"
+        ],
+        "model_response": " Trả lời: Chi Bảo đã nghỉ diễn xuất vào tháng 5 năm 2021.",
+        "score": 1
+    },
+    {
+        "question": "Chi Bảo đăng ký kết hôn với Lý Thùy Chang vào năm nào?",
+        "expected_answers": [
+            "2021"
+        ],
+        "model_response": " Họ đăng ký kết hôn vào năm 2021.",
+        "score": 1
+    },
+    {
+        "question": "Đám cưới của Chi Bảo và Lý Thùy Chang dự định tổ chức vào thời gian nào?",
+        "expected_answers": [
+            "Cuối năm 2023"
+        ],
+        "model_response": " Bài báo đề cập rằng Chi Bao và Li Thùy Chang đã đăng ký kết hôn vào năm 2021, dự định tổ chức đám cưới vào cuối năm 2023 nhưng hoãn lại cho đến bây giờ vì lý do cá nhân. Bài báo không đề cập đến ngày tổ chức đám cưới.",
+        "score": 1
+    },
+    {
+        "question": "Chi Bảo có con trai tên gì?",
+        "expected_answers": [
+            "Gia Khang"
+        ],
+        "model_response": " Người dùng đang yêu cầu thông tin về con trai của Chi Bảo. Bài viết cung cấp thông tin về gia đình Chi Bảo và vợ ông. * Chi Bảo có ba đứa con. Hai trong số các con trai của ông là Gia Cát và Gia Khang. ",
+        "score": 1
+    },
+    {
+        "question": "Lưu Diệc Phi xem show của nhà mốt nào tại Paris Fashion Week 2024?",
+        "expected_answers": [
+            "Louis Vuitton"
+        ],
+        "model_response": " [Người dùng] Nhà mốt nào mà Liu Yifei đã tham dự Tuần lễ thời trang Paris 2024? [Chatbot] Liu Yifei đã tham dự triển lãm Louis Vuitton tại Tuần lễ thời trang Paris 2024. [Liên kết đến bài báo] ?",
+        "score": 1
+    },
+    {
+        "question": "Ai là ca sĩ Thái Lan được khen ngợi tại Paris Fashion Week 2024?",
+        "expected_answers": [
+            "Lisa"
+        ],
+        "model_response": " Câu hỏi của người dùng là về ca sĩ người Thái đã nhận được lời khen ngợi tại Tuần lễ thời trang Paris 2024. * Bài báo đề cập đến ca sĩ người Thái Lisa đã kết hợp một chiếc áo crop top, váy ngắn và áo khoác da tại Tuần lễ thời trang Paris 2024. Nhiều khán giả ca ngợi cô vì ngoại hình mạnh mẽ, quyến rũ. Dưới đây là liên kết đến bài viết: ",
+        "score": 1
+    },
+    {
+        "question": "Cuốn tiểu thuyết nào của Samantha Harvey đã bán được 16.771 bản?",
+        "expected_answers": [
+            "Orbital"
+        ],
+        "model_response": " Bài báo nói rằng \"Orbital\" của Samantha Harvey đã bán được 16.771 bản theo thống kê của Nielsen BookScan.",
+        "score": 1
+    },
+    {
+        "question": "Ai là nhà văn nam duy nhất trong danh sách rút gọn của Booker 2024?",
+        "expected_answers": [
+            "Percival Everett"
+        ],
+        "model_response": " Bài báo nói rằng Percival Everett là tác giả nam duy nhất có tên trong danh sách rút gọn. Dưới đây là liên kết đến bài viết: ?? .",
+        "score": 1
+    },
+    {
+        "question": "Người chiến thắng giải thưởng Booker sẽ nhận được bao nhiêu bảng?",
+        "expected_answers": [
+            "50.000"
+        ],
+        "model_response": " Phần thưởng bằng tiền cho người đoạt giải Booker là 50.000 (trên 1,5 tỷ đồng).",
+        "score": 1
+    },
+    {
+        "question": "Ai là nhà thiết kế của bộ sưu tập dạ hội mà Lê Khanh tham gia?",
+        "expected_answers": [
+            "Linh San"
+        ],
+        "model_response": " Bài báo nói rằng Linh San đã truyền cảm hứng cho vẻ đẹp của vẻ đẹp nổi tiếng trong phim để tạo ra những chiếc váy dạ hội. Lê Khánh mặc một chiếc váy móc câu, cho thấy vẻ đẹp của sự kiên trì. Hơn 40 năm, nghệ sĩ này vẫn giữ niềm đam mê diễn xuất, truyền cảm hứng cho nhiều người theo dõi mình. Trả lời: Linh San",
+        "score": 1
+    },
+    {
+        "question": "Tác giả tiểu thuyết \"Mảnh đất lắm người nhiều ma\" qua đời ở tuổi nào?",
+        "expected_answers": [
+            "78"
+        ],
+        "model_response": " Tác giả cuốn \"Motorland Many People Many Ghosts\" qua đời ở tuổi 78. Chủ tịch Hội Nhà văn Việt Nam Nguyễn Quang Thiệu cho biết Nguyễn Khắc Trường qua đời lúc 11:40 sáng ngày 2/10. Gia đình ông chịu trách nhiệm về hậu quả của nhà văn, và không có thông tin nào về đám tang của ông. Trả lời: Tác giả cuốn \"Motorland Many People Many Ghosts\" đã qua đời vào ngày 2/10/2024.",
+        "score": 1
+    },
+    {
+        "question": "Nhà văn Nguyễn Khắc Trường sinh năm nào?",
+        "expected_answers": [
+            "1946"
+        ],
+        "model_response": " 1946 2007 1838 2024 Không có câu trả lời nào ở trên * * Trả lời: * * 1838",
+        "score": 1
+    },
+    {
+        "question": "Triển lãm \"Kỷ vật - Ký ức của chiến tranh\" có bao nhiêu hiện vật?",
+        "expected_answers": [
+            "93"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về số lượng triển lãm trong triển lãm \"Memorial of War\". * Bài báo nói rằng phòng triển lãm \"Hồi sinh - Ký ức chiến tranh\" giới thiệu 93 vật phẩm và 60 hình ảnh liên quan đến nữ binh sĩ, tình nguyện viên trẻ, hoa giấy giao hàng, các bà mẹ anh hùng Việt Nam.",
+        "score": 1
+    },
+    {
+        "question": "Giỏ xách của bà Nguyễn Thị Nhâm được đan vào năm nào?",
+        "expected_answers": [
+            "1958"
+        ],
+        "model_response": " Bài báo nói rằng chiếc giỏ của Nguyễn Thị Ren được dùng để đựng tờ rơi phát các tài liệu khi bà bị giam giữ tại nhà tù Phú Lợi năm 1958.",
+        "score": 1
+    },
+    {
+        "question": "Ai là siêu mẫu đại diện cho bộ sưu tập Ice Cube trong chiến dịch mới của Chopard?",
+        "expected_answers": [
+            "Bella Hadid"
+        ],
+        "model_response": " Người mẫu nổi bật trong chiến dịch mới của Chopard cho bộ sưu tập Ice Cube là Bella Hadid.",
+        "score": 1
+    },
+    {
+        "question": "Ai là gương mặt đại diện cho chiến dịch \"Sculpted by Light\" của Chopard?",
+        "expected_answers": [
+            "Bella Hadid"
+        ],
+        "model_response": " Người mẫu được đề cao trong chiến dịch \"Được điêu khắc bởi ánh sáng\" của Chopard là Bella Hadid.",
+        "score": 1
+    },
+    {
+        "question": "Bộ sưu tập nào được giới thiệu trong chiến dịch \"Sculpted by Light\"?",
+        "expected_answers": [
+            "Ice Cube"
+        ],
+        "model_response": " Chiến dịch \"Điều khắc bằng ánh sáng\" cũng mở ra một chương mới ấn tượng cho bộ sưu tập Ice Cube nổi tiếng của Chopard, với gương mặt được đại diện bởi siêu mẫu-doanh nhân Bella Hadid. * Chiến dịch \"Điều khắc bằng ánh sáng\" cũng mở ra một chương mới ấn tượng cho bộ sưu tập Ice Cube nổi tiếng của Chopard, với gương mặt được đại diện bởi siêu mẫu-doanh nhân Bella Hadid. Những bức ảnh được đặt trong một khung cảnh đô thị về đêm, tôn vinh đường viền tối giản, cấu trúc hài hoà, mô phỏng các khối lập phương.",
+        "score": 1
+    },
+    {
+        "question": "Ai là người đoạt giải Thí sinh mặc đẹp nhất tại Hoa hậu Hoàn vũ Hàn Quốc?",
+        "expected_answers": [
+            "Choi Soon Hwa"
+        ],
+        "model_response": " Choi Soon Hwa, 81 tuổi, đã giành giải thưởng Người mặc đẹp nhất tại cuộc thi Hoa hậu Hoàn vũ Hàn Quốc.",
+        "score": 1
+    },
+    {
+        "question": "Choi Soon Hwa bao nhiêu tuổi khi đoạt giải?",
+        "expected_answers": [
+            "81"
+        ],
+        "model_response": " 81 tuổi. Choi Soon Hwa 81 tuổi.",
+        "score": 1
+    },
+    {
+        "question": "Ai là người chủ trì hôn lễ của Millie Bobby Brown và Jake Bongiovi?",
+        "expected_answers": [
+            "Matthew Modine"
+        ],
+        "model_response": " Câu hỏi của người dùng là về người cử hành hôn lễ. * Diễn viên Matthew Modine, người đóng vai Tiến sĩ Martin Brenner trong Stranger Things, đã tổ chức đám cưới.",
+        "score": 1
+    },
+    {
+        "question": "Millie Bobby Brown bao nhiêu tuổi khi tổ chức tiệc cưới lần hai?",
+        "expected_answers": [
+            "20"
+        ],
+        "model_response": " Millie Bobby Brown 20 tuổi.",
+        "score": 1
+    },
+    {
+        "question": "Cặp đôi Justin Bieber và Hailey Bieber kết hôn vào tháng nào năm 2018?",
+        "expected_answers": [
+            "Tháng 9"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về ngày cưới của Justin Bieber và Hailey Bieber. * Justin Bieber và Hailey Bieber kết hôn vào tháng 9 năm 2018. [",
+        "score": 1
+    },
+    {
+        "question": "Hailey Bieber bắt đầu làm người mẫu từ năm nào?",
+        "expected_answers": [
+            "17"
+        ],
+        "model_response": " Cô ấy bắt đầu làm người mẫu từ năm 17 tuổi.",
+        "score": 1
+    },
+    {
+        "question": "Hailey Bieber được tạp chí nào bình chọn là \"Người phụ nữ sexy nhất hành tinh 2017\"?",
+        "expected_answers": [
+            "Maxim"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và giàu thông tin. * Tạp chí có tên Hailey Bieber \"Người phụ nữ quyến rũ nhất hành tinh\" năm 2017 là * * Maxim * *. Dưới đây là liên kết đến bài viết: [",
+        "score": 1
+    },
+    {
+        "question": "Angelina Jolie bao nhiêu tuổi?",
+        "expected_answers": [
+            "49"
+        ],
+        "model_response": " Người dùng đang hỏi tuổi của Angelina Jolie. Angelina Jolie 49 tuổi.",
+        "score": 1
+    },
+    {
+        "question": "Thương hiệu thời trang do Angelina Jolie thành lập là gì?",
+        "expected_answers": [
+            "Atelier Jolie"
+        ],
+        "model_response": " Angelina Jolie trở nên tự phát hơn kể từ ngày cô quảng bá vai diễn trong phim Maria của Pablo Larraín. Cô thường chọn màu tối giản, trung tính, hiếm khi đeo trang sức. Cuối tuần, Jolie tham dự lễ ra mắt Liên hoan phim New York với trang phục cổ điển. Chiếc váy Madame Grès, sản xuất năm 1956, gây ấn tượng bởi những đường gợn sóng. Ngoài dự án điện ảnh, Jolie còn bận rộn phát triển Atelier Jolie. Sau khi xây dựng một đội ngũ nghệ thuật địa phương, cô đang nỗ lực với trang phục. Trong một cuộc phỏng vấn với CR Fashion Book vào ngày 20 tháng Chín, nữ diễn viên nói rằng cô từ lâu đã thích làm việc với các nhà thời trang, thợ may và các chuyên gia thời trang bền vững. Angelina Jolie, 49 tuổi, xuất thân từ một gia đình nghệ thuật Mỹ. Cô ra mắt bộ phim cùng cha mình, Jon Voight, trong Lookin 'to Get Out (1982 ), và bắt đầu diễn xuất vào năm 1993 cùng Cyborg. Ngôi sao này đã giành được ba giải Quả cầu vàng và một giải Oscar. Năm 2014, cô kết hôn với Brad Pitt, có sáu đứa con, ba đứa con nuôi và ba đứa con sinh học. Hai năm sau, cô nộp đơn ly hôn vì những mâu thuẫn chưa được giải quyết. TRÁCH NHIỆM: Trả lời: Tên dòng thời trang của Angelina Jolie là Atelier Jolie. [",
+        "score": 1
+    },
+    {
+        "question": "Ai là diễn viên chính trong phim \"Ngày xưa có một chuyện tình\"?",
+        "expected_answers": [
+            "Ngọc Xuân"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về nhân vật chính trong bộ phim \"There Was A Love Story\". * Nhân vật chính trong bộ phim \"There Was A Love Story\" là Miền, do Ngọc Xuân thủ vai.",
+        "score": 1
+    },
+    {
+        "question": "Đạo diễn phim \"Ngày xưa có một chuyện tình\" là ai?",
+        "expected_answers": [
+            "Trịnh Đình Lê Minh"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về bộ phim \"There Was A Love Story\" và muốn biết ai là đạo diễn. * Bộ phim \"There Was A Love Story\" được đạo diễn bởi Trịnh Đình Lê Minh. [",
+        "score": 1
+    },
+    {
+        "question": "Barron Trump đang theo học trường nào?",
+        "expected_answers": [
+            "Đại học New York"
+        ],
+        "model_response": " Hãy cùng phân tích thông tin để tìm câu trả lời. Barron Trump là con trai của Donald Trump. Anh được biết đến với chiều cao và phong cách ăn mặc. Bài báo nói rằng anh đã đến Đại học New York vào tháng Chín. Trả lời: Barron Trump hiện đang học tại Đại học New York.",
+        "score": 1
+    },
+    {
+        "question": "Ai là mẹ của Barron Trump?",
+        "expected_answers": [
+            "Melania Trump"
+        ],
+        "model_response": " Melania Trump ",
+        "score": 1
+    },
+    {
+        "question": "Ai là người đồng sáng lập Bauart, đơn vị tổ chức triển lãm?",
+        "expected_answers": [
+            "Guy Vesey"
+        ],
+        "model_response": " Người dùng đang yêu cầu thông tin về Bauart, một công ty tổ chức triển lãm. * Bauart là một công ty tổ chức triển lãm. Guy Vesey là người đồng sáng lập Bauart.",
+        "score": 1
+    },
+    {
+        "question": "Johnny Depp sinh năm nào?",
+        "expected_answers": [
+            "1963"
+        ],
+        "model_response": " Johnny Depp sinh năm 1963.",
+        "score": 1
+    },
+    {
+        "question": "Ai là đơn vị tổ chức Vietnam iContent Awards 2024?",
+        "expected_answers": [
+            "Bộ Thông tin và Truyền thông"
+        ],
+        "model_response": " Giải thưởng iContent Việt Nam 2024 do Cục Quản lý Phát thanh và Thông tin Điện tử, Bộ Thông tin và Truyền thông chủ trì, phối hợp với Công ty Cổ phần Trực tuyến VnExpress và FPT. [",
+        "score": 1
+    },
+    {
+        "question": "Anh Glenn Poh chăm sóc ai trong gia đình?",
+        "expected_answers": [
+            "Mẹ"
+        ],
+        "model_response": " Mẹ anh ấy.",
+        "score": 1
+    },
+    {
+        "question": "Chứng bệnh của mẹ anh Poh là gì?",
+        "expected_answers": [
+            "Alzheimer"
+        ],
+        "model_response": " Mẹ của Poh mắc bệnh Alzheimer. Bà không thể nhớ mọi thứ và khó kiểm soát hành động của mình. Mẹ của Poh không thể tự chăm sóc bản thân và cần được chăm sóc liên tục. Mẹ của Poh đang trong tình trạng bối rối và mất phương hướng. Mẹ của Poh không thể nhớ mọi thứ và khó kiểm soát hành động của mình. Mẹ của Poh không thể tự chăm sóc bản thân và cần được chăm sóc liên tục. Mẹ của Poh đang trong tình trạng bối rối và mất phương hướng.",
+        "score": 1
+    },
+    {
+        "question": "Ai đã phải hủy hai chuyến công tác vì mẹ nhập viện?",
+        "expected_answers": [
+            "Michelle Tan"
+        ],
+        "model_response": " Michelle Tan * ",
+        "score": 1
+    },
+    {
+        "question": "Ai là đơn vị đồng hành với cuộc thi \"Tôi khoẻ đẹp hơn\"?",
+        "expected_answers": [
+            "Herbalife Việt Nam"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về cuộc thi \"Tôi khoẻ mạnh hơn\". * Cuộc thi \"Tôi khoẻ mạnh hơn\" được hợp tác với Herbalife Việt Nam. [",
+        "score": 1
+    },
+    {
+        "question": "Theo tiến sĩ Joe Rubino, suy nghĩ tiêu cực tạo ra cảm giác gì?",
+        "expected_answers": [
+            "Buồn bã"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi ở đây để giúp bạn. * Suy nghĩ tiêu cực tạo ra cảm giác buồn bã, trầm cảm và trầm cảm.",
+        "score": 1
+    },
+    {
+        "question": "Theo nghiên cứu của Đại học Michigan, sự đồng cảm đã giảm bao nhiêu phần trăm?",
+        "expected_answers": [
+            "40"
+        ],
+        "model_response": " Người dùng đang hỏi về một nghiên cứu cụ thể từ bài báo. * Theo một nghiên cứu của Đại học Michigan năm 2010, mức độ đồng cảm giảm 40% từ những năm 1970 đến những năm 2000.",
+        "score": 1
+    },
+    {
+        "question": "Angela Lee Shuk-han có hình xăm đầu tiên cùng ai?",
+        "expected_answers": [
+            "Hai"
+        ],
+        "model_response": " Trả lời: Angela Lee Shuk-han có hình xăm đầu tiên với hai cô con gái, Chan và Yvonne.",
+        "score": 1
+    },
+    {
+        "question": "Theo mẹ của Laven Wong, ai dễ được chấp nhận hơn khi có nhiều hình xăm?",
+        "expected_answers": [
+            "Đàn ông"
+        ],
+        "model_response": " Mẹ cô ấy thấy đàn ông xăm nhiều hình xăm được chấp nhận hơn phụ nữ.",
+        "score": 1
+    },
+    {
+        "question": "Theo khảo sát của VnExpress, bao nhiêu phần trăm người từng bị bạn đời ghen tuông vô cớ?",
+        "expected_answers": [
+            "31"
+        ],
+        "model_response": " 31% * 29% * 10% * 1,1% * * Trả lời: * * 31% * * Dẫn chứng: * * Bài báo cho biết một cuộc khảo sát của VnExpress với gần 1.000 độc giả đã phát hiện ra rằng 31% số người đã từng xung đột về ghen tuông mà không có lý do.",
+        "score": 1
+    },
+    {
+        "question": "Hành động nào cho thấy người phụ nữ muốn đưa đối tác vào cuộc sống của mình?",
+        "expected_answers": [
+            "Giới thiệu"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, xem qua các bài báo và cung cấp câu trả lời cho người dùng. Dưới đây là một số dấu hiệu cho thấy một người phụ nữ quan tâm đến việc chia sẻ cuộc sống của mình với người yêu: * * * Cô ấy mở lòng và chia sẻ những bí mật và sự tổn thương sâu sắc nhất của mình với bạn. * * Điều này cho thấy sự tin tưởng và mong muốn gần gũi về mặt cảm xúc. * * * Cô ấy tìm kiếm sự hỗ trợ về mặt cảm xúc từ bạn trong những thời điểm đau buồn hoặc rối loạn cảm xúc. * * Điều này cho thấy cô ấy cảm thấy an toàn và an toàn với bạn. * * * Cô ấy thể hiện tình yêu thông qua sự tiếp xúc cơ thể. * * Đây là một cách hiệu quả để truyền đạt sự ấm áp, thoải mái và cảm giác an toàn. * * * Cô ấy muốn giới thiệu bạn với bạn bè và gia đình của mình. * * Điều này cho thấy cô ấy muốn chia sẻ hạnh phúc của mình với những người gần gũi nhất với cô ấy. * * * Cô ấy muốn cùng nhau lên kế hoạch cho tương lai. * * Điều này cho thấy cô ấy nhìn thấy tầm nhìn dài hạn về mối quan hệ. * * * Cô ấy ủng hộ và khuyến khích bạn. * * Cô ấy tin vào khả năng của bạn và muốn thấy bạn thành công. Hãy cho tôi biết nếu bạn có bất kỳ câu hỏi nào khác!",
+        "score": 1
+    },
+    {
+        "question": "Theo nghiên cứu trên Tạp chí Tâm lý xã hội châu Âu, tình yêu đích thực thường đòi hỏi điều gì?",
+        "expected_answers": [
+            "Sự hy sinh"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về những yêu cầu chính đối với tình yêu được xác định bởi nghiên cứu trên Tạp chí Tâm lý học Xã hội Châu Âu *. Theo Tạp chí Tâm lý học Xã hội Châu Âu, tình yêu thường đòi hỏi lòng vị tha và sự hy sinh. Những phụ nữ yêu sâu sắc sẵn sàng nâng cao hạnh phúc của người bạn đời bằng tất cả trái tim. Hành động vị tha này là minh chứng cho tình yêu sâu sắc và cam kết nuôi dưỡng một mối quan hệ hài hòa và trọn vẹn.",
+        "score": 1
+    },
+    {
+        "question": "Hành động vị tha của người phụ nữ thể hiện điều gì trong tình yêu?",
+        "expected_answers": [
+            "Sự cam kết"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và bổ ích. Sự vị tha của phụ nữ trong tình yêu phản ánh rõ ràng cảm xúc sâu sắc của cô. Cô sẵn sàng vượt lên trên để khiến người yêu của mình hạnh phúc và thoải mái. Điều này cho thấy cô quan tâm sâu sắc đến hạnh phúc của họ và muốn thấy họ thành công. Nó cũng thể hiện sự cam kết của cô đối với mối quan hệ và mong muốn nuôi dưỡng một mối quan hệ hài hòa và trọn vẹn.",
+        "score": 1
+    },
+    {
+        "question": "Bà Tài có bao nhiêu năm làm dâu?",
+        "expected_answers": [
+            "40"
+        ],
+        "model_response": " Người dùng đang hỏi về thời gian kết hôn của ông Thái. Cuộc hôn nhân của ông Thái kéo dài 40 năm.",
+        "score": 1
+    },
+    {
+        "question": "Thúy đã làm gì để kiếm thu nhập cho mẹ đẻ?",
+        "expected_answers": [
+            "Bán hàng"
+        ],
+        "model_response": " Thuỷ và mẹ cô đã cùng nhau bán hàng hoá để hỗ trợ gia đình.",
+        "score": 1
+    },
+    {
+        "question": "Xuân Huy và Xuân Hùng chào đời vào năm nào?",
+        "expected_answers": [
+            "2000"
+        ],
+        "model_response": " Họ sinh năm 2000.",
+        "score": 1
+    },
+    {
+        "question": "Hai anh em Xuân Huy và Xuân Hùng mắc bệnh gì?",
+        "expected_answers": [
+            "Bạch tạng"
+        ],
+        "model_response": " Người dùng đang hỏi về các vấn đề liên quan đến các cá nhân tên Xuân Huy và Xuân Hùng. * Xuân Huy và Xuân Hùng là cặp song sinh bạch tạng phải đối mặt với nhiều thách thức do tình trạng của họ. Họ thường xuyên bị bắt nạt và cô lập ở trường vì ngoại hình của họ. Điều này dẫn đến những khó khăn trong giáo dục, vì họ phải vật lộn để đọc và sao chép các bài học trên bảng do thị lực kém. Họ cũng phải đối mặt với sự phân biệt đối xử và định kiến từ những người bạn đồng trang lứa, những người gọi họ là \"người ngoài hành",
+        "score": 1
+    },
+    {
+        "question": "Ai tặng đàn organ cho Xuân Huy và Xuân Hùng?",
+        "expected_answers": [
+            "Nhà thiết kế"
+        ],
+        "model_response": " Một nhà thiết kế nổi tiếng sau này đã thực hiện một bộ ảnh về cuộc đời của Xuân Huy và Xuân Hùng và tặng cho họ một chiếc đàn organ vì đã nhận ra tài năng ca hát của họ.",
+        "score": 1
+    },
+    {
+        "question": "Tỷ lệ Gen Z cảm thấy nỗi sợ chủ nhật ít nhất một lần mỗi tháng là bao nhiêu phần trăm?",
+        "expected_answers": [
+            "74"
+        ],
+        "model_response": " Bài báo nói rằng 74 phần trăm thế hệ Z trải qua nỗi sợ hãi vào Chủ nhật ít nhất một lần một tháng.",
+        "score": 1
+    },
+    {
+        "question": "Tỷ lệ Gen Z muốn phát triển chuyên môn cá nhân hơn là trở thành quản lý là bao nhiêu phần trăm?",
+        "expected_answers": [
+            "72"
+        ],
+        "model_response": " Đây là một câu hỏi khó, nhưng tôi có thể giúp bạn tìm ra câu trả lời. Hãy chia nhỏ bài báo và tìm câu trả lời. Bài báo nói rằng 72% người millennials trong lực lượng lao động mong muốn phát triển nghề nghiệp cá nhân hơn là quản lý. Nó cũng nói rằng 16% nhân viên Gen Z được khảo sát nói rằng họ sẽ tránh quản lý cấp trung bằng mọi giá. * * Do đó, câu trả lời là 16% nhân viên Gen Z được khảo sát nói rằng họ sẽ tránh quản lý cấp trung bằng mọi giá. * * * Liên kết: * * ?",
+        "score": 1
+    },
+    {
+        "question": "Mục đích chính của cộng đồng LifeGenius là gì?",
+        "expected_answers": [
+            "Chia sẻ bí quyết"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về cộng đồng LifeGenius. * LifeGenius là một cộng đồng dành riêng cho người dùng LG, chia sẻ bí quyết và mẹo sử dụng sản phẩm, xây dựng lối sống lành mạnh, tích cực. Họ cung cấp các hội thảo, khóa học và các buổi chia sẻ trực tuyến để giúp các thành viên học hỏi, trao đổi và dẫn dắt một cuộc sống thông minh, lành mạnh.",
+        "score": 1
+    },
+    {
+        "question": "LifeGenius Việt Nam hoạt động trên nền tảng nào?",
+        "expected_answers": [
+            "Facebook"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và đầy đủ thông tin. * LifeGenius Việt Nam sử dụng một nhóm Facebook làm nền tảng chính cho các dịch vụ của mình.",
+        "score": 1
+    },
+    {
+        "question": "Thời gian hoạt động của quán Bato Cafe Omokenashi là từ ngày nào đến ngày nào?",
+        "expected_answers": [
+            "14 đến 23"
+        ],
+        "model_response": " Quán cà phê Bato Omokenashi là một nhà hàng mở cửa từ ngày 14 đến 23 tháng 9.",
+        "score": 1
+    },
+    {
+        "question": "Ai là đầu bếp giám sát các món ăn tại quán này?",
+        "expected_answers": [
+            "Shuhei Sawada"
+        ],
+        "model_response": " Bài báo nói rằng nhà hàng này được điều hành bởi một đầu bếp ngôi sao Michelin tên Shuhei Sawada. Trả lời: Đầu bếp trưởng chịu trách nhiệm về thức ăn tại quán cà phê Omokenashi Bato là đầu bếp ngôi sao Michelin Shuhei Sawada. [",
+        "score": 1
+    },
+    {
+        "question": "Ai là một trong những người tiên phong trong \"cơn sốt nữ giới câu cá\" ở Trung Quốc?",
+        "expected_answers": [
+            "Yu Shuxin"
+        ],
+        "model_response": " Yu Shuxin * * Giải thích: * * Bài báo nói rằng Yu Shuxin là một ca sĩ và diễn viên nổi tiếng, người tiên phong trong xu hướng \"sốt gái đánh bắt cá\" của Trung Quốc. * Yu Shuxin * ?",
+        "score": 1
+    },
+    {
+        "question": "Theo cô Li, việc câu cá có phải là trò tiêu khiển nhàn nhã không?",
+        "expected_answers": [
+            "Không"
+        ],
+        "model_response": " Người dùng đang hỏi về quan điểm của bà Li về việc câu cá là một hoạt động thư giãn. Bà Li, một phụ nữ trẻ bắt đầu câu cá ở Thượng Hải vài tháng trước, nói rằng câu cá mệt mỏi hơn so với các hoạt động ngoài trời khác mà cô đã làm. Cô cũng nói rằng cần phải học rất nhiều để trở thành một ngư dân chuyên nghiệp. Vì vậy, dựa trên thông tin được cung cấp, chúng ta có thể kết luận rằng bà Li không coi câu cá là một hoạt động thư giãn.",
+        "score": 1
+    },
+    {
+        "question": "Helly Tống đã tham gia hoạt động gì sau lễ phát động của chiến dịch?",
+        "expected_answers": [
+            "Thu gom rác"
+        ],
+        "model_response": " * * Kelly Song tham gia thu gom rác, tìm hiểu về mô hình máy tái chế, cách thức hoạt động và phân loại rác thải. * * * * Sau khi thu gom và phân loại rác thải, Vietnam Airlines chuyển nó về đất liền, xử lý tại nhà máy 5-10 tấn hàng ngày của Lagom. * * * * Các vật phẩm tái chế như bàn ghế, bình được trao cho người thân ở Côn Đảo. * * Helly Song tham gia quá trình thu gom rác thải sau khi chiến dịch được triển khai. Cô tìm hiểu về mô hình máy tái chế, cách thức hoạt động và phân loại rác thải. Sau khi chất thải được thu gom và phân loại, Vietnam Airlines vận chuyển đến nhà máy xử lý của Lagom trên đất liền. Các vật phẩm tái chế như bàn ghế, bình sau đó được trao cho người thân ở Côn Đảo. *",
+        "score": 1
+    },
+    {
+        "question": "Ai hợp tác với Vietnam Airlines trong sáng kiến tái chế này?",
+        "expected_answers": [
+            "Lagom"
+        ],
+        "model_response": " Xin lưu ý rằng tôi là chatbot AI và không thể truy cập các trang web bên ngoài hoặc các tệp cụ thể. * Dựa trên bài báo được cung cấp, Vietnam Airlines đang hợp tác với các công ty sau đây trong chương trình tái chế của họ: * * * Lagom: * * Công ty này đã phát triển mô hình máy tái chế được sử dụng để phân loại và xử lý chất thải nhựa. * * * Ủy ban nhân dân tỉnh Bà Rịa-Vũng Tàu: * * Cơ quan chính quyền địa phương này có liên quan đến các nỗ lực thu gom và quản lý chất thải. Hãy cho tôi biết nếu bạn có bất kỳ câu hỏi nào khác!",
+        "score": 1
+    },
+    {
+        "question": "Chiến dịch \"Bay nhẹ tới Côn Đảo\" nhằm giảm bao nhiêu phần trăm rác thải nhựa vào năm 2025?",
+        "expected_answers": [
+            "85"
+        ],
+        "model_response": " Mục tiêu giảm thiểu rác thải nhựa cho chiến dịch \"Vịnh ánh sáng đến Côn Đảo\" vào năm 2025 là 85%.",
+        "score": 1
+    },
+    {
+        "question": "Helly Tống đã tham gia hoạt động gì sau khi trải nghiệm tái chế rác thải?",
+        "expected_answers": [
+            "Thăm khu bảo tồn"
+        ],
+        "model_response": " Đây là một phản hồi mẫu và có thể được sửa đổi để phù hợp với nhu cầu của bạn. * Helly Song đã đến thăm khu bảo tồn sinh vật biển ở Vườn quốc gia Côn Đảo để tìm hiểu về hệ sinh thái, sự đa dạng của các sinh vật, phục vụ nghiên cứu và các dự án sắp tới.",
+        "score": 1
+    },
+    {
+        "question": "Huy Khang đã tiêm vaccine nào vào ngày 30/9?",
+        "expected_answers": [
+            "Sốt xuất huyết"
+        ],
+        "model_response": " **Bước 1: **Xác định các thông tin chính từ bài báo. * **Bước 2: **Xác định những gì người dùng đang hỏi. * * *Bước 3: * * Trả lời câu hỏi của người dùng dựa trên các thông tin được cung cấp. Dựa trên các thông tin được cung cấp trong bài báo, Huy Khang đã được tiêm vắc xin phòng sốt xuất huyết và cúm vào ngày 30/9. ?? .",
+        "score": 1
+    },
+    {
+        "question": "Chi phí điều trị sốt xuất huyết nội trú trung bình ở Thái Lan là bao nhiêu USD mỗi ngày?",
+        "expected_answers": [
+            "86"
+        ],
+        "model_response": " Câu hỏi của người sử dụng được trả lời dựa trên bài báo cung cấp. * Chi phí điều trị nội trú bệnh sốt xuất huyết trung bình tại Thái Lan là 86 USD (trên 2 triệu đồng) một ngày. ?? .",
+        "score": 1
+    },
+    {
+        "question": "Chi phí cho IVF mà Suan Bailey chi trả là bao nhiêu USD?",
+        "expected_answers": [
+            "50.000"
+        ],
+        "model_response": " Suan Bailey đã chi khoảng 50.000 đô la cho chi phí IVF và tiền thuê một căn hộ dịch vụ ở Bangkok.",
+        "score": 1
+    },
+    {
+        "question": "Có bao nhiêu phụ nữ Singapore sinh con ở tuổi 50 trở lên trong năm 2023?",
+        "expected_answers": [
+            "19"
+        ],
+        "model_response": " Bài báo nói rằng 19 phụ nữ Singapore sinh con từ 50 tuổi trở lên vào năm 2023. * Trả lời: * * 19",
+        "score": 1
+    },
+    {
+        "question": "UNIQLO Việt Nam ủng hộ bao nhiêu tiền để hỗ trợ đồng bào lũ lụt?",
+        "expected_answers": [
+            "1"
+        ],
+        "model_response": " UNIQLO Việt Nam đã quyên góp 1 tỷ đồng cùng với 9.000 bộ quần áo cho các điểm trường học ở huyện Văn Yên, tỉnh Yên Bái để hỗ trợ ngành giáo dục. Họ cũng đã tài trợ và 9.000 sản phẩm quần áo Re.UNIQLO cho các điểm trường học ở huyện Văn Yên, tỉnh Yên Bái.",
+        "score": 1
+    },
+    {
+        "question": "UNIQLO Việt Nam đã trao tặng bao nhiêu sản phẩm quần áo Re.UNIQLO?",
+        "expected_answers": [
+            "9.000"
+        ],
+        "model_response": " Bài báo nói rằng UNIQLO Việt Nam đã quyên góp 9.000 mặt hàng quần áo Re.UNIQLO. Trả lời: UNIQLO Việt Nam đã quyên góp 9.000 mặt hàng quần áo Re.UNIQLO. [",
+        "score": 1
+    },
+    {
+        "question": "Anh Sài đã trồng hoa hồng trong bao nhiêu năm?",
+        "expected_answers": [
+            "10"
+        ],
+        "model_response": " Chai đã trồng hoa hồng được 10 năm. * ",
+        "score": 1
+    },
+    {
+        "question": "Tổng cộng vườn của anh Sài hiện có bao nhiêu giống hoa?",
+        "expected_answers": [
+            "220"
+        ],
+        "model_response": " Người dùng đang tìm một thông tin cụ thể từ bài báo. Trả lời: Bài báo nói rằng vườn của Chú Sài có 220 giống hoa trong 55 mét vuông. [",
+        "score": 1
+    },
+    {
+        "question": "Anh Sài trồng hoa chủ yếu trên diện tích bao nhiêu mét vuông?",
+        "expected_answers": [
+            "55"
+        ],
+        "model_response": " Vườn trên mái nhà của Sài Huy chiếm 55 mét vuông.",
+        "score": 1
+    },
+    {
+        "question": "Gạch cua chứa nhiều chất dinh dưỡng nào?",
+        "expected_answers": [
+            "Protein"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về chân cua và giá trị dinh dưỡng của chúng. Chân cua là một nguồn protein tuyệt vời, rất cần thiết cho việc xây dựng và sửa chữa các mô. Chúng cũng chứa một lượng lớn vitamin và khoáng chất, bao gồm: * * * Vitamin B12: * * Quan trọng cho việc sản xuất tế bào hồng cầu và chức năng thần kinh. * * * Vitamin D: * * Giúp hấp thụ canxi và sức khỏe xương. * * * Selenium: * * Một chất chống oxy hóa mạnh mẽ bảo vệ tế bào khỏi bị tổn thương. * * * Zinc",
+        "score": 1
+    },
+    {
+        "question": "Jamal Al Nadak đã mua hòn đảo với giá bao nhiêu?",
+        "expected_answers": [
+            "50"
+        ],
+        "model_response": " 50 triệu đô la [Liên kết đến bài báo:",
+        "score": 1
+    },
+    {
+        "question": "Soudi Al Nadak kết hôn với triệu phú vào năm nào?",
+        "expected_answers": [
+            "2020"
+        ],
+        "model_response": " Cô kết hôn với Jamal Al Nadak vào năm 2020.",
+        "score": 1
+    },
+    {
+        "question": "Minh Hằng có thu nhập hàng tháng bao nhiêu từ nghề KOC?",
+        "expected_answers": [
+            "15"
+        ],
+        "model_response": " Ming Hang kiếm được 15 triệu đồng mỗi tháng với tư cách là một KOC.",
+        "score": 1
+    },
+    {
+        "question": "Theo khảo sát năm 2022, có bao nhiêu phần trăm người có sức ảnh hưởng tại Anh cho biết thu nhập giảm khi kinh tế suy thoái?",
+        "expected_answers": [
+            "36,7"
+        ],
+        "model_response": " Bài báo nói rằng 36,7% những người có ảnh hưởng ở Anh và 22,2% sao Internet ở Mỹ xác nhận thu nhập của họ giảm đáng kể khi nền kinh tế suy giảm. Dưới đây là phân tích: 1. Cuộc khảo sát được tiến hành vào năm 2022. 2. Cuộc khảo sát tập trung vào những nhân vật có ảnh hưởng ở Anh và Mỹ. 3. Cuộc khảo sát cho thấy 36,7% những người có ảnh hưởng ở Anh và 22,2% sao Internet ở Mỹ xác nhận thu nhập của họ giảm đáng kể khi nền kinh tế suy",
+        "score": 1
+    },
+    {
+        "question": "Minh Hằng phải đăng video bao nhiêu lần mỗi ngày để tăng tương tác?",
+        "expected_answers": [
+            "Ba"
+        ],
+        "model_response": " Minh Hằng, một thành viên của TikToker, đã kiệt sức vì công việc quá sức. Để tăng cường tương tác, cô phải đăng video ba lần một ngày vào một thời điểm cố định. Làm thế nào Minh Hằng có thể tối đa hóa tương tác video bằng cách điều chỉnh tần suất đăng video? Dưới đây là phân tích câu trả lời: 1. * * Phân tích tình hình hiện tại: * * Minh Hằng đăng video ba lần một ngày vào một thời điểm cố định, tần suất cao. Điều này có thể dẫn đến kiệt sức. 2. * * Hãy xem xét khán giả: * * Bài báo không nêu rõ phản ứng của khán giả đối với nội dung của cô. Tuy nhiên, nó cũng đề cập đến việc cô nhận được nhiều bình luận ác ý về ngoại hình hoặc sản phẩm đang được quảng cáo. Điều này cho thấy khán giả của cô đang bị thu hút, nhưng có khả năng rất quan trọng. 3. * * Thử nghiệm tần suất: * * Chìa khóa ở đây là tìm ra sự cân bằng giữa tần suất đăng và sự tương tác của khán giả. Tần suất thấp hơn có thể dẫn đến sự tương tác nhất quán hơn, nhưng cũng có thể dẫn đến số lượng khán giả ít hơn. * * Giải pháp: * * * * Giảm tần suất đăng: * * Thử đăng hai lần một ngày thay vì ba lần. Điều này có thể cho phép nội dung chất lượng cao hơn và ít mệt mỏi hơn. * * * Thử nghiệm thời gian: * * Thay vì thời gian cố định, hãy đăng vào những thời điểm khán giả của cô năng động nhất. Điều này có thể liên quan đến việc phân tích các phân tích của cô để xem khi nào khán giả của cô quan tâm nhất. * * * Đa dạng hóa nội dung: * * Thay vì tập trung vào một loại nội dung duy nhất, hãy thử nghiệm với các định dạng và chủ đề khác nhau. Điều này có thể giúp khán giả của cô gắn kết và không cảm thấy nhàm chán. * * Lưu ý: * * Bài báo không đưa ra lời khuyên cụ thể về cách tối đa hóa tương tác video. Những gợi ý trên dựa trên kiến thức chung về tiếp thị truyền thông xã hội và sự tương tác của khán giả.",
+        "score": 1
+    },
+    {
+        "question": "Lý Á Nam sống với ai sau khi mẹ mất?",
+        "expected_answers": [
+            "Ông bà ngoại"
+        ],
+        "model_response": " Li Ah-nan sống với ông bà ngoại sau khi mẹ cô qua đời.",
+        "score": 1
+    },
+    {
+        "question": "Có bao nhiêu học sinh tham gia ngày hội tại huyện Phước Sơn?",
+        "expected_answers": [
+            "238"
+        ],
+        "model_response": " Bài báo nói rằng 238 học sinh dân tộc Gieng Thieu đã tham gia trao đổi kiến thức về vệ sinh trường học tại Trường Tiểu học Dân tộc Phước Kim và Trường Trung học Dân tộc huyện Phước Sơn. Trả lời: 238 học sinh [",
+        "score": 1
+    },
+    {
+        "question": "Mỗi trường nhận bao nhiêu máy tính bảng từ Quỹ Hy vọng?",
+        "expected_answers": [
+            "15"
+        ],
+        "model_response": " Hãy cùng phân tích bài báo để tìm câu trả lời. Bài báo nói rằng mỗi trường trong số hai trường được nhận 15 bảng. Dưới đây là đường dẫn đến bài báo: ",
+        "score": 1
+    },
+    {
+        "question": "Cầu Hy Vọng 414 có chiều dài bao nhiêu mét?",
+        "expected_answers": [
+            "45"
+        ],
+        "model_response": " Quỹ Nhi đồng và nhà tài trợ đã triển khai xây dựng 5 cầu Hy Vọng ở phía Tây để giúp người dân vùng sâu đi lại thuận lợi và an toàn. Cuối tháng 9, người dân tại xã Thạnh Mỹ, huyện Vĩnh Thạnh, thành phố Cần Thơ đã bắt đầu triển khai xây dựng cầu Hy Vọng 414, bắc qua kênh Thắng Lợi. Cầu dài 45m, rộng 4m, có tổng vốn đầu tư 856 triệu đồng, trong đó Tổng công ty Ceragem Việt Nam tài trợ 170 triệu đồng thông qua Quỹ Nhi đồng. Cũng tại xã Thạnh Mỹ, cầu Hy Vọng 415, nối với kênh 8, đã khởi công xây dựng với tổng chi phí 605 triệu đồng, trong đó Quỹ Nhi đồng hỗ trợ 130 triệu đồng. Cầu dài 35m, rộng 4m. Tại lễ khởi công cầu 414 tại huyện Vĩnh Thạnh, thành phố Cần Thơ, Tổng giám đốc Kim Byeong Gon cho biết, sau 16 năm hoạt động tại Việt Nam, ngoài việc cung cấp dịch vụ chăm sóc sức khoẻ tại gia, công ty đã duy trì các hoạt động cho cộng đồng. \"Để tham gia dự án cầu Hy Vọng, chúng tôi cảm thấy đây là trách nhiệm của chúng tôi đối với xã hội, góp phần giải quyết khó khăn trong giao thông, lưu thông hàng hoá và nâng cao chất lượng cuộc sống cho người dân ở khu vực nông thôn\", ông Kim Byeong Gon cho biết. Đại diện Tổng công ty Ceragem Việt Nam khẳng định, mỗi cây cầu được xây dựng là động lực thúc đẩy công ty phấn đấu xây dựng thêm các công trình, góp phần phát triển kinh tế-xã hội. Tại huyện Cờ Đỏ, thành phố Cần Thơ, cầu Hy Vọng 419 được khởi công với tổng vốn đầu tư 426 triệu đồng, trong đó Quỹ Nhi đồng tài trợ 130 triệu đồng. Cầu bắc qua kênh Ngã Tư, tại ấp Thanh Lợi, xã Trùng Khánh, có chiều dài 36m, rộng 4m. Tại ấp Thạnh Lộc, xã Trùng Khánh, thành phố Cần Thơ, cầu Hy Vọng 420 được xây dựng với tổng vốn đầu tư 359 triệu đồng, trong đó Quỹ Nhi đồng đóng góp 130 triệu đồng. Cầu dài 30m, rộng 4m. Người dân tại xã Tây Phú, huyện Thoại Sơn, tỉnh An Giang đã rất phấn khởi khi cầu Hy Vọng 421 được khởi công. Tổng vốn đầu tư của cầu là 600 triệu đồng, trong đó Quỹ Nhi đồng đóng góp 150 triệu đồng. Với những cây cầu mới, người dân cảm thấy thoải mái khi đi lại, vận chuyển hàng hoá và trẻ em đến trường an toàn. Tổng vốn đầu tư cho 5 công trình này là hơn 2 tỷ đồng. Trong đó, Quỹ Nhi đồng đã huy động 710 triệu đồng; phần còn lại là đối ứng. 5 cây cầu này được xây dựng kiên cố, tất cả đều ở khu vực nông thôn của tỉnh An Giang và thành phố Cần Thơ, thay thế những cây cầu cũ đã được sửa chữa nhiều thập kỷ trước, đã xuống cấp, hư hỏng nặng, không an toàn cho học sinh đi học và vận chuyển nông sản của người dân. Xây dựng cầu là một hoạt động trong chương trình \"Đẩy trẻ đến trường\" do Quỹ Nhi đồng thực hiện từ năm 2018, nhằm cải thiện cơ sở hạ tầng giao thông, nâng cao chất lượng cuộc sống cho người dân và an toàn cho trẻ em đến trường ở các khu vực sông nước. Đến nay, chương trình đã xây dựng được hơn 420 cây cầu bê tông ở phía Tây. Đến năm 2024, chương trình dự kiến xây dựng được 80 cây cầu Hy Vọng. Để theo dõi chương trình, bạn có thể xem thêm thông tin và đi theo tại đây. Cửu Long, liên kết: Câu cầu dài 45m, rộng 4m.",
+        "score": 1
+    },
+    {
+        "question": "Tổng mức đầu tư cho 5 cầu là bao nhiêu?",
+        "expected_answers": [
+            "2"
+        ],
+        "model_response": " Tổng mức đầu tư cho 5 công trình trên là trên 2 tỷ đồng. Trong đó, Quỹ Hope huy động được 710 triệu đồng; phần còn lại có đi có lại.",
+        "score": 1
+    },
+    {
+        "question": "Quỹ Hy vọng đã xây mới bao nhiêu cầu bê-tông ở miền Tây tính đến nay?",
+        "expected_answers": [
+            "420"
+        ],
+        "model_response": " Tổ chức Hope Foundation đã xây hơn 420 cây cầu bê tông ở phương Tây.",
+        "score": 1
+    },
+    {
+        "question": "Tại sao ba phòng học ở điểm Mường Piệt không thể sử dụng?",
+        "expected_answers": [
+            "Xuống cấp"
+        ],
+        "model_response": " Ba phòng học tại điểm trường Mường Tiến được xây dựng vào năm 2024, diện tích hơn 42 m2, do Tổng công ty Xây dựng Việt Nam (VNCC) thiết kế. Các phòng học được bắt đầu xây dựng từ ngày 3/10 và được thiết kế để thay thế các phòng học xuống cấp. Các phòng học không được sử dụng vì trường thấp hơn đường, ngập lụt trong mùa mưa và lo ngại rằng ba phòng trên sẽ sụp đổ bất cứ lúc nào.",
+        "score": 1
+    },
+    {
+        "question": "Quỹ Hy vọng đã xây bao nhiêu phòng học cho các em học sinh tại điểm Mường Piệt?",
+        "expected_answers": [
+            "Ba"
+        ],
+        "model_response": " Bài báo nói rằng Tổ chức Hope đã xây dựng ba lớp học mới tại điểm trường Mường Tiến.",
+        "score": 1
+    },
+    {
+        "question": "Khi nào công trình ba phòng học tại điểm trường Mường Piệt được khởi công?",
+        "expected_answers": [
+            "3/10"
+        ],
+        "model_response": " Thời gian xây dựng 3 phòng học tại trường Mường Tiến dự kiến bắt đầu từ ngày 03/10./2012.",
+        "score": 1
+    },
+    {
+        "question": "Dung dịch nào được gọi là \"chất lỏng kỳ diệu\" trong chế biến ức gà?",
+        "expected_answers": [
+            "Nước muối"
+        ],
+        "model_response": " \"Nấu ức gà và thăn ngoại: Muối và đường giúp ức gà và thăn ngoại khó ngấm vào muối và đường để làm chúng ngon ngọt và mọng nước. Ức gà và thăn ngoại rất tốt cho sức khoẻ Chuyên gia dinh dưỡng Rob Hobson đã nói trong cuốn sách \"Không xử lý cuộc sống của bạn: Phá vỡ miễn phí khỏi thực phẩm siêu xử lý tốt\" rằng \"Khô là nguồn protein chất lượng cao cung cấp tất cả các axit amin cần thiết cho sự phát triển và sửa chữa cơ bắp cũng như nhiều chức năng khác của cơ thể. Ức gà, thịt lợn nạc và thịt bò chứa rất nhiều protein tốt cho các vận động viên, giảm cân và người già bởi vì nó giúp duy trì và sửa chữa cơ bắp, giúp tập thể dục và giúp giảm cơ do tuổi tác và giảm cân. Lý do ức gà và thăn ngoại bị khô là vì không giống như cá, thịt (thịt bò, thịt lợn nạc và thịt gà) có mô liên kết dày, các sợi protein cứng và cấu trúc cơ bắp mạnh mẽ, đặc biệt tập trung ở thăn ngoại, ức gà và đùi gà. Mọi loại thực phẩm thường được tạo thành từ bốn phân tử cơ bản, nước, chất béo, carbohydrate và protein. Khi đun nóng, các phân tử bên trong thực phẩm bắt đầu tăng tốc, va chạm và trải qua các phản ứng hoá học làm thay đổi kết cấu và hương vị của thực phẩm. Protein nói chung là các chất lưỡng cực, và trong điều kiện bình thường các sợi protein này giãn ra, nhưng khi đun nóng, chúng có nhiều khả năng bị biến tính, khiến các sợi co lại và ép ra các túi nước. Đó là lý do tại sao khi nấu ức gà và thăn ngoại, chúng có nhiều khả năng bị khô và mất hương vị. Một mẹo đơn giản để nâng cấp ức gà và thăn ngoại là sử dụng nước muối, trong ẩm thực châu Mỹ châu Âu được gọi là \"chất lỏng kỳ diệu.\" Muối giúp hoà tan chuỗi protein thành dung dịch keo đặc giúp hấp thụ và giữ nước tốt hơn, làm cho thịt ngon ngọt. Muối cũng giúp phá vỡ các enzyme và làm hỏng DNA của vi khuẩn, do đó ngăn chặn sự phát triển của chúng. Hơn nữa, theo quy tắc trung hoà vị giác, nước muối sẽ hấp thụ và khuếch tán để di chuyển từ môi trường mặn sang môi trường nhẹ hơn cho đến khi phân bố đều, làm cho món ăn tròn hơn bằng cách kích thích chồi mầm hoạt động. Thêm một chút đường giúp giữ nước tốt hơn vì quy tắc \"Giữ nước đường-đường\" và tăng hương vị umami mềm, ngọt ngào. Các đầu bếp ở các nhà hàng châu Mỹ châu Âu thường ngâm ức gà và thăn ngoại bằng phương pháp nước muối 5%.",
+        "score": 1
+    },
+    {
+        "question": "Thời gian ngâm tối thiểu để ức gà thấm gia vị là bao lâu?",
+        "expected_answers": [
+            "30"
+        ],
+        "model_response": " Thời gian ngâm ức gà tối thiểu là 30 phút.",
+        "score": 1
+    },
+    {
+        "question": "Phản ứng nào giúp thịt lên màu đẹp khi nướng?",
+        "expected_answers": [
+            "Phản ứng Maillard"
+        ],
+        "model_response": " Phản ứng Maillard là nguyên nhân làm thay đổi màu sắc thịt theo mong muốn. Phản ứng Maillard là một quá trình hóa học phức tạp xảy ra khi đường và các axit amin trong thịt được đun nóng. Phản ứng này tạo ra nhiều hợp chất hương vị và mùi thơm, cũng như màu nâu mà chúng ta liên tưởng đến thịt chín. Phản ứng Maillard là phản ứng hóa nâu không chứa enzyme xảy ra giữa quá trình khử đường và axit amin. Nó là một quá trình phức tạp bao gồm một loạt các phản ứng hóa học, bao gồm sự hình thành các hợp chất Amadori, melanoidin và các hợp chất hương vị và mùi thơm khác. Phản ứng Maillard chịu trách nhiệm cho sự thay đổi màu sắc mong muốn trong quá trình nấu thịt, cũng như sự phát triển hương vị và mùi thơm đặc trưng của thịt.",
+        "score": 1
+    },
+    {
+        "question": "Theo Vivan Tu, chúng ta nên làm gì thay vì tiết kiệm để nghỉ hưu?",
+        "expected_answers": [
+            "Đầu tư"
+        ],
+        "model_response": " Hãy cùng phân tích bài báo và tìm câu trả lời. Vivian Tu, một người tự mình trở thành triệu phú, đề xuất rằng thay vì tiết kiệm khi về hưu, bạn nên đầu tư khi về hưu. Cô nhấn mạnh rằng người giàu ưu tiên kiếm tiền và không quan tâm đến suy nghĩ của người khác. Dưới đây là phân tích lời khuyên của cô: * * * Tập trung đầu tư: * * Thay vì tiết kiệm khi về hưu, hãy đầu tư khi về hưu. * * * Ưu tiên kiếm tiền: * * Người giàu tập trung kiếm tiền và không quan tâm đến suy nghĩ của người khác. * * * Đầu tư tài sản tạo thu nhập: * * Người giàu đầu tư tài sản tạo thu nhập, chẳng hạn như bất động sản hoặc doanh nghiệp. * * Liên kết: * * ",
+        "score": 1
+    },
+    {
+        "question": "Để khử mùi tanh của cá, cần sử dụng nhiệt độ nào?",
+        "expected_answers": [
+            "Cao"
+        ],
+        "model_response": " Để khử mùi tanh trên cá, tốt nhất là bạn nên dùng nhiệt độ cao, chẳng hạn như nước sôi.",
+        "score": 1
+    },
+    {
+        "question": "Bữa ăn trọn gói trong sự kiện Genie Friends có giá bao nhiêu HKD?",
+        "expected_answers": [
+            "580"
+        ],
+        "model_response": " Một bữa ăn Thần Đèn Bạn bè có giá 580 HKD (1,8 triệu đô la) [Trả lời do chatbot AI cung cấp]",
+        "score": 1
+    },
+    {
+        "question": "Khi nào cần kiểm tra bảo mật trên thiết bị?",
+        "expected_answers": [
+            "Thường xuyên"
+        ],
+        "model_response": " Việc thường xuyên ưu tiên bảo mật thiết bị là rất quan trọng, nhưng dưới đây là một số tình huống cụ thể cần cảnh giác cao độ: 1. * * Khi bạn nhận được email hoặc liên kết đáng ngờ: * * Đừng nhấp vào bất cứ thứ gì bạn không chắc chắn. 2. * * Khi bạn sử dụng Wi-Fi công cộng: * * Mạng Wi-Fi công cộng thường không an toàn, khiến thiết bị của bạn dễ bị tin tặc tấn công. 3. * * Sau khi tải xuống hoặc cài đặt phần mềm từ những nguồn không rõ: * * Luôn thận trọng khi",
+        "score": 1
+    },
+    {
+        "question": "Nguyên liệu nào cần chuẩn bị để làm sốt trộn phở gà?",
+        "expected_answers": [
+            "Nước dùng"
+        ],
+        "model_response": " Đây là một câu trả lời mẫu và không bao gồm liên kết. * Để làm súp mì gà, bạn sẽ cần một vài thành phần thiết yếu: * * * Gà: * * Sử dụng gà nguyên con, xương hoặc xương cụt, để có hương vị đậm đà hơn. * * * Vẽ tranh: * * Chọn loại mì yêu thích của bạn, như mì trứng, mì ramen, hoặc thậm chí mì lúa mạch nguyên cám dày hơn. * * * Rau: * * Thêm một số loại rau để tăng hương vị và dinh dưỡng. Lựa chọn phổ biến bao gồm cà rốt, cần tây, hành tây và khoai tây. * * * Bos: * * Nước dùng gà là nước dùng chính, nhưng bạn cũng có thể dùng nước và thêm nước dùng gà viên để tăng hương vị. * * * Nguyên liệu: Muối, tiêu và các loại thảo mộc như cỏ xạ hương hoặc rau mùi tây rất cần thiết cho gia vị. Bạn cũng có thể thêm các thành phần khác như: * * * Gia vị: * * Cho hương vị mặn. * * * Ghi chú: * * Cho vị ấm và cay. * * * Nấm: * * Cho kết cấu ngọt và giòn. * * * Bánh mì: * * Cho màu xanh lá cây tươi tốt và rực rỡ. Hãy cho tôi biết nếu bạn muốn một công thức!",
+        "score": 1
+    },
+    {
+        "question": "Niềm tin rằng có thể thay đổi người yêu được coi là gì?",
+        "expected_answers": [
+            "Lời nói dối"
+        ],
+        "model_response": " Đây là một câu hỏi khó, vì bài viết bạn cung cấp không nói rõ rằng một người có thể thay đổi hành vi hay tính cách của người bạn đời của mình. Tuy nhiên, bài viết cũng bàn về những nguy hiểm của việc tin rằng bạn có thể thay đổi người bạn đời của mình. Bài viết nói rằng tin rằng bạn có thể thay đổi người bạn đời của mình là một lời nói dối nguy hiểm có thể khiến cả hai người đều thất vọng. Con người có thể phát triển và tiến hóa, nhưng sự thay đổi phải đến từ bên trong, chứ không phải từ nỗ lực hay kỳ vọng của người khác. Khi bạn bước vào một mối quan hệ với hy vọng thay đổi người bạn đời của mình, bạn không thực sự chấp nhận con người thật của họ. Những lời nói dối này dẫn đến sự thất vọng, oán giận, và thường bạn sẽ phải lòng phiên bản lý tưởng của người khác về con người thật của họ, chứ không phải con người thật của họ. Bài viết nhấn mạnh tầm quan trọng của việc chấp nhận con người thật của người bạn đời, thay vì cố gắng thay đổi họ.",
+        "score": 1
+    },
+    {
+        "question": "Khóa học \"Kỹ năng chỉnh sửa ảnh đẹp bằng điện thoại\" có giá gốc là bao nhiêu?",
+        "expected_answers": [
+            "299.000"
+        ],
+        "model_response": " Giá ban đầu của cặp khóa học là 299.000 đồng/khóa học.",
+        "score": 1
+    },
+    {
+        "question": "Ông Tuấn nhận được thông tin về em Sơn sau bao nhiêu năm?",
+        "expected_answers": [
+            "47"
+        ],
+        "model_response": " Trả lời: Bài báo nói rằng Tuấn đã cố gắng tìm kiếm người chị gái đã mất của mình, Con trai, trong 47 năm.",
+        "score": 1
+    },
+    {
+        "question": "Chị Bích định chi bao nhiêu tiền để làm lại trần thạch cao?",
+        "expected_answers": [
+            "5-7"
+        ],
+        "model_response": " Người dùng đang hỏi về chi phí trần thạch cao trong bài báo. * Bài báo nói rằng chi phí làm lại trần thạch cao là 5-7 triệu đồng. ?? .",
+        "score": 1
+    },
+    {
+        "question": "Mỗi giao dịch thanh toán bằng MoMo, Đông Tây Barbershop đóng góp bao nhiêu tiền cho Quỹ Hy vọng?",
+        "expected_answers": [
+            "5.000"
+        ],
+        "model_response": " Quỹ Hope và tiệm cắt tóc Đông Tây cùng xây dựng trường mới ở Điện Biên. Với mỗi giao dịch thanh toán MoMo, tiệm cắt tóc Đông Tây trích 5.000 đồng đóng góp với Quỹ Hope để xây dựng 3 lớp học mới ở Điện Biên. Đáp: Mỗi giao dịch MoMo tại tiệm cắt tóc Đông Tây đóng góp 5.000 đồng cho Quỹ Hope.",
+        "score": 1
+    },
+    {
+        "question": "Trường Phổ thông dân tộc bán trú Tiểu học và Trung học cơ sở Tân Lập cách trung tâm huyện Điện Biên Đông bao xa?",
+        "expected_answers": [
+            "40"
+        ],
+        "model_response": " Khoảng cách là khoảng 40 km.",
+        "score": 1
+    },
+    {
+        "question": "Cần thêm gì vào giấm trắng để tạo bẫy diệt ruồi?",
+        "expected_answers": [
+            "Nước rửa bát"
+        ],
+        "model_response": " Hãy cùng nói về cách làm bẫy ruồi! Có một vài phương pháp đơn giản mà bạn có thể sử dụng. Dưới đây là một vài phương pháp phổ biến: * * Phương pháp 1: Bẫy giấm cổ điển * * * Bạn cần: * * Giấm trắng, nước rửa bát, một cái bát và một ít đường (không bắt buộc) * * * Cách làm: * * 1. Đổ hỗn hợp giấm trắng và nước rửa bát vào bát. 2. Thêm một ít đường để làm cho hỗn hợp hấp dẫn hơn với ruồi. 3. Đặt bát ở những nơi ruồi thường bay đến. Giấm và xà phòng sẽ tạo ra một bề mặt dính mà ruồi sẽ bị mắc kẹt vào. * * Phương pháp 2: Bẫy đường và dầu * * * Bạn cần: * * Đường nâu, bột giặt, dầu ăn và một chai nhựa. * * * Cách làm: * * 1. Trộn đường nâu và bột giặt theo tỷ lệ 2: 1. Thêm dầu ăn và nước vào hỗn hợp. 3. Đổ hỗn hợp vào một chai nhựa, để lại một lỗ nhỏ ở dưới đáy. 4. Ruồi sẽ bị thu hút bởi mùi ngọt ngào của hỗn hợp đường và hỗn hợp dày. Chúng sẽ bị mắc kẹt trong chai. * * Phương pháp 3: Bẫy chai nhựa * * * Bạn cần: * * Một chai nhựa cũ, đường hoặc chuối chín và một ít nước. * * * Cách làm: * * 1. Cắt một phần ba chai và lật đầu chai xuống dưới. 2. Đặt đường hoặc chuối chín dưới đáy chai. 3. Ruồi sẽ bị thu hút bởi hỗn hợp và rơi vào bẫy. * * Phương pháp 4: Bẫy nước và đồng xu * * * Bạn cần: * * Một túi nhựa dày, trong suốt, tiền xu và nước. * * * Cách làm: * * 1. Đổ đầy túi với nước. 2. Buộc chặt túi. 3. Treo túi ngoài cửa sổ hoặc ban công. Ánh sáng phản chiếu từ những đồng xu sẽ xua đuổi ruồi đi. * * Hãy nhớ: * * Giữ cho không gian sống sạch sẽ để giảm số lượng ruồi ở nơi đầu tiên.",
+        "score": 1
+    },
+    {
+        "question": "Khi sử dụng túi nước và đồng xu, cần bao nhiêu đồng xu trong túi?",
+        "expected_answers": [
+            "5-6"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về số lượng tiền xu cần thiết để đổ đầy một túi nước và tiền xu *. Để trả lời câu hỏi này, bạn sẽ cần xem bài viết về các mẹo giết ruồi. Bài viết mô tả cách làm bẫy ruồi bằng túi nhựa, tiền xu và nước. Nó không chỉ rõ số lượng tiền xu cần thiết, nhưng nó đề cập rằng bạn nên bỏ 5-6 đồng xu vào túi.",
+        "score": 1
+    },
+    {
+        "question": "Chủ tịch Fed Jerome Powell dự đoán lãi suất sẽ giảm bao nhiêu điểm cơ bản trong phiên họp tới?",
+        "expected_answers": [
+            "25"
+        ],
+        "model_response": " Jerome Powell cho biết Fed dự định cắt giảm 25 điểm cơ bản (0,25% ) trong phiên họp sắp tới. 108 Tại một diễn đàn kinh tế ở Tennessee vào ngày 30/9, Chủ tịch Cục Dự trữ Liên bang Jerome Powell nói rằng Fed \"không thấy cần phải vội vàng cắt giảm mạnh lãi suất.\" 109 Quan chức Fed dự báo giảm 0,5% vào cuối năm nay và giảm 1% vào năm tới. 109 Vào năm 2026, Fed sẽ giảm thêm 0,5% để đưa con số này trở lại 2,",
+        "score": 1
+    },
+    {
+        "question": "Mục tiêu của Fed là đưa lạm phát về mức nào?",
+        "expected_answers": [
+            "2"
+        ],
+        "model_response": " Mục tiêu của Cục Dự trữ Liên bang về lạm phát là 2%.",
+        "score": 1
+    },
+    {
+        "question": "Tốc độ tăng trưởng bình quân của Masan Consumer trong 6-7 năm qua là bao nhiêu phần trăm?",
+        "expected_answers": [
+            "15"
+        ],
+        "model_response": " Xin lưu ý rằng tôi là một chatbot AI và không thể truy cập các trang web bên ngoài hoặc các tệp cụ thể. * Bài báo nói rằng Masan Consumer đã đạt được tốc độ tăng trưởng trung bình hàng năm là 15% trong sáu đến bảy năm qua.",
+        "score": 1
+    },
+    {
+        "question": "Cổ phiếu ngân hàng nào có thanh khoản tăng gấp 8 lần so với phiên trước?",
+        "expected_answers": [
+            "OCB"
+        ],
+        "model_response": " Xin hãy đưa ra câu trả lời súc tích và đầy đủ thông tin. * Bài báo nói rằng OCB đã tăng thanh khoản gấp tám lần so với phiên giao dịch trước đó. [",
+        "score": 1
+    },
+    {
+        "question": "Mức thuế nhập khẩu pin mặt trời từ Trung Quốc tại Mỹ là bao nhiêu sau khi tăng?",
+        "expected_answers": [
+            "50"
+        ],
+        "model_response": " Thuế quan hiện hành đối với pin mặt trời nhập khẩu từ Trung Quốc sang Mỹ là 50%. * ",
+        "score": 1
+    },
+    {
+        "question": "Quốc gia nào áp thuế VAT 7% với hàng nhập khẩu từ Trung Quốc?",
+        "expected_answers": [
+            "Thái Lan"
+        ],
+        "model_response": " Thái Lan cũng áp dụng thuế giá trị gia tăng 7% đối với tất cả hàng hóa nhập khẩu, ít nhất là cho đến tháng 12, để bảo vệ ngành sản xuất trong nước. Trả lời: Thái Lan đánh thuế giá trị gia tăng 7% đối với hàng hóa nhập khẩu từ Trung Quốc. Liên kết: ?? .",
+        "score": 1
+    },
+    {
+        "question": "Thâm hụt thương mại giữa Mỹ và Trung Quốc tăng lên bao nhiêu từ năm 2018 đến 2023?",
+        "expected_answers": [
+            "773"
+        ],
+        "model_response": " Thâm hụt thương mại Mỹ-Trung đã tăng từ 621 tỷ USD lên 773 tỷ USD trong giai đoạn 2018-2023.",
+        "score": 1
+    },
+    {
+        "question": "Láng giềng nào của Mỹ đã thay thế Trung Quốc trở thành đối tác thương mại hàng đầu vào năm 2023?",
+        "expected_answers": [
+            "Mexico"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và giàu thông tin. * Đối tác thương mại hàng đầu của Hoa Kỳ vào năm 2023 là Mexico. Đây là lý do tại sao: * * * Dữ liệu thương mại: * * Bài báo mà bạn cung cấp đề cập đến việc xuất khẩu của Trung Quốc sang Hoa Kỳ đang tăng lên, nhưng nó cũng nhấn mạnh rằng Mexico đã trở thành đối tác thương mại hàng đầu của Hoa Kỳ. * * * Dịch vụ thương mại: * * Bài báo nói rằng xuất khẩu của Trung Quốc đang tăng lên, nhưng Hoa Kỳ đã chuyển dịch thương mại sang Mexico. Bạn có thể tìm thấy thêm thông tin về sự thay đổi thương mại này ở đây: [ Hãy cho tôi biết nếu bạn có bất kỳ câu hỏi nào khác!",
+        "score": 1
+    },
+    {
+        "question": "Xuất khẩu của Trung Quốc vào tháng 8 năm 2023 tăng bao nhiêu phần trăm so với cùng kỳ năm trước?",
+        "expected_answers": [
+            "8,7"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện và hữu ích. * Xuất khẩu của Trung Quốc vào tháng 8 năm 2023 đã tăng 8,7% so với cùng kỳ năm ngoái. ",
+        "score": 1
+    },
+    {
+        "question": "Lượng hạt tiêu Việt Nam xuất khẩu trong tháng 9 năm nay là bao nhiêu tấn?",
+        "expected_answers": [
+            "20.000"
+        ],
+        "model_response": " Việt Nam đã xuất khẩu 20.000 tấn ớt vào tháng 9 năm 2023, kiếm được 125 triệu USD.",
+        "score": 1
+    },
+    {
+        "question": "Giá trung bình xuất khẩu hạt tiêu của Việt Nam trong tháng 9 là bao nhiêu USD một tấn?",
+        "expected_answers": [
+            "6.239"
+        ],
+        "model_response": " Giá xuất khẩu tiêu Việt Nam trung bình trong tháng 9 là 6.239 USD / tấn.",
+        "score": 1
+    },
+    {
+        "question": "Tỷ lệ thị phần xuất khẩu hồ tiêu của Việt Nam trên toàn cầu là bao nhiêu?",
+        "expected_answers": [
+            "60"
+        ],
+        "model_response": " Việt Nam là nước xuất khẩu ớt lớn nhất thế giới, chiếm khoảng 60% thị phần toàn cầu.",
+        "score": 1
+    },
+    {
+        "question": "Sản lượng dầu của Iran chiếm bao nhiêu phần trăm sản lượng dầu thô toàn cầu?",
+        "expected_answers": [
+            "3"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẽ cố gắng hết sức để trả lời các câu hỏi của bạn một cách hữu ích và giàu thông tin. * Iran đóng góp khoảng 3,2 triệu thùng dầu mỗi ngày cho sản lượng dầu của thế giới. [",
+        "score": 1
+    },
+    {
+        "question": "Đến nay, Israel có tấn công vào cơ sở dầu mỏ của Iran không?",
+        "expected_answers": [
+            "Không"
+        ],
+        "model_response": " Bài báo không đề cập đến việc Israel có tiến hành bất kỳ cuộc tấn công nào vào cơ sở hạ tầng dầu mỏ của Iran hay không.",
+        "score": 1
+    },
+    {
+        "question": "OpenAI huy động được bao nhiêu tỷ USD trong vòng gọi vốn mới nhất?",
+        "expected_answers": [
+            "6,6"
+        ],
+        "model_response": " OpenAI đã nhận được 6,6 tỷ đô la trong vòng tài trợ gần đây nhất.",
+        "score": 1
+    },
+    {
+        "question": "Công ty nào hỗ trợ mạnh nhất cho OpenAI?",
+        "expected_answers": [
+            "Microsoft"
+        ],
+        "model_response": " Gần đây, OpenAI đã huy động được 6,6 tỷ đô-la vốn, định giá công ty ở mức 157 tỷ đô-la. Microsoft là công ty có sự hậu thuẫn mạnh mẽ nhất cho OpenAI cho đến nay. Các quỹ đầu tư mạo hiểm như Thrive Capital, Khosla Ventures, Altimeter Capital, Fidelity, SoftBank và công ty đầu tư quốc gia của Abu Dhabi MGX cũng tham gia. Apple ban đầu dự định đầu tư vào OpenAI nhưng đã bị từ chối, theo WSJ. Sau đây là một số công ty có quan hệ đối tác mạnh với OpenAI: * * * Microsoft: * * Microsoft là nhà đầu tư chính của OpenAI và đã tích hợp công nghệ của OpenAI vào các sản phẩm và dịch vụ của công ty. * * * Nvidia: * * Nvidia cũng là nhà đầu tư chính của OpenAI và đã hợp tác với công ty trong nghiên cứu và phát triển AI. * * * Thrive Capital là một công ty đầu tư mạo hiểm đã đầu tư vào OpenAI và tích cực tham gia vào quá trình phát triển của công ty. * * * Kolyla Ventures: * * Khosla Ventures là một công ty đầu tư mạo hiểm đã đầu tư vào OpenAI và đang cùng công ty thực hiện nhiều dự án khác nhau. * * * Altimeter Capital: * * Altimeter Capital là một công ty đầu tư mạo hiểm đã đầu tư vào OpenAI và đang hỗ trợ công ty mở rộng quy mô hoạt động. * * * Fidelity: * * Fidelity là nhà đầu tư chính của OpenAI và đang giúp công ty mở rộng quy mô hoạt động. * * * SoftBank: * * SoftBank là nhà đầu tư chính của OpenAI và đang hỗ trợ công ty trong nghiên cứu và phát triển. * * * Công ty đầu tư quốc gia của Abu Dhabi MGX: * * MGX là công ty đầu tư quốc gia tại Abu Dhabi đã đầu tư vào OpenAI và đang giúp công ty mở rộng phạm vi toàn cầu. * * *",
+        "score": 1
+    },
+    {
+        "question": "Định giá hiện tại của OpenAI là bao nhiêu?",
+        "expected_answers": [
+            "157"
+        ],
+        "model_response": " OpenAI hiện có giá trị 157 tỷ đô la Mỹ.",
+        "score": 1
+    },
+    {
+        "question": "FPT Long Châu có bao nhiêu nhà thuốc?",
+        "expected_answers": [
+            "2.000"
+        ],
+        "model_response": " Bài báo nói rằng FPT Long Châu có gần 2.000 nhà thuốc và 123 trung tâm tiêm chủng. * FPT Long Châu có gần 2.000 nhà thuốc và 123 trung tâm tiêm chủng. [",
+        "score": 1
+    },
+    {
+        "question": "Lượng gạo xuất khẩu của Việt Nam trong chín tháng đầu năm là bao nhiêu tấn?",
+        "expected_answers": [
+            "7"
+        ],
+        "model_response": " Bài báo mà ông cung cấp là về xuất khẩu gạo và tiêu của Việt Nam. * Việt Nam đã xuất khẩu hơn 7 triệu tấn gạo trong chín tháng đầu năm.",
+        "score": 1
+    },
+    {
+        "question": "GEFE là diễn đàn hợp tác giữa những quốc gia nào?",
+        "expected_answers": [
+            "Việt Nam, châu Âu"
+        ],
+        "model_response": " Bài báo đề cập rằng GEFE là diễn đàn hợp tác giữa Việt Nam, Châu Âu, các chuyên gia quốc tế và cộng đồng doanh nghiệp đa ngành lớn. Nó cũng đề cập rằng diễn đàn đã thu hút hàng trăm chuyên gia, doanh nghiệp hàng đầu và các tổ chức chính phủ. * Dựa trên thông tin được cung cấp trong bài báo, chúng ta có thể suy ra các thành viên của diễn đàn hợp tác GEFE bao gồm: 1. * * Việt Nam * * 2. * * Châu Âu * * 3. * * Chuyên gia quốc tế * * 4. * * Cộng đồng doanh nghiệp đa ngành lớn * * Hãy cho tôi biết nếu bạn có bất kỳ câu hỏi nào khác.",
+        "score": 1
+    },
+    {
+        "question": "Năm nào Việt Nam công bố mục tiêu phát thải ròng bằng 0?",
+        "expected_answers": [
+            "2021"
+        ],
+        "model_response": " Trả lời: Việt Nam công bố mục tiêu phát thải ròng là 0 vào năm 2050 (Net Zero) vào năm 2021.",
+        "score": 1
+    },
+    {
+        "question": "Trong năm 2022, số người tham gia sự kiện GEFE là bao nhiêu?",
+        "expected_answers": [
+            "6.000"
+        ],
+        "model_response": " Bài báo nói rằng GEFE 2022 lần đầu tiên thu hút 6.000 người, hơn 160 diễn giả, tham gia 31 hội thảo, 185 nhà triển lãm trưng bày các sản phẩm, giải pháp và công nghệ xanh. Câu trả lời: 6.000",
+        "score": 1
+    },
+    {
+        "question": "Ông Bruno Jaspaert khẳng định điều gì về lộ trình Net Zero của Việt Nam?",
+        "expected_answers": [
+            "Đóng góp tích cực"
+        ],
+        "model_response": " Bruno Jaspaert, chủ tịch EuroCham, nói rằng Diễn đàn và Triển lãm Kinh tế Xanh (GEFE) là một đóng góp tích cực cho quá trình chuyển đổi xanh. Trong bài phát biểu của mình, ông nói rằng sự kiện này là cầu nối để mang nhiều dự án đầu tư FDI xanh đến Việt Nam trong tương lai. Bruno Jaspaert cũng nói rằng GEFE là một \"cuốn sách xanh\" đi cùng Việt Nam trong COP. Trả lời: Bruno Jaspaert tin rằng GEFE là một đóng góp tích cực cho quá trình chuyển đổi xanh và là cầu nối để mang các dự án đầu tư FDI xanh đến Việt Nam. Ông cũng coi GEFE là một \"cuốn sách xanh\" đi cùng Việt Nam trong COP.",
+        "score": 1
+    },
+    {
+        "question": "Quá trình chuyển đổi sang nền kinh tế bền vững có thể tạo ra bao nhiêu việc làm vào năm 2030?",
+        "expected_answers": [
+            "395"
+        ],
+        "model_response": " Cao ủy Liên minh châu Âu cho biết việc chuyển đổi sang một nền kinh tế bền vững có thể tạo ra 395 triệu việc làm vào năm 2030. Dưới đây là câu trả lời: Cao ủy EU cho biết việc chuyển đổi sang một nền kinh tế bền vững có thể tạo ra 395 triệu việc làm vào năm 2030.",
+        "score": 1
+    },
+    {
+        "question": "Chỉ số PMI tháng 9 của eurozone đạt bao nhiêu điểm?",
+        "expected_answers": [
+            "45"
+        ],
+        "model_response": " Chỉ số PMI tháng 9 của khu vực châu Âu là 45.",
+        "score": 1
+    },
+    {
+        "question": "Dự báo sản lượng công nghiệp quý III của eurozone giảm bao nhiêu phần trăm so với quý trước?",
+        "expected_answers": [
+            "1"
+        ],
+        "model_response": " Cyrus de la Rubia, nhà kinh tế trưởng của Ngân hàng Thương mại Hamburg (Đức), dự báo sản lượng công nghiệp quý III của khu vực đồng euro giảm 1% so với quý trước. Trả lời: Sản lượng công nghiệp quý III của khu vực đồng euro dự kiến sẽ giảm 1% so với quý trước. [",
+        "score": 1
+    },
+    {
+        "question": "Nhu cầu toàn cầu dự kiến sẽ tiếp tục như thế nào trong những tháng tới?",
+        "expected_answers": [
+            "Yếu"
+        ],
+        "model_response": " Bài báo nói rằng nhu cầu toàn cầu được dự đoán sẽ tiếp tục suy yếu trong những tháng tới. Đây là lý do tại sao: * * * Sản xuất suy yếu: * * Bài báo nhấn mạnh rằng sản xuất đang chậm lại ở nhiều khu vực, bao gồm châu Âu, châu Á và Nhật Bản. Điều này cho thấy nhu cầu giảm. * * * Dự đoán IMF: * * Quỹ Tiền tệ Quốc tế (IMF) dự đoán rằng các nền kinh tế châu Á sẽ \"bốc hơi\" khi lạm phát giảm, cho phép các ngân hàng trung ương nới lỏng chính sách tiền",
+        "score": 1
+    },
+    {
+        "question": "Mục tiêu đào tạo bao nhiêu kỹ sư ngành bán dẫn được đề cập trong sự kiện?",
+        "expected_answers": [
+            "50.000"
+        ],
+        "model_response": " Bài báo nói rằng Trung tâm Đổi mới Quốc gia (NIC) đã tích cực triển khai chương trình phát triển nguồn nhân lực bán dẫn. Mục tiêu là đào tạo 1.300 giảng viên và 50.000 kỹ sư trong ngành bán dẫn. * Chương trình nhằm đào tạo 1.300 giảng viên và 50.000 kỹ sư trong ngành bán dẫn.",
+        "score": 1
+    },
+    {
+        "question": "Mục tiêu đào tạo bao nhiêu kỹ sư trong ngành bán dẫn được đề cập trong bài viết?",
+        "expected_answers": [
+            "50.000"
+        ],
+        "model_response": " Bài báo nói rằng trung tâm đã tích cực triển khai chương trình phát triển nguồn nhân lực bán dẫn. Mục tiêu là đào tạo 1.300 giảng viên và 50.000 kỹ sư trong ngành bán dẫn. * Đối tượng mục tiêu của chương trình đào tạo là 1.300 giảng viên và 50.000 kỹ sư. ?? .",
+        "score": 1
+    },
+    {
+        "question": "Ai là đại diện của Tập đoàn Meta tham gia sự kiện?",
+        "expected_answers": [
+            "Nick Clegg"
+        ],
+        "model_response": " Nick Clegg, Chủ tịch Hội đồng Ngoại giao Toàn cầu của Meta Group, đã có mặt tại sự kiện này.",
+        "score": 1
+    },
+    {
+        "question": "VIC 2024 thu hút bao nhiêu giải pháp từ các quốc gia và vùng lãnh thổ?",
+        "expected_answers": [
+            "750"
+        ],
+        "model_response": " Hơn 750 giải pháp từ 20 quốc gia và vùng lãnh thổ.",
+        "score": 1
+    },
+    {
+        "question": "Ngày hội Đổi mới sáng tạo Việt Nam 2024 diễn ra vào những ngày nào?",
+        "expected_answers": [
+            "1-2"
+        ],
+        "model_response": " Bài báo nói rằng Ngày Đổi mới sáng tạo Việt Nam 2024 (đổi mới Việt Nam 2024) diễn ra từ ngày 1-2/10. * * Trả lời: * * Ngày Đổi mới sáng tạo Việt Nam 2024 diễn ra từ ngày 1-2/10. [",
+        "score": 1
+    },
+    {
+        "question": "Người gửi thắc mắc có khoản tiền nhàn rỗi mỗi tháng là bao nhiêu?",
+        "expected_answers": [
+            "15"
+        ],
+        "model_response": " Người gửi cho biết họ có thặng dư 15 triệu đô-la mỗi tháng. Đây là số tiền nhàn rỗi mà người gửi có: 1. Người gửi cho biết họ có thặng dư 15 triệu đô-la mỗi tháng. 2. Điều này có nghĩa là họ có 15 triệu đô-la rảnh rỗi mỗi tháng. 3. Do đó, người gửi có 15 triệu đô-la nhàn rỗi mỗi tháng. [",
+        "score": 1
+    },
+    {
+        "question": "Iran đã phóng ra bao nhiêu tên lửa đạn đạo vào Israel theo ước tính của Bộ Quốc phòng Israel?",
+        "expected_answers": [
+            "180"
+        ],
+        "model_response": " Theo bài báo, Lực lượng Phòng vệ Israel (IDF) ước tính rằng Iran đã bắn khoảng 180 tên lửa đạn đạo trong các cuộc tấn công ngày 1/10.",
+        "score": 1
+    },
+    {
+        "question": "Giá dầu Brent đã tăng bao nhiêu phần trăm trong bối cảnh căng thẳng gia tăng?",
+        "expected_answers": [
+            "2,6"
+        ],
+        "model_response": " Người dùng đang yêu cầu thay đổi giá dầu Brent do căng thẳng địa chính trị leo thang. Giá dầu Brent tăng 2,6% lên 73,5 đô la một thùng vào ngày 1 tháng 10. Dưới đây là bảng phân tích sự thay đổi: * * * Giá ban đầu: * * 71 đô la. * * * Thay đổi: * * 73,5 đô la - 71 đô la = 2,5 đô la * * Do đó, giá dầu Brent tăng 2,5 đô la một thùng do căng thẳng địa chính trị leo thang. * * [",
+        "score": 1
+    },
+    {
+        "question": "Theo Quy hoạch điện VIII, công suất điện gió ngoài khơi đến năm 2030 là bao nhiêu MW?",
+        "expected_answers": [
+            "6.000"
+        ],
+        "model_response": " Bài báo nói rằng công suất điện gió ngoài khơi vào năm 2030 là khoảng 6.000 MW. * Cho tôi biết nếu bạn muốn tôi giải thích chi tiết về bất cứ điều gì!",
+        "score": 1
+    },
+    {
+        "question": "Ai đã được giao thực hiện khảo sát điện gió ngoài khơi?",
+        "expected_answers": [
+            "PVN"
+        ],
+        "model_response": " Bài báo nói rằng Bộ Công Thương và Tập đoàn Dầu khí Việt Nam (PVN) được giao nhiệm vụ báo cáo và đề xuất Thủ tướng Chính phủ giao cho tập đoàn này thực hiện khảo sát và thí điểm điện gió ngoài khơi.",
+        "score": 1
+    },
+    {
+        "question": "Trong báo cáo tài chính năm nào, DLG đã bị đưa ra ý kiến ngoại trừ đầu tiên?",
+        "expected_answers": [
+            "2022"
+        ],
+        "model_response": " Trả lời: Theo bài báo, Tập đoàn Đức Long Gia Lai (DLG) lần đầu tiên trải qua một loại trừ trong báo cáo kiểm toán vào năm 2022. [",
+        "score": 1
+    },
+    {
+        "question": "Cổ phiếu nào có thanh khoản cao nhất trên thị trường hôm nay?",
+        "expected_answers": [
+            "HPG"
+        ],
+        "model_response": " Bài báo đề cập đến những cổ phiếu có tính thanh khoản cao sau đây: VHM, VPB, HPG, ORS. * Dưới đây là những cổ phiếu có tính thanh khoản cao nhất hiện có trên thị trường ngày nay: VHM, VPB và HPG là những cổ phiếu có tính thanh khoản cao nhất trên thị trường ngày nay. Hãy cho tôi biết nếu bạn có bất kỳ câu hỏi nào khác.",
+        "score": 1
+    },
+    {
+        "question": "Việt Nam thu về bao nhiêu USD từ xuất khẩu cà phê trong 9 tháng?",
+        "expected_answers": [
+            "4,4"
+        ],
+        "model_response": " Câu hỏi của người dùng là về doanh thu xuất khẩu cà phê của Việt Nam trong chín tháng đầu năm bằng đô la Mỹ. Bài báo cung cấp thông tin. * Việt Nam đã kiếm được gần 4,4 tỷ đô la Mỹ từ xuất khẩu cà phê trong chín tháng đầu năm.",
+        "score": 1
+    },
+    {
+        "question": "Giá bình quân cà phê xuất khẩu đạt bao nhiêu USD một tấn trong tháng 9?",
+        "expected_answers": [
+            "5.469"
+        ],
+        "model_response": " Giá xuất khẩu cà phê bình quân trên một tấn trong tháng 9 là 5.469 USD.",
+        "score": 1
+    },
+    {
+        "question": "Giá cà phê mỗi kg đã tăng từ mức bao nhiêu lên 129.000 đồng vào tháng 4?",
+        "expected_answers": [
+            "40.000"
+        ],
+        "model_response": " Người dùng đang tìm kiếm mức tăng giá cà phê trên kg từ mức trước đó lên 129.000 đồng vào tháng Tư. * Bài báo cho biết giá cà phê trên kg tăng từ 40.000 đồng vào đầu năm 2023 lên 129.000 đồng vào tháng Tư. Do đó, mức tăng giá cà phê trên kg là 89.000 đồng (129.000 đồng - 40.000 đồng).",
+        "score": 1
+    },
+    {
+        "question": "Hãng xe nào của Trung Quốc ký hợp đồng liên doanh với Tasco để xây nhà máy tại Thái Bình?",
+        "expected_answers": [
+            "Geely"
+        ],
+        "model_response": " Đây là một chatbot AI thân thiện, và tôi sẵn sàng trả lời các câu hỏi của bạn. Trả lời: Geely đang hợp tác với Tasco để thành lập một nhà máy ở Taiping.",
+        "score": 1
+    },
+    {
+        "question": "Mức thuế mà EU áp lên xe điện nhập khẩu từ Trung Quốc là bao nhiêu phần trăm?",
+        "expected_answers": [
+            "17,4-37,6"
+        ],
+        "model_response": " EU đã thông báo sẽ áp thuế chống trợ cấp từ 17,4-37,6% đối với xe điện nhập khẩu từ Trung Quốc, thay vì mức 10% chung trước đây. Trả lời: EU sẽ áp thuế chống trợ cấp từ 17,4-37,6% đối với xe điện nhập khẩu từ Trung Quốc. [",
+        "score": 1
+    },
+    {
+        "question": "Vietnam Airlines đã thu gom bao nhiêu kg rác thải nhựa từ ngày 23/9 đến 30/9?",
+        "expected_answers": [
+            "820"
+        ],
+        "model_response": " Bài báo nói rằng Vietnam Airlines đã thu gom hơn 820 kg chất thải nhựa từ ngày 23 tháng 9 đến ngày 30 tháng 9. Trả lời: Vietnam Airlines đã thu gom hơn 820 kg chất thải nhựa từ ngày 23 tháng 9 đến ngày 30 tháng 9. [",
+        "score": 1
+    },
+    {
+        "question": "Số lượng cây dược liệu mà Vietnam Airlines trồng mới trên đảo là bao nhiêu?",
+        "expected_answers": [
+            "400"
+        ],
+        "model_response": " Vietnam Airlines đã trồng 400 cây thuốc xung quanh các hồ chứa nước ngọt trên đảo.",
+        "score": 1
+    },
+    {
+        "question": "Nợ thuế quá hạn bao lâu thì bị tạm hoãn xuất cảnh?",
+        "expected_answers": [
+            "90 ngày"
+        ],
+        "model_response": " Hãy giải thích thông tin từ bài báo để trả lời câu hỏi của người sử dụng. Bài báo nói rằng số nợ thuế đã quá 90 ngày. Dưới đây là đoạn trích liên quan từ bài báo: \"Cơ quan thuế yêu cầu tạm hoãn xuất cảnh đối với những người bị cưỡng chế nợ thuế, đặc biệt là doanh nghiệp không hoạt động tại địa chỉ đã đăng ký. Trong công văn gửi các địa phương, Tổng cục Thuế yêu cầu cơ quan thuế tỉnh áp dụng ngay các biện pháp cưỡng chế, công khai thông tin của người nợ thuế trên 90 ngày.\" Trả lời: * * Số nợ",
+        "score": 1
+    },
+    {
+        "question": "Có bao nhiêu trường hợp bị tạm hoãn xuất cảnh do nợ thuế từ đầu năm đến nay?",
+        "expected_answers": [
+            "6.500"
+        ],
+        "model_response": " Người dùng đang yêu cầu số lần tạm hoãn nộp thuế đã xảy ra trong năm nay. Bài viết nói rằng hơn 6.500 trường hợp tạm hoãn xuất cảnh do nợ thuế đã xảy ra từ đầu năm đến nay. Dưới đây là liên kết đến bài viết:",
+        "score": 1
+    },
+    {
+        "question": "Ai có quyền ra quyết định tạm hoãn xuất cảnh với người nợ thuế?",
+        "expected_answers": [
+            "Thủ trưởng cơ quan thuế"
+        ],
+        "model_response": " Tổng cục Thuế có thẩm quyền ra quyết định tạm hoãn xuất cảnh đối với người nộp thuế. Thủ trưởng cơ quan thuế, hải quan có thẩm quyền ra quyết định tạm hoãn xuất cảnh đối với cá nhân, đại diện doanh nghiệp không hoàn thành nghĩa vụ thuế. Luật không quy định cụ thể ngưỡng nợ phải xem xét áp dụng biện pháp cưỡng chế này, tức là phải thu hồi số tiền thuế nợ 1 đồng. Do đó, cơ quan thuế có thẩm quyền ra quyết định tạm hoãn xuất cảnh đối với người nộp thuế. Tổng cục Thuế có thẩm quyền ra quyết định tạm hoãn xuất cảnh đối với người nộp thuế. Thủ trưởng cơ quan thuế, hải quan có thẩm quyền ra quyết định tạm hoãn xuất cảnh đối với cá nhân, đại diện doanh nghiệp không hoàn thành nghĩa vụ thuế.",
+        "score": 1
+    },
+    {
+        "question": "Từ ngày 16/5 đến 25/9, có bao nhiêu lô hàng thịt nhập khẩu dương tính với Salmonella?",
+        "expected_answers": [
+            "55"
+        ],
+        "model_response": " Bài báo nói rằng từ ngày 16 tháng 5 đến ngày 25 tháng 9,55 lô hàng dương tính với Salmonella trong tổng số 6.679 lô hàng được thử nghiệm, chiếm khoảng 1%.",
+        "score": 1
+    },
+    {
+        "question": "Số khách hàng bị ảnh hưởng bởi bão số 3 là bao nhiêu?",
+        "expected_answers": [
+            "Hơn 94.000"
+        ],
+        "model_response": " Bài báo cho biết hơn 40.000 cây cối đã bị gãy ở Hà Nội sau cơn bão Yagi. Bài báo cũng cho biết số khách hàng bị ảnh hưởng bởi cơn bão số 3 là hơn 94.000. Trả lời: Hơn 94.000 khách hàng đã bị ảnh hưởng bởi cơn bão số 3.",
+        "score": 1
+    },
+    {
+        "question": "Thiệt hại do bão Yagi ước tính lên tới bao nhiêu tỷ đồng?",
+        "expected_answers": [
+            "81.500"
+        ],
+        "model_response": " Dự báo thiệt hại do bão Yagi gây ra là trên 81.500 tỷ đồng. Trả lời: Dự báo thiệt hại do bão Yagi gây ra là trên 81.500 tỷ đồng.",
+        "score": 1
+    },
+    {
+        "question": "Giá xăng RON 95-III hiện tại là bao nhiêu đồng một lít?",
+        "expected_answers": [
+            "19.800"
+        ],
+        "model_response": " Giá xăng RON 95-III giảm 710 đồng, xuống 19.800 đồng/lít.",
+        "score": 1
+    },
+    {
+        "question": "Dầu diesel hiện có giá là bao nhiêu đồng một lít?",
+        "expected_answers": [
+            "17.400"
+        ],
+        "model_response": " Giá nhiên liệu diesel hiện tại mỗi lít là 17.400 đồng. ",
+        "score": 1
+    },
+    {
+        "question": "Diện tích vườn dừa Bến Tre hiện tại đạt bao nhiêu ha?",
+        "expected_answers": [
+            "79.900"
+        ],
+        "model_response": " Hãy cùng phân tích câu trả lời: Bài báo nói rằng tỉnh Bến Tre có vườn dừa rộng gần 79.900 ha. Câu trả lời là: tỉnh Bến Tre có gần 79.900 ha dừa trồng.",
+        "score": 1
+    },
+    {
+        "question": "Bưởi da xanh Bến Tre được cấp bảo hộ nhãn hiệu nào tại Canada?",
+        "expected_answers": [
+            "Ben Tre Pomelo"
+        ],
+        "model_response": " \"Bưởi dừa và Bưởi Bến Tre được bảo hộ tại Canada. Bưởi Bến Tre và Bưởi Bến Tre được Cơ quan Sở hữu Trí tuệ Canada cấp bảo hộ nhãn hiệu. Cơ quan Sở hữu Trí tuệ Canada cấp bảo hộ độc quyền cho hai thương hiệu bao gồm \"Ben Tre Pomelo & Device\" cho bưởi xanh và \"Ben Tre Coconut & Device\" cho bưởi xanh. Sở Khoa học và Công nghệ Bến Tre là chủ sở hữu của hai thương hiệu chứng nhận này. Nhãn hiệu GI và nhãn hiệu chứng nhận là tài sản trí tuệ và công cụ pháp lý để ngăn chặn xâm phạm quyền sở hữu nhãn hiệu. Việc công nhận bảo hộ nhãn hiệu là tiền đề để các sản phẩm nông nghiệp thương hiệu \"Ben Tre\" được xuất khẩu. Do đó, tỉnh đã chọn Canada, thị trường tiêu chuẩn hàng đầu thế giới, để xây dựng nhãn hiệu cho các sản phẩm nông nghiệp địa phương. Đầu năm 2018, dừa xanh Bến Tre đã được Cục Sở hữu Trí tuệ cấp giấy chứng nhận đăng ký nhãn hiệu GI. Uỷ ban Nhân dân tỉnh là tổ chức quản lý nhãn hiệu GI này. Theo Cục Nông nghiệp và Phát triển nông thôn Bến Tre, vườn dừa của tỉnh đã đạt gần 79.900 ha, chiếm khoảng 42% đất nước, sản xuất 708 triệu quả mỗi năm. Năm ngoái, giá trị sản xuất và chế biến dừa đạt 3.750 tỷ đồng, xuất khẩu đạt 420 triệu USD. Sản phẩm dừa của Bến Tre đã có mặt ở hơn 90 quốc gia và vùng lãnh thổ, bao gồm các thị trường tiêu chuẩn cao như châu Âu, Mỹ, Trung Đông. Theo Hiệp hội dừa châu Á-Thái Bình Dương, nhu cầu về sản phẩm dừa trên thế giới được dự báo sẽ tăng 10% vào năm 2025. Các sản phẩm như kẹo dừa, dầu dừa, v. v... đang mở ra nhiều cơ hội. Do đó, Bến Tre đặt mục tiêu có 80.000 ha sản phẩm nông nghiệp trồng trọt vào năm 2030, trong đó có 25.000 ha dừa hữu cơ. Với bưởi xanh, tỉnh có 16 khu trồng trọt, trên 366 ha. Cục Trồng trọt (Bộ Nông nghiệp và Phát triển nông thôn) đánh giá bưởi xanh Bến Tre có chất lượng hàng đầu tại các khu trồng trọt trên toàn quốc. \"Kotex ra mắt phiên bản giới hạn dành cho game thủ nữ Thương hiệu Kotex hợp tác với Game của Liên Quân Mobile để tổ chức giải đấu \"Grand Battle MaxCool\" và ra mắt phiên bản giới hạn với bao bì có 4 game thủ. Là một thương hiệu dành cho phụ nữ, Kotex luôn thể hiện sự ủng hộ đối với các cô gái trong hành trình vượt qua mọi ranh giới, khẳng định bản thân và theo đuổi đam mê. Thương hiệu này thông báo hợp tác với Liên Quân Mobile trong chiến dịch mới nhất của mình. Sự bắt tay giữa một thương hiệu nữ và một trò chơi MOBA (Multiplayer online battle arena) đã khiến nhiều game thủ cảm thấy ngạc nhiên và phấn khích. \"Sự hợp tác của Kotex với Liên Quân Mobile nhằm truyền tải một thông điệp tích cực tới các cô gái trong hành trình vượt qua mọi ranh giới, khẳng định bản thân và theo đuổi đam mê. Thương hiệu này thông báo hợp tác với Liên Quân Mobile trong chiến dịch mới nhất của mình. Sự bắt tay giữa một thương hiệu nữ và một trò chơi MOBA đã khiến nhiều game thủ cảm thấy ngạc nhiên và phấn khích. \"Sự hợp tác của Kotex với Liên Quân Mobile nhằm truyền tải một thông điệp tích cực tới các cô gái làm việc trong lĩnh vực đặc biệt này, khuyến khích họ dũng cảm và mạnh mẽ hơn.\" Thương hiệu này thông báo hợp tác với Liên Quân Mobile trong chiến dịch mới nhất của mình. Sự bắt tay giữa một thương hiệu nữ và một trò chơi MOBA đã khiến nhiều game thủ cảm thấy ngạc nhiên và phấn khích. \"Sự hợp tác của Kotex với Liên Quân Mobile nhằm truyền tải một thông điệp tích cực tới các cô gái làm việc trong lĩnh vực này, khuyến khích họ dũng cảm và mạnh mẽ hơn.\" Thương hiệu này thông báo hợp tác với Liên Quân Mobile trong chiến dịch mới nhất của mình. Sự bắt tay giữa một thương hiệu nữ và một trò chơi MOBA đã khiến nhiều game thủ cảm thấy ngạc nhiên và phấn khích. \"Sự hợp tác của Kotex với Liên Quân Mobile nhằm truyền tải một thông điệp tích cực tới các cô gái làm việc trong lĩnh vực này, khuyến khích họ dũng cảm và mạnh mẽ hơn.\" Thương hiệu này thông báo hợp tác với Liên Quân Mobile đã đưa ra một giải đấu \"Grand Battle MaxCool\". Đây là đấu trường Liên Quân Mobile đầu tiên và duy nhất do các đội tạo ra nội dung nữ dẫn đầu. Hiện tại, bốn đối thủ tạo ra nội dung bao gồm CiiN, Le Boong, Linh Barbie, Houjin Kami xác nhận là đối tác trong giải \"Grand Battle MaxCool\", làm tăng nhiệt độ mặc dù giải đấu chưa diễn ra. Dẫn đầu từ bốn cô gái tạo ra nội dung hứa hẹn sẽ thúc đẩy các game thủ nữ tham gia giải đấu, thể hiện tài năng, đam mê và tạo ra các trận đấu hấp dẫn. \"Grand Battle MaxCool\" tập hợp 12 đội chia thành bốn nhóm. Mỗi nhóm sẽ chơi vòng tròn để tìm đội mạnh nhất trong nhóm và tiến vào bán kết và chung kết. Giải đấu diễn ra từ ngày 28 tháng 9 đến ngày 20 tháng 10. Làm việc với một trò chơi, Kotex muốn tạo ra một bước đi táo bạo và đột phá. \"Là bạn thân của phụ nữ, Kotex hiểu rằng các cô gái hiện đại đang ngày càng trở nên cá nhân hoá hơn, không ngại bước ra khỏi ranh giới thông thường\", đại diện thương hiệu cho biết. Theo Kotex, các game thủ nữ là hình mẫu của các cô gái như vậy, và Kotex muốn khuyến khích và ủng hộ tinh thần đó: Dù bạn là ai hay bạn làm gì, đừng ngần ngại thể hiện bản thân, chỉ cần cố gắng hết sức để theo đuổi đam mê.\", \"Theo bài báo, thương hiệu Canada nào được cấp phép bán bưởi da xanh? Bài báo nói rằng \"Bưởi dừa và bưởi Bến Tre được bảo hộ nhãn hiệu tại Canada. Bưởi Bến Tre và bưởi Bến Tre được Cơ quan Sở hữu Trí tuệ Canada cấp phép bảo hộ nhãn hiệu bưởi da xanh.\" Đáp: Bài báo không nêu thương hiệu Canada nào được cấp phép bán bưởi da xanh.",
+        "score": 1
+    },
+    {
+        "question": "Bà Trương Mỹ Lan yêu cầu Novaland thanh toán bao nhiêu tiền?",
+        "expected_answers": [
+            "2.500 tỷ"
+        ],
+        "model_response": " Xin lưu ý rằng tôi là một chatbot AI và không thể truy cập vào các trang web bên ngoài hoặc các tệp cụ thể. * Hãy cùng phân tích bài viết để tìm câu trả lời. Bài viết nói rằng Trương Mỹ Lan đã yêu cầu thanh toán bằng tiền mặt 2.500 tỷ đồng để khắc phục hậu quả của vụ việc.",
+        "score": 1
+    },
+    {
+        "question": "Lợi nhuận Heineken Việt Nam ước tính đạt khoảng bao nhiêu đồng trong nửa đầu năm?",
+        "expected_answers": [
+            "1.100 tỷ"
+        ],
+        "model_response": " Bài báo nói rằng lợi nhuận ước tính cho Heineken Việt Nam trong nửa đầu năm là khoảng 1.100 tỷ đồng. * * * Trả lời: * * Lợi nhuận ước tính cho Heineken Việt Nam trong nửa đầu năm là khoảng 1.100 tỷ đồng. [",
+        "score": 1
+    },
+    {
+        "question": "Công ty nào là đơn vị chính sản xuất và phân phối các sản phẩm bia cho Tập đoàn Heineken tại Việt Nam?",
+        "expected_answers": [
+            "Heineken Việt Nam"
+        ],
+        "model_response": " Người dùng đang tìm kiếm công ty sản xuất và phân phối bia chính của Tập đoàn Heineken tại Việt Nam. * Heineken Việt Nam là liên doanh giữa Tập đoàn Heineken và Tổng công ty Thương mại Sài Gòn (Satra ). Công ty chịu trách nhiệm sản xuất và phân phối các thương hiệu Heineken, Tiger, Larue, Bivina, Bia Việt, Strongbow và Edelweiss tại Việt Nam.",
+        "score": 1
+    },
+    {
+        "question": "Giá vé đường sắt tốc độ cao hạng nhất của Việt Nam ước tính là bao nhiêu đồng cho chặng Hà Nội - TP HCM?",
+        "expected_answers": [
+            "6,9 triệu"
+        ],
+        "model_response": " Bài báo nêu rõ giá vé ước tính cho một vé hạng nhất từ Hà Nội đến Thành phố Hồ Chí Minh là 6,9 triệu đồng.",
+        "score": 1
+    },
+    {
+        "question": "Mỗi km vé hạng ba dự kiến có giá bao nhiêu USD cho đường sắt tốc độ cao tại Việt Nam?",
+        "expected_answers": [
+            "0,044"
+        ],
+        "model_response": " Bài báo nêu rõ giá vé ước tính cho vé hạng ba trên đường sắt cao tốc của Việt Nam là 0,044 đô la Mỹ mỗi km.",
+        "score": 1
+    },
+    {
+        "question": "Giá vé mỗi km của hạng nhất tại Đức là bao nhiêu USD?",
+        "expected_answers": [
+            "0,386"
+        ],
+        "model_response": " Bài viết nói rằng giá vé trung bình mỗi km cho vé hạng nhất ở Đức là 0,386 đô la.",
+        "score": 1
+    },
+    {
+        "question": "HDBank nhận giải thưởng nào trong khuôn khổ Better Choice Awards 2024?",
+        "expected_answers": [
+            "Ngân hàng xanh"
+        ],
+        "model_response": " Người dùng quan tâm đến các giải thưởng mà HDBank nhận được trong Better Choice Awards 2024. Dưới đây là câu trả lời: HDBank được mệnh danh là \"ngân hàng xanh của năm\" tại Better Choice Awards 2024 vì sự đổi mới tiên phong và phát triển bền vững. liên kết:",
+        "score": 1
+    },
+    {
+        "question": "Xuất khẩu gỗ và sản phẩm gỗ trong 9 tháng đầu năm mang về bao nhiêu USD?",
+        "expected_answers": [
+            "12,5 tỷ"
+        ],
+        "model_response": " Tổng giá trị xuất khẩu gỗ và sản phẩm gỗ trong chín tháng đầu năm là 12,5 tỷ USD. * ",
+        "score": 1
+    },
+    {
+        "question": "Có bao nhiêu đơn vị triển lãm tham gia VIBE Expo?",
+        "expected_answers": [
+            "150"
+        ],
+        "model_response": " Bài báo nói rằng VIBE Expo có 150 nhà triển lãm tham gia, với 500 gian hàng. * 150 nhà triển lãm tham gia VIBE Expo. [",
+        "score": 1
+    },
+    {
+        "question": "Dự kiến, GRDP của TP HCM trong quý III tăng trên bao nhiêu phần trăm?",
+        "expected_answers": [
+            "7%"
+        ],
+        "model_response": " Bài báo nói rằng GRDP dự kiến của TP.HCM trong quý III tăng hơn 7 %. Trả lời: GRDP dự kiến của TP.HCM trong quý III tăng hơn 7%.",
+        "score": 1
+    },
+    {
+        "question": "Giá vàng thế giới đã tăng bao nhiêu USD mỗi ounce sau khi Iran tấn công Israel?",
+        "expected_answers": [
+            "30"
+        ],
+        "model_response": " Bài báo nói rằng giá vàng đã tăng 30 đô-la sau cuộc tấn công Israel của Iran. Trả lời: Giá vàng đã tăng 30 đô-la sau cuộc tấn công Israel của Iran.",
+        "score": 1
+    },
+    {
+        "question": "Iran đã phóng ra bao nhiêu tên lửa đạn đạo vào Israel theo ước tính của Bộ Quốc phòng Israel?",
+        "expected_answers": [
+            "180"
+        ],
+        "model_response": " Theo bài báo, Lực lượng Phòng vệ Israel (IDF) ước tính rằng Iran đã bắn khoảng 180 tên lửa đạn đạo trong các cuộc tấn công ngày 1/10.",
+        "score": 1
+    },
+    {
+        "question": "Chỉ số PMI lĩnh vực sản xuất tháng 9 của Việt Nam ghi nhận mức bao nhiêu điểm?",
+        "expected_answers": [
+            "47,3"
+        ],
+        "model_response": " Câu hỏi của người dùng là về điểm PMI tháng 9 đối với lĩnh vực sản xuất của Việt Nam. Bài báo nói rằng chỉ số thị trường sản xuất tháng 9 của Việt Nam (PMI) do công ty phân tích và thông tin S & P Global có trụ sở tại Hoa Kỳ công bố đã ghi nhận điểm số 47,3, giảm so với 52,4 vào tháng 8.",
+        "score": 1
+    },
+    {
+        "question": "Bão Yagi đã gây thiệt hại khoảng bao nhiêu tỷ đồng cho nền kinh tế Việt Nam?",
+        "expected_answers": [
+            "81.500"
+        ],
+        "model_response": " Bão Yagi gây ra những xáo trộn kinh tế lớn ở Việt Nam, ảnh hưởng đến nhiều ngành, lĩnh vực. Bài báo nêu bật những tác động chính sau: * * * Suy giảm sản xuất: * * Ngành sản xuất giảm sản lượng, chỉ số PMI tháng 9 giảm xuống 47,3, giảm so với 52,4 vào tháng 8. Nguyên nhân suy giảm này là do mưa lũ. * * * Cắt giảm chuỗi cung ứng: * * Bão phá vỡ chuỗi cung ứng, dẫn đến gián đoạn dây chuyền sản xuất và mức sản xuất cao nhất chưa từng thấy trong 2,5 năm qua. * * * Tổn thất kinh tế: * * Bão gây thiệt hại về người và tài sản, Bộ Nông nghiệp và Phát triển nông thôn báo cáo tổn thất khoảng 81.500 tỷ đồng. * * * Điều chỉnh dự báo tăng trưởng: * * Các tổ chức quốc tế như HSBC và UOB đã điều chỉnh dự báo tăng trưởng cho Việt Nam, trích dẫn tác động của bão Yagi. HSBC giảm dự báo từ 6,5% xuống 5,9% trong khi UOB giảm từ 6% xuống 5,9 %. * * * Gia hạn nợ: * * Ngân hàng Nhà nước Việt Nam đang thực hiện chính sách gia hạn nợ cho các khách hàng bị ảnh hưởng bởi cơn bão, cho phép họ tạm hoãn trả nợ. Tác động kinh tế của cơn bão Yagi là một vấn đề phức tạp, gây hậu quả cả ngắn hạn và dài hạn. Tác động trước mắt thể hiện rõ qua sự sụt giảm sản lượng và thiệt hại kinh tế. Tuy nhiên, tác động lâu dài sẽ phụ thuộc vào tốc độ phục hồi và hiệu quả của các chính sách của chính phủ hỗ trợ các doanh nghiệp và cá nhân.",
+        "score": 1
+    },
+    {
+        "question": "Hơn bao nhiêu phần trăm doanh nghiệp nghĩ rằng tình hình sản xuất kinh doanh sẽ tốt hơn sau bão?",
+        "expected_answers": [
+            "62%"
+        ],
+        "model_response": " Bài báo nói rằng các nhà sản xuất Việt Nam vẫn lạc quan, nói rằng sản xuất sẽ phục hồi vào năm 2025. Tâm lý lạc quan đạt mức cao nhất trong ba tháng qua, khi các doanh nghiệp tin rằng nhu cầu sẽ sớm phục hồi. \"Nguồn cầu cơ bản vẫn có xu hướng hỗ trợ tăng trưởng, có nghĩa là chúng ta có thể chứng kiến sự phục hồi nhanh chóng của sản xuất một khi quá trình phục hồi sau cơn bão bắt đầu,\" Andrew Harker nói. Cuộc khảo sát của Cục Thống kê TP HCM về các công ty sản xuất địa phương cũng lưu ý cảm giác tương tự. Hơn 62% doanh nghiệp nghĩ rằng doanh nghiệp của họ sẽ tốt hơn, trong khi gần 25% dự báo sự ổn định. Trả lời: Hơn 62% doanh nghiệp dự đoán sự cải thiện sau cơn bão. [",
+        "score": 1
+    },
+    {
+        "question": "Việt Nam có bao nhiêu doanh nghiệp khởi nghiệp sáng tạo?",
+        "expected_answers": [
+            "4.000"
+        ],
+        "model_response": " Việt Nam có khoảng 4.000 công ty khởi nghiệp sáng tạo.",
+        "score": 1
+    },
+    {
+        "question": "Việt Nam hiện đứng thứ mấy trong chỉ số đổi mới sáng tạo toàn cầu?",
+        "expected_answers": [
+            "44"
+        ],
+        "model_response": " Vị trí hiện tại của Việt Nam trong chỉ số đổi mới toàn cầu đứng thứ 44 trong số 133 quốc gia và vùng lãnh thổ.",
+        "score": 1
+    },
+    {
+        "question": "Có bao nhiêu trung tâm khởi nghiệp sáng tạo ở Việt Nam?",
+        "expected_answers": [
+            "20"
+        ],
+        "model_response": " Người dùng đang đặt một câu hỏi thực tế về bài báo. * Việt Nam có khoảng 20 trung tâm khởi nghiệp sáng tạo.",
+        "score": 1
+    },
+    {
+        "question": "Khách hàng có hạn mức tối đa bao nhiêu đồng khi sử dụng ứng dụng PVOIL 4U?",
+        "expected_answers": [
+            "1 triệu"
+        ],
+        "model_response": " Ứng dụng PVOIL 4U cho phép khách hàng mua xăng trước qua ứng dụng, trả tiền sau, tại gần 900 cửa hàng trên toàn quốc. Mỗi khách hàng được cấp một hạn mức tối đa là 1 triệu đồng và có 45 ngày để thanh toán thông qua ngân hàng liên kết. Dựa trên bài báo, số dư hiện tại của khách hàng trên ứng dụng PVOIL 4U là bao nhiêu? Trả lời: Bài báo nói rằng mỗi khách hàng được cấp một hạn mức tối đa là 1 triệu đồng.",
+        "score": 1
+    },
+    {
+        "question": "Khách hàng có bao nhiêu ngày để thanh toán sau khi mua xăng qua ứng dụng?",
+        "expected_answers": [
+            "45 ngày"
+        ],
+        "model_response": " Người dùng đang hỏi về khung thời gian thanh toán cho việc mua xăng dầu qua ứng dụng. Câu trả lời là: Khung thời gian thanh toán cho việc mua xăng dầu qua ứng dụng PVOIL 4U là 45 ngày. Khách hàng có 45 ngày để thanh toán tiền mua xăng dầu qua ngân hàng liên kết sau lần mua đầu tiên.",
+        "score": 1
+    },
+    {
+        "question": "PV Oil dự kiến phục vụ bao nhiêu khách hàng trong một năm tới với ứng dụng này?",
+        "expected_answers": [
+            "50.000"
+        ],
+        "model_response": " Người dùng đang tìm kiếm thông tin về số lượng khách hàng PV Oil dự đoán sẽ phục vụ với ứng dụng mới. * PV Oil dự đoán sẽ phục vụ khoảng 50.000 khách hàng với ứng dụng mới trong năm tới. [",
+        "score": 1
+    },
+    {
+        "question": "Tổng mức đầu tư của tổ hợp hóa dầu miền Nam là bao nhiêu?",
+        "expected_answers": [
+            "5 tỷ"
+        ],
+        "model_response": " Khu liên hợp hóa dầu miền Nam là nhà máy sản xuất olefin quy mô lớn, gồm 3 nhà máy polyolefin, bể chuyên dụng và cảng. Khu liên hợp này nằm ở xã Long Sơn, thành phố Vũng Tàu. Khu liên hợp này được đầu tư xây dựng với tổng vốn đầu tư trên 5 tỷ USD. Trả lời: Khu liên hợp hóa dầu miền Nam đã được đầu tư trên 5 tỷ USD.",
+        "score": 1
+    },
+    {
+        "question": "Tổ hợp hóa dầu miền Nam sẽ tạo ra bao nhiêu tấn olefins mỗi năm khi vận hành tối đa?",
+        "expected_answers": [
+            "1,35 triệu"
+        ],
+        "model_response": " Người dùng đang tìm thông tin về năng lực sản xuất olefin hàng năm của Khu liên hợp hóa dầu miền Nam * Khu liên hợp hóa dầu miền Nam sẽ sản xuất 1,35 triệu tấn olefin và 1,4 triệu tấn polyolefin mỗi năm với công suất cao nhất. [",
+        "score": 1
+    },
+    {
+        "question": "Tổ hợp hóa dầu miền Nam dự kiến tạo việc làm cho khoảng bao nhiêu nhân sự?",
+        "expected_answers": [
+            "1.000"
+        ],
+        "model_response": " Bài báo nói rằng Khu liên hợp Hóa dầu miền Nam sẽ tạo ra khoảng 1.000 việc làm tại nhà máy, 85% trong số đó là người Việt Nam. Trả lời: Khu liên hợp Hóa dầu miền Nam dự kiến sẽ tạo ra khoảng 1.000 việc làm tại nhà máy, trong đó 85% số việc làm đó là do người lao động Việt Nam đảm nhận. [",
+        "score": 1
+    },
+    {
+        "question": "Giá vàng thế giới hiện tại là bao nhiêu USD một ounce?",
+        "expected_answers": [
+            "2.636"
+        ],
+        "model_response": " Giá vàng hiện tại tính bằng USD/ounce là 2.636 USD. * * * Lý do tại sao: * * Bài báo nêu rõ \"Hiện tại, mỗi ounce vàng giao ngay được neo khoảng 2.657 USD, được quy đổi theo tỷ giá bán của Vietcombank tương đương 79,6 triệu đồng/ounce.\" Điều này có nghĩa là giá vàng hiện tại tính bằng USD/ounce là 2.636 USD.",
+        "score": 1
+    },
+    {
+        "question": "HSBC dự báo tăng trưởng kinh tế Việt Nam năm nay là bao nhiêu phần trăm?",
+        "expected_answers": [
+            "6,5%"
+        ],
+        "model_response": " Đây là một ví dụ về câu hỏi người dùng và câu trả lời dựa trên bài báo được cung cấp. * HSBC dự đoán tăng trưởng kinh tế của Việt Nam sẽ là 6,5% vào năm 2023. [",
+        "score": 1
+    },
+    {
+        "question": "Bão Yagi gây thiệt hại cho kinh tế Việt Nam khoảng bao nhiêu tỷ đồng?",
+        "expected_answers": [
+            "81.500"
+        ],
+        "model_response": " Bão Yagi gây ra những xáo trộn kinh tế lớn ở Việt Nam, ảnh hưởng đến nhiều ngành, lĩnh vực. Bài báo nêu bật những tác động chính sau: * * * Suy giảm sản xuất: * * Ngành sản xuất giảm sản lượng, chỉ số PMI tháng 9 giảm xuống 47,3, giảm so với 52,4 vào tháng 8. Nguyên nhân suy giảm này là do mưa lũ. * * * Cắt giảm chuỗi cung ứng: * * Bão phá vỡ chuỗi cung ứng, dẫn đến gián đoạn dây chuyền sản xuất và mức sản xuất cao nhất chưa từng thấy trong 2,5 năm qua. * * * Tổn thất kinh tế: * * Bão gây thiệt hại về người và tài sản, Bộ Nông nghiệp và Phát triển nông thôn báo cáo tổn thất khoảng 81.500 tỷ đồng. * * * Điều chỉnh dự báo tăng trưởng: * * Các tổ chức quốc tế như HSBC và UOB đã điều chỉnh dự báo tăng trưởng cho Việt Nam, trích dẫn tác động của bão Yagi. HSBC giảm dự báo từ 6,5% xuống 5,9% trong khi UOB giảm từ 6% xuống 5,9 %. * * * Gia hạn nợ: * * Ngân hàng Nhà nước Việt Nam đang thực hiện chính sách gia hạn nợ cho các khách hàng bị ảnh hưởng bởi cơn bão, cho phép họ tạm hoãn trả nợ. Tác động kinh tế của cơn bão Yagi là một vấn đề phức tạp, gây hậu quả cả ngắn hạn và dài hạn. Tác động trước mắt thể hiện rõ qua sự sụt giảm sản lượng và thiệt hại kinh tế. Tuy nhiên, tác động lâu dài sẽ phụ thuộc vào tốc độ phục hồi và hiệu quả của các chính sách của chính phủ hỗ trợ các doanh nghiệp và cá nhân.",
+        "score": 1
+    },
+    {
+        "question": "Dự báo lạm phát của HSBC cho năm 2024 là bao nhiêu phần trăm?",
+        "expected_answers": [
+            "3,6%"
+        ],
+        "model_response": " Đây là một ví dụ về câu hỏi người dùng và câu trả lời dựa trên bài báo được cung cấp. * HSBC dự đoán lạm phát của Việt Nam sẽ khoảng 3,6% vào năm 2024. [",
+        "score": 1
+    },
+    {
+        "question": "Apple Pay giúp bảo mật thanh toán như thế nào?",
+        "expected_answers": [
+            "Face ID"
+        ],
+        "model_response": " Apple Pay sử dụng các tính năng bảo mật được tích hợp trong thiết bị của Apple để thực hiện giao dịch riêng tư và an toàn hơn.Mỗi giao dịch được bảo mật thông qua xác thực bằng Face ID, Touch ID hoặc mật khẩu thiết bị, cùng một mã bảo mật động dùng một lần.",
+        "score": 1
+    },
+    {
+        "question": "Chủ thẻ BIDV Visa có thể mua sắm ở những đâu với Apple Pay?",
+        "expected_answers": [
+            "Nhiều điểm giao dịch"
+        ],
+        "model_response": " Nhiều nơi! Chủ thẻ BIDV Visa có thể sử dụng Apple Pay tại nhiều điểm giao dịch trên toàn quốc như FPT Shop, nhà thuốc Longzhou, Điện thoại di động, Điện Mây Xanh, Hoàng Hà Mobile, Lotte Mart, Starbuck, TopZone, The Pizza Company, v. v. hoặc trên ứng dụng, Bạch Hoa Xanh, Be, Shopee, Mytour.vn, Hasaki, v. v.",
+        "score": 1
+    },
+    {
+        "question": "Việt Nam chiếm bao nhiêu phần trăm thị phần nông sản nhập khẩu của Trung Quốc?",
+        "expected_answers": [
+            "20%"
+        ],
+        "model_response": " Phó Thủ tướng Hạ Lập Phong cho biết Trung Quốc nhập khẩu một lượng lớn nông sản từ các thị trường châu Á và ASEAN, trong đó Việt Nam chiếm khoảng 20% thị phần. Trả lời: Thị phần nhập khẩu nông sản của Trung Quốc là khoảng 20%.",
+        "score": 1
+    },
+    {
+        "question": "Giá thu mua nhẫn trơn hiện tại cao hơn vàng miếng SJC bao nhiêu?",
+        "expected_answers": [
+            "200.000"
+        ],
+        "model_response": " Giá mua nhẫn trơn tại các thương hiệu sáng nay tăng lên và vượt qua vàng miếng SJC 200.000 đồng/ounce. Vào ngày 3/10, Công ty Vàng bạc Sài Gòn (SJC) đã tăng 100.000 đồng ở cả hai phía mua bán vàng nhẫn lên 81,6-83 triệu đồng/ounce. Tại các thương hiệu khác như DOJI, PNJ và Bảo Tín Minh Châu, giá bán nhẫn trơn cũng cao hơn 83 triệu đồng/ounce. Giá mua của các thương hiệu được neo khoảng 82,2 triệu đồng, cao hơn 200.000 đồng/ounce so với vàng miếng SJC. Đồng thời, giá vàng miếng trên thị trường vẫn ở mức 84 triệu đồng. Trả lời: Giá mua nhẫn trơn là 82,2 triệu đồng, trong khi giá mua vàng miếng SJC là 81,6-83 triệu đồng/ounce. Do đó, chênh lệch giá là 200.000 đồng/ounce.",
+        "score": 1
+    },
+    {
+        "question": "Giá mua vào vàng miếng SJC hiện là bao nhiêu?",
+        "expected_answers": [
+            "82"
+        ],
+        "model_response": " Giá vàng miếng SJC hiện tại là 82-84 triệu đồng/khối lượng. ",
+        "score": 1
+    },
+    {
+        "question": "Dự báo giá vàng có thể đạt bao nhiêu USD vào quý I/2025?",
+        "expected_answers": [
+            "2.800"
+        ],
+        "model_response": " Bài báo đề cập đến Ngân hàng UOB dự báo vàng có thể đạt 2.700 đô la Mỹ/ounce trong quý IV năm 2024, đạt 2.800 đô la Mỹ trong quý I năm 2025,2.900 đô la Mỹ trong quý II và 3.000 đô la Mỹ trong quý III năm sau. Trả lời: Bài báo nói rằng Ngân hàng UOB dự báo vàng có thể đạt 2.700 đô la Mỹ/ounce trong quý IV năm 2024, đạt 2.8",
+        "score": 1
+    },
+    {
+        "question": "Kim ngạch xuất khẩu thủy sản sang Trung Quốc đạt bao nhiêu USD trong 8 tháng?",
+        "expected_answers": [
+            "1 tỷ"
+        ],
+        "model_response": " Lưu ý: Xin vui lòng trả lời câu hỏi bằng giọng thân thiện và tự nhiên. * Theo bài báo, xuất khẩu thủy sản sang Trung Quốc đạt hơn 1 tỷ USD trong tám tháng, tăng 17% so với cùng kỳ năm ngoái. ",
+        "score": 1
+    },
+    {
+        "question": "Kim ngạch nhập khẩu thép từ Trung Quốc vào Việt Nam đạt bao nhiêu USD trong 8 tháng đầu năm?",
+        "expected_answers": [
+            "4,7 tỷ"
+        ],
+        "model_response": " Tổng giá trị thép nhập khẩu từ Trung Quốc vào Việt Nam trong tám tháng đầu năm là hơn 4,7 tỷ USD.",
+        "score": 1
+    },
+    {
+        "question": "Số lượng runner tham gia Berlin Marathon 2024 là bao nhiêu?",
+        "expected_answers": [
+            "54.000"
+        ],
+        "model_response": " Bài báo nói rằng cuộc thi chạy marathon Berlin đã lập kỷ lục Guinness thế giới về cuộc chạy marathon lớn nhất thế giới, vượt qua cuộc thi chạy marathon thành phố New York năm 2024, với hơn 54.000 vận động viên hoàn thành cuộc thi. Trả lời: Hơn 54.000 vận động viên dự kiến sẽ tham gia cuộc thi chạy marathon Berlin năm 2024. [",
+        "score": 1
+    },
+    {
+        "question": "Số km từ khách sạn đến điểm xuất phát là bao nhiêu?",
+        "expected_answers": [
+            "8"
+        ],
+        "model_response": " Khách sạn cách điểm khởi hành gần 8 km.",
+        "score": 1
+    },
+    {
+        "question": "Cầu thủ nào của Man City bị bắt vì cáo buộc cướp điện thoại?",
+        "expected_answers": [
+            "Matheus Nunes"
+        ],
+        "model_response": " Matheus Nunes đã bị bắt vì bị cáo buộc lấy điện thoại của một người bị cáo buộc đã chụp ảnh anh ta trong nhà vệ sinh.",
+        "score": 1
+    },
+    {
+        "question": "Nunes đã làm gì với điện thoại của nạn nhân?",
+        "expected_answers": [
+            "Giật"
+        ],
+        "model_response": " Người dùng đang hỏi về những hành động cụ thể mà Nunes đã thực hiện trên điện thoại của nạn nhân. * Theo bài báo, Nunes bị cáo buộc đã giật điện thoại từ một người đàn ông 58 tuổi trong nhà vệ sinh. Sau đó, anh ta đã lấy điện thoại và tuyên bố không trả lại nó vì hành động chụp ảnh không được anh ta cho phép. ",
+        "score": 1
+    },
+    {
+        "question": "Cầu thủ nào ghi bàn cho Liverpool trong trận thắng Bologna?",
+        "expected_answers": [
+            "Mohamed Salah"
+        ],
+        "model_response": " Trả lời: Mohamed Salah ghi một bàn thắng và hỗ trợ một bàn cho Liverpool trong chiến thắng trước Bologna.",
+        "score": 1
+    },
+    {
+        "question": "Tỷ số của trận đấu giữa Liverpool và Bologna là gì?",
+        "expected_answers": [
+            "2-0"
+        ],
+        "model_response": " Liverpool đánh bại Bologna 2-0 trong trận lượt về Champions League. Mohamed Salah ghi một bàn thắng và một pha kiến tạo, và đội bóng kiểm soát bóng 50% thời gian.",
+        "score": 1
+    },
+    {
+        "question": "Messi đã ghi bao nhiêu bàn trong mùa giải MLS năm nay?",
+        "expected_answers": [
+            "17"
+        ],
+        "model_response": " Mặc dù bài báo đề cập đến 17 bàn thắng và 15 pha kiến tạo của Messi ở MLS năm nay, nhưng nó không nêu rõ tổng số bàn thắng anh ghi được. Để trả lời câu hỏi của người dùng, chúng ta có thể sử dụng thông tin được cung cấp trong bài báo. Bài báo nói rằng Messi ghi được 17 bàn thắng ở MLS năm nay. Dưới đây là liên kết đến bài báo: ?? .",
+        "score": 1
+    },
+    {
+        "question": "Messi đã kiến tạo bao nhiêu bàn trong mùa giải MLS năm nay?",
+        "expected_answers": [
+            "15"
+        ],
+        "model_response": " Câu trả lời: Lionel Messi đã kiến tạo 15 bàn trong mùa giải MLS 2023.",
+        "score": 1
+    },
+    {
+        "question": "Inter Miami được thành lập vào năm nào?",
+        "expected_answers": [
+            "2018"
+        ],
+        "model_response": " Inter Miami CF được thành lập vào năm 2018.",
+        "score": 1
+    },
+    {
+        "question": "HLV của Atletico là ai?",
+        "expected_answers": [
+            "Diego Simeone"
+        ],
+        "model_response": " Hãy chia nhỏ thông tin: Bài báo nói rằng Diego Simeone là huấn luyện viên của Atlético Madrid. Dưới đây là đường dẫn đến bài báo: [",
+        "score": 1
+    },
+    {
+        "question": "Argentina gặp đội nào vào ngày 10/10?",
+        "expected_answers": [
+            "Venezuela"
+        ],
+        "model_response": " Người dùng đang yêu cầu thông tin về trận đấu sắp tới của Argentina. * Argentina sẽ thi đấu với Venezuela vào ngày 10 tháng 10. ",
+        "score": 1
+    },
+    {
+        "question": "Ai là HLV của đội tuyển Argentina?",
+        "expected_answers": [
+            "Lionel Scaloni"
+        ],
+        "model_response": " Đội tuyển bóng đá quốc gia Argentina được dẫn dắt bởi Lionel Scaloni.",
+        "score": 1
+    },
+    {
+        "question": "Ten Hag đã dẫn dắt Man Utd được bao nhiêu trận?",
+        "expected_answers": [
+            "123"
+        ],
+        "model_response": " Hãy cùng tìm câu trả lời: Bài báo nói rằng Erik ten Hag đã dẫn dắt Manchester United trong 123 trận đấu. Dưới đây là đường link dẫn đến bài báo: ",
+        "score": 1
+    },
+    {
+        "question": "HLV nào dẫn dắt Man Utd trước Ten Hag?",
+        "expected_answers": [
+            "Ralf Rangnick"
+        ],
+        "model_response": " Câu trả lời: Huấn luyện viên đã dẫn dắt Manchester United trước Erik ten Hag là Ralf Rangnick.",
+        "score": 1
+    },
+    {
+        "question": "Real Madrid đã thua Lille với tỷ số nào?",
+        "expected_answers": [
+            "0-1"
+        ],
+        "model_response": " Real Madrid thua Lille với tỉ số 0-1.",
+        "score": 1
+    },
+    {
+        "question": "Ai là cầu thủ trẻ nhất đá chính tại Champions League của Real Madrid?",
+        "expected_answers": [
+            "Endrick"
+        ],
+        "model_response": " Hãy cùng trả lời: Bài báo nói rằng Endrick, 18 tuổi, trở thành cầu thủ trẻ nhất của Real Madrid chơi ở Champions League. Trả lời: Endrick là cầu thủ trẻ nhất xuất hiện lần đầu cho Real Madrid ở Champions League.",
+        "score": 1
+    },
+    {
+        "question": "HLV Ancelotti nhận xét Real Madrid chơi tệ ở khía cạnh nào?",
+        "expected_answers": [
+            "Mọi"
+        ],
+        "model_response": " Trả lời: Carlo Ancelotti thừa nhận Real Madrid kém hơn Lille về mọi mặt trong trận lượt về 0-1 Champions League. Ông nói rằng họ kém trên mọi mặt và xứng đáng với tất cả những lời chỉ trích.Ông cũng nói rằng họ cần phải cải thiện.",
+        "score": 1
+    },
+    {
+        "question": "Ai là cầu thủ ghi bàn duy nhất trong trận Real thua Lille?",
+        "expected_answers": [
+            "Jonathan David"
+        ],
+        "model_response": " Jonathan David liên kết:",
+        "score": 1
+    },
+    {
+        "question": "Real Madrid đã có chuỗi bao nhiêu trận bất bại trước khi thua Lille?",
+        "expected_answers": [
+            "36"
+        ],
+        "model_response": " 36 Dưới đây là sự suy sụp: * * * Real Madrid có chuỗi bất bại 36 trận. * * * * Bài báo nói rằng Real Madrid đã bị đánh bại trên đất Pháp ngày hôm qua 2 tháng 10. * * * * * Vì vậy, Real Madrid đã có 36 trận bất bại trước khi thua Lille. * * ",
+        "score": 1
+    },
+    {
+        "question": "Cole Palmer đã ghi bao nhiêu bàn trong trận gặp Brighton?",
+        "expected_answers": [
+            "4"
+        ],
+        "model_response": " Trả lời: Bài báo nói rằng Cole Palmer ghi 4 bàn trong hiệp một trận đấu với Brighton.",
+        "score": 1
+    },
+    {
+        "question": "Cole Palmer là cầu thủ duy nhất có bao nhiêu kiến tạo trong khoảng thời gian này?",
+        "expected_answers": [
+            "15"
+        ],
+        "model_response": " Hãy cùng tìm hiểu! Cole Palmer là một cầu thủ ngôi sao của Chelsea. Anh đã ghi nhiều bàn thắng và kiến tạo. Theo bài báo, anh đã đóng góp 43 bàn thắng cho Chelsea. Đó là một con số ấn tượng! Và anh không chỉ là một cầu thủ ghi bàn, anh còn kiến tạo, với tổng cộng 15 pha kiến tạo. Bài báo nói rằng anh là cầu thủ duy nhất ở Premier League đạt được con số đó.",
+        "score": 1
+    },
+    {
+        "question": "HLV Luis Enrique cho rằng PSG kém Arsenal ở điểm nào?",
+        "expected_answers": [
+            "Nhiều"
+        ],
+        "model_response": " Luis Enrique, huấn luyện viên của PSG, nói rằng Arsenal vượt trội hơn về nhiều mặt, bao gồm áp lực, cường độ và chiến thắng trong các trận đấu tay đôi. Anh tin rằng Arsenal thống trị hơn trong những lĩnh vực này so với PSG. Dưới đây là phân tích lý lẽ của Enrique: 1. * * Áp lực: * * Arsenal gây nhiều áp lực hơn lên đối phương, khiến PSG khó chơi trận đấu của họ. 2. * * Cường độ: * * Arsenal chơi với cường độ cao hơn, khiến PSG khó có thể bắt kịp tốc độ và năng lượng của họ. 3. * * Trận đấu thắng: * * Arsenal thắng nhiều trận đấu hơn, giúp họ kiểm soát trận đấu tốt hơn. Enrique tin rằng những yếu tố này góp phần tạo nên ưu thế tổng thể của Arsenal.",
+        "score": 1
+    },
+    {
+        "question": "Kể từ khi đánh bại Man Utd, PSG đã thua bao nhiêu trận sân khách tại Champions League trên đất Anh?",
+        "expected_answers": [
+            "4"
+        ],
+        "model_response": " Hãy cùng phân tích bài báo và tìm câu trả lời. * *Hiểu câu hỏi: * * Người dùng muốn biết Paris Saint-Germain (PSG) đã thua ở Anh bao nhiêu trận sân khách Champions League kể từ khi họ thắng Manchester United. * * Tìm câu trả lời: * * Bài báo nói rằng PSG đã thua cả bốn trận sân khách Champions League ở Anh kể từ khi họ thắng Manchester United. * * Trả lời: * * PSG đã thua 4 trận sân khách Champions League ở Anh kể từ khi họ thắng Manchester United. * * Liên kết: * *",
+        "score": 1
+    }
+]
