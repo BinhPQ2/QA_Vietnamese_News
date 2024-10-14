@@ -156,9 +156,16 @@ def evaluate_model_qanews(evaluate_pipeline, data_file, save_dir, limit=200):
 
     return good_answer, bad_answer, total_score, evaluated_count
 
-def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=200):
+def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=None):
     # Initialize an empty dataset
     dataset = []
+    results = []
+    # Filter results to keep only those with a score of +1
+    good_answer = []
+    bad_answer = []
+    answer_score_file = f"{save_dir}/score_{total_score}_round_{evaluated_count}.json"
+    good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}_round_{evaluated_count}.json"
+    bad_answer_output_file = f"{save_dir}/bad_answer_{eval_data_type}_round_{evaluated_count}.json"
     
     with open(data_file, "r", encoding='utf-8') as file:
         # Read each line in the input file
@@ -174,7 +181,6 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=200):
                     "answers": [expected_answer]  # Wrap expected_answer in a list for consistency
                 })
         
-    results = []
     total_score = 0  # To keep track of the total score
     evaluated_count = 0  # To count how many questions have been evaluated
 
@@ -191,7 +197,6 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=200):
             total_score += score
             print(f"total_score: {total_score} / evaluated_count: {evaluated_count}")
 
-        # Store the results for evaluation
         result_entry = {
             "question": question,
             "expected_answers": expected_answers,
@@ -201,27 +206,27 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=200):
             "list_url": list_url
         }
         results.append(result_entry)
+        if result_entry['score'] == 1:
+            good_answer.append(result_entry)
+        elif result_entry['score'] == 0:
+            bad_answer.append(result_entry)
 
         evaluated_count += 1  # Increment the evaluated count
-        if evaluated_count % 10 == 0:
-            print(f"Evaluating round: {evaluated_count}")
-
+            
         # Save results every 10 score
-        if evaluated_count % 5 == 0:
-            answer_score_file = f"{save_dir}/score_{total_score}_round_{evaluated_count}.json"
+        if evaluated_count % 5 == 0:      
             save_results_to_json(results, answer_score_file)
+            save_results_to_json(good_answer, good_answer_output_file)
+            save_results_to_json(bad_answer, bad_answer_output_file)
+            print(f"Evaluating and save round: {evaluated_count}")
 
-    # Filter results to keep only those with a score of +1
-    good_answer = []
-    bad_answer = []
+    
+    save_results_to_json(results, answer_score_file)
+    save_results_to_json(good_answer, good_answer_output_file)
+    save_results_to_json(bad_answer, bad_answer_output_file)
 
-    for result in results:
-        if result['score'] == 1:
-            good_answer.append(result)
-        elif result['score'] == 0:
-            bad_answer.append(result)
 
-    return good_answer, bad_answer, total_score, evaluated_count
+    return total_score, evaluated_count
 
 if __name__ == "__main__":
     save_dir = "/kaggle/working"
@@ -235,14 +240,7 @@ if __name__ == "__main__":
         evaluate_model = evaluate_model_qanews
         data_file = "evaluate/data/evaluation_data_qanews.txt"
 
-    good_answer, bad_answer, total_score, evaluated_count = evaluate_model(evaluate_pipeline = evaluate_pipeline, data_file = data_file, save_dir = save_dir, limit = 10)
-
-    # Save the filtered results with a score of +1 to a final JSON file
-    good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}.json"
-    bad_answer_output_file = f"{save_dir}/bad_answer_{eval_data_type}.json"
-    
-    save_results_to_json(good_answer, good_answer_output_file)
-    save_results_to_json(bad_answer, bad_answer_output_file)
+    total_score, evaluated_count = evaluate_model(evaluate_pipeline = evaluate_pipeline, data_file = data_file, save_dir = save_dir, limit=200) # if you use crawl data for evaluation, the limit parameter is not importatnt dumbass
 
     # Print the total score and number of evaluated questions
     print(f"Total Score: {total_score}")
