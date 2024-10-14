@@ -13,7 +13,7 @@ def evaluate_pipeline_en(question):
     list_id, list_url = retrieval_context(question_embedding, 3)
     context = mapping_data(list_id, list_url)
     result, _ = chatbot_answering(rephrased_question, context)
-    return result
+    return result, list_id, list_url
 
 def evaluate_pipeline_vi(question):
     question_translate = translate_vi2eng(question)
@@ -23,7 +23,7 @@ def evaluate_pipeline_vi(question):
     context = mapping_data(list_id, list_url)
     result, _ = chatbot_answering(rephrased_question, context)
     result_translated = translate_eng2vi(result)
-    return result_translated
+    return result_translated, list_id, list_url
 
 def evaluate_answer_accuracy(model_response, expected_answers):
     """Evaluate the model's response against expected answers."""
@@ -98,7 +98,7 @@ def evaluate_model_qanews(data_file, save_dir, limit=200):
 
     return good_answer, bad_answer, total_score, evaluated_count
 
-def evaluate_model_qanews(data_file, save_dir, limit=200):
+def evaluate_model_qanews(evaluate_pipeline, data_file, save_dir, limit=200):
     with open(data_file, "r") as file:
         dataset = [json.loads(line) for line in file]
         
@@ -118,7 +118,7 @@ def evaluate_model_qanews(data_file, save_dir, limit=200):
             question = qa["question"]
             expected_answers = qa["answers"]
 
-            model_response = evaluate_pipeline(question)  
+            model_response, list_id, list_url = evaluate_pipeline(question)  
             
             # Evaluate the model's response and accumulate the score
             score = evaluate_answer_accuracy(model_response, expected_answers)
@@ -156,7 +156,7 @@ def evaluate_model_qanews(data_file, save_dir, limit=200):
 
     return good_answer, bad_answer, total_score, evaluated_count
 
-def evaluate_model_crawl(data_file, save_dir, limit=200):
+def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=200):
     # Initialize an empty dataset
     dataset = []
     
@@ -183,7 +183,7 @@ def evaluate_model_crawl(data_file, save_dir, limit=200):
         question = entry["question"]
         expected_answers = entry["answers"]
 
-        model_response = evaluate_pipeline(question)  
+        model_response, list_id, list_url = evaluate_pipeline(question)  
         
         # Evaluate the model's response and accumulate the score
         score = evaluate_answer_accuracy(model_response, expected_answers)
@@ -196,7 +196,9 @@ def evaluate_model_crawl(data_file, save_dir, limit=200):
             "question": question,
             "expected_answers": expected_answers,
             "model_response": model_response,
-            "score": score
+            "score": score,
+            "list_id": list_id,
+            "list_url": list_url
         }
         results.append(result_entry)
 
@@ -233,7 +235,7 @@ if __name__ == "__main__":
         evaluate_model = evaluate_model_qanews
         data_file = "evaluate/data/evaluation_data_qanews.txt"
 
-    good_answer, bad_answer, total_score, evaluated_count = evaluate_model(data_file = data_file, save_dir = save_dir, limit = 10)
+    good_answer, bad_answer, total_score, evaluated_count = evaluate_model(evaluate_pipeline = evaluate_pipeline, data_file = data_file, save_dir = save_dir, limit = 10)
 
     # Save the filtered results with a score of +1 to a final JSON file
     good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}.json"

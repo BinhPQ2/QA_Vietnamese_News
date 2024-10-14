@@ -35,7 +35,8 @@ if eval_data_type == "qanews":
     print("Using QANews data for evaluation")
 elif eval_data_type == "crawl":
     pc = Pinecone(api_key='b52dac1e-0eb8-47d3-b5ca-ef64ab2dbfcd')
-    index_name = "vn-news-v3"
+    index_name = "vn-news-v4" # old data from 03/10/2024
+    # index_name = "vn-news-v3" # new data from 10/10/2024
     pinecone_index = pc.Index(index_name)
     data_chunking_path = 'evaluate/data/eval_dict_crawl_vn.pkl'
     print("Using crawl data for evaluation")
