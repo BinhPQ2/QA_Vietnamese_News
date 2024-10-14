@@ -165,9 +165,6 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=None):
     # Filter results to keep only those with a score of +1
     good_answer = []
     bad_answer = []
-    answer_score_file = f"{save_dir}/score_{total_score}_round_{evaluated_count}.json"
-    good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}_round_{evaluated_count}.json"
-    bad_answer_output_file = f"{save_dir}/bad_answer_{eval_data_type}_round_{evaluated_count}.json"
     
     with open(data_file, "r", encoding='utf-8') as file:
         # Read each line in the input file
@@ -194,7 +191,6 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=None):
         score = evaluate_answer_accuracy(model_response, expected_answers)
         if score > 0:
             total_score += score
-            print(f"total_score: {total_score} / evaluated_count: {evaluated_count}")
 
         result_entry = {
             "question": question,
@@ -211,19 +207,26 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=None):
             bad_answer.append(result_entry)
 
         evaluated_count += 1  # Increment the evaluated count
-            
-        # Save results every 10 score
+
+        # Define filenames based on the current evaluated_count
+        final_answer_score_file = f"{save_dir}/final_answer_{eval_data_type}_round_{evaluated_count}.json"
+        good_answer_output_file = f"{save_dir}/good_answer_{eval_data_type}_round_{evaluated_count}.json"
+        bad_answer_output_file = f"{save_dir}/bad_answer_{eval_data_type}_round_{evaluated_count}.json"
+        
+        # Save results every 5 evaluations
         if evaluated_count % 5 == 0:      
-            save_results_to_json(results, answer_score_file)
+            save_results_to_json(results, final_answer_score_file)
             save_results_to_json(good_answer, good_answer_output_file)
             save_results_to_json(bad_answer, bad_answer_output_file)
             print(f"Evaluating and save round: {evaluated_count}")
+        
+        print(f"Total_score: {total_score} / evaluated_count: {evaluated_count}")
 
-    
-    save_results_to_json(results, answer_score_file)
+    # Final save for any remaining results
+    save_results_to_json(results, final_answer_score_file)
     save_results_to_json(good_answer, good_answer_output_file)
     save_results_to_json(bad_answer, bad_answer_output_file)
-
+    print("Done evaluating and saving results")
 
     return total_score, evaluated_count
 
