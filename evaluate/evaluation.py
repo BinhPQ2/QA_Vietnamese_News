@@ -214,7 +214,7 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=None):
         bad_answer_output_file = f"{save_dir}/bad_answer_{eval_data_type}_round_{evaluated_count}.json"
         
         # Save results every 5 evaluations
-        if evaluated_count % 5 == 0 and evaluated_count > 0:      
+        if evaluated_count % 15 == 0 and evaluated_count > 0:      
             save_results_to_json(results, final_answer_score_file)
             save_results_to_json(good_answer, good_answer_output_file)
             save_results_to_json(bad_answer, bad_answer_output_file)
