@@ -157,7 +157,9 @@ def evaluate_model_qanews(evaluate_pipeline, data_file, save_dir, limit=200):
     return good_answer, bad_answer, total_score, evaluated_count
 
 def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=None):
-    # Initialize an empty dataset
+    # Initialize an empty dataset        
+    total_score = 0  # To keep track of the total score
+    evaluated_count = 0  # To count how many questions have been evaluated
     dataset = []
     results = []
     # Filter results to keep only those with a score of +1
@@ -180,9 +182,6 @@ def evaluate_model_crawl(evaluate_pipeline, data_file, save_dir, limit=None):
                     "question": question,
                     "answers": [expected_answer]  # Wrap expected_answer in a list for consistency
                 })
-        
-    total_score = 0  # To keep track of the total score
-    evaluated_count = 0  # To count how many questions have been evaluated
 
     # Iterate through each entry in the dataset
     for entry in dataset:
