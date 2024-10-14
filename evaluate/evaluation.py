@@ -17,11 +17,11 @@ def evaluate_pipeline_en(question):
 
 def evaluate_pipeline_vi(question):
     question_translate = translate_vi2eng(question)
-    rephrased_question = chatbot_rephrase(question_translate)
-    question_embedding = embedding_text(rephrased_question)
+    # rephrased_question = chatbot_rephrase(question_translate)
+    question_embedding = embedding_text(question_translate)
     list_id, list_url = retrieval_context(question_embedding, 3)
     context = mapping_data(list_id, list_url)
-    result, _ = chatbot_answering(rephrased_question, context)
+    result, _ = chatbot_answering(question_translate, context)
     result_translated = translate_eng2vi(result)
     return result_translated, list_id, list_url
 
